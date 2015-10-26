@@ -1,0 +1,3 @@
+[submodule "spacemacs-private"]
+	path = spacemacs-private
+	url = /Users/rzhang/.emacs.d/private
