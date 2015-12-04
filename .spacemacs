@@ -35,8 +35,10 @@ values."
      ;; spell-checking
      ;; syntax-checking
      ;; version-control
+     lua
      latex
-     c-c++-more-enhance
+     ;; c-c++-more-enhance
+     (colors :variables colors-enable-nyan-cat-progress-bar t)
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -209,8 +211,12 @@ layers configuration. You are free to put any user code."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(org-agenda-default-appointment-duration 60)
  '(org-agenda-files (quote ("~/Insync/GTD")))
  '(org-agenda-todo-list-sublevels nil)
+ '(org-icalendar-store-UID nil)
+ '(org-icalendar-timezone "")
+ '(org-icalendar-use-scheduled (quote (event-if-todo todo-start)))
  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED")))))
 (custom-set-faces
