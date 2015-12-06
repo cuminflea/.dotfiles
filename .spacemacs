@@ -26,18 +26,23 @@ values."
      auto-completion
      better-defaults
      emacs-lisp
+     spell-checking
      ;; git
      markdown
      org
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
-     ;; spell-checking
      ;; syntax-checking
      ;; version-control
+     ;; smex
      lua
      latex
-     ;; c-c++-more-enhance
+     (c-c++ :variables c-c++-enable-clang-support t)
+     ycmd
+     ;; c-c++-enhance
+     gtags
+     semantic
      (colors :variables colors-enable-nyan-cat-progress-bar t)
      )
    ;; List of additional packages that will be installed without being
@@ -211,6 +216,11 @@ layers configuration. You are free to put any user code."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(clean-aindent-mode t)
+ '(global-ycmd-mode t)
+ '(indent-guide-delay 0.3 t)
+ '(indent-tabs-mode nil)
+ '(menu-bar-mode t)
  '(org-agenda-default-appointment-duration 60)
  '(org-agenda-files (quote ("~/Insync/GTD")))
  '(org-agenda-todo-list-sublevels nil)
@@ -218,7 +228,11 @@ layers configuration. You are free to put any user code."
  '(org-icalendar-timezone "")
  '(org-icalendar-use-scheduled (quote (event-if-todo todo-start)))
  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
- '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED")))))
+ '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
+ '(tab-always-indent nil)
+ '(ycmd-server-command
+   (quote
+    ("python" "/Users/rzhang/dotfiles/spacemacs-private/local/ycmd/ycmd"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
