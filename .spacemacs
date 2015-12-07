@@ -26,6 +26,7 @@ values."
      auto-completion
      better-defaults
      emacs-lisp
+     spell-checking
      ;; git
      markdown
      org
@@ -37,7 +38,7 @@ values."
      ;; version-control
      lua
      latex
-     ;; c-c++-more-enhance
+     c-c++-more-enhance
      (colors :variables colors-enable-nyan-cat-progress-bar t)
      )
    ;; List of additional packages that will be installed without being
