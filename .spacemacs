@@ -203,6 +203,7 @@ It is called immediately after `dotspacemacs/init'.  You are free to put any
 user code."
   )
 
+(if (eq system-type 'darwin)
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
  This function is called at the very end of Spacemacs initialization after
@@ -230,9 +231,66 @@ layers configuration. You are free to put any user code."
  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
  '(tab-always-indent nil)
- '(ycmd-server-command
-   (quote
-    ("python" "/Users/rzhang/dotfiles/spacemacs-private/local/ycmd/ycmd"))))
+ '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd"))))
+)
+(if (eq system-type 'gnu/linux)
+(defun dotspacemacs/user-config ()
+  "Configuration function for user code.
+ This function is called at the very end of Spacemacs initialization after
+layers configuration. You are free to put any user code."
+)
+
+;; Do not write anything past this comment. This is where Emacs will
+;; auto-generate custom variable definitions.
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(clean-aindent-mode t)
+ '(global-ycmd-mode t)
+ '(indent-guide-delay 0.3 t)
+ '(indent-tabs-mode nil)
+ '(menu-bar-mode t)
+ '(org-agenda-default-appointment-duration 60)
+ '(org-agenda-files (quote ("~/Insync/GTD")))
+ '(org-agenda-todo-list-sublevels nil)
+ '(org-icalendar-store-UID nil)
+ '(org-icalendar-timezone "")
+ '(org-icalendar-use-scheduled (quote (event-if-todo todo-start)))
+ '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
+ '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
+ '(tab-always-indent nil)
+ '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd"))))
+)
+(defun dotspacemacs/user-config ()
+  "Configuration function for user code.
+ This function is called at the very end of Spacemacs initialization after
+layers configuration. You are free to put any user code."
+)
+
+;; Do not write anything past this comment. This is where Emacs will
+;; auto-generate custom variable definitions.
+;; (custom-set-variables
+;;  ;; custom-set-variables was added by Custom.
+;;  ;; If you edit it by hand, you could mess it up, so be careful.
+;;  ;; Your init file should contain only one such instance.
+;;  ;; If there is more than one, they won't work right.
+;;  '(clean-aindent-mode t)
+;;  '(global-ycmd-mode t)
+;;  '(indent-guide-delay 0.3 t)
+;;  '(indent-tabs-mode nil)
+;;  '(menu-bar-mode t)
+;;  '(org-agenda-default-appointment-duration 60)
+;;  '(org-agenda-files (quote ("~/Insync/GTD")))
+;;  '(org-agenda-todo-list-sublevels nil)
+;;  '(org-icalendar-store-UID nil)
+;;  '(org-icalendar-timezone "")
+;;  '(org-icalendar-use-scheduled (quote (event-if-todo todo-start)))
+;;  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
+;;  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
+;;  '(tab-always-indent nil)
+;;  '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
