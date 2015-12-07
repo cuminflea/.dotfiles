@@ -27,7 +27,7 @@ values."
      better-defaults
      emacs-lisp
      spell-checking
-     ;; git
+     git
      markdown
      org
      (shell :variables
