@@ -24,6 +24,9 @@ values."
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
      auto-completion
+     ;; (auto-completion :variables
+     ;;                  auto-completion-enable-snippets-in-popup t
+     ;;                  )
      better-defaults
      emacs-lisp
      spell-checking
@@ -220,7 +223,8 @@ layers configuration. You are free to put any user code."
  '(clean-aindent-mode t)
  '(column-number-mode t)
  '(global-ycmd-mode t)
- '(indent-guide-delay 0.3)
+ '(helm-gtags-suggested-key-mapping t)
+ '(indent-guide-delay 0.3 t)
  '(indent-tabs-mode nil)
  '(org-agenda-default-appointment-duration 60)
  '(org-agenda-files (quote ("~/Insync/GTD")))
@@ -233,6 +237,7 @@ layers configuration. You are free to put any user code."
  '(tab-always-indent nil)
  '(tool-bar-mode nil)
  '(transient-mark-mode (quote (only . t)))
+ '(ycmd-global-modes t)
  '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd"))))
 
 ;; system dependent config settings
