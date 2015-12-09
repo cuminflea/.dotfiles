@@ -24,6 +24,9 @@ values."
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
      auto-completion
+     ;; (auto-completion :variables
+     ;;                  auto-completion-enable-snippets-in-popup t
+     ;;                  )
      better-defaults
      emacs-lisp
      spell-checking
@@ -218,6 +221,7 @@ layers configuration. You are free to put any user code."
  ;; If there is more than one, they won't work right.
  '(clean-aindent-mode t)
  '(global-ycmd-mode t)
+ '(helm-gtags-suggested-key-mapping t)
  '(indent-guide-delay 0.3 t)
  '(indent-tabs-mode nil)
  '(menu-bar-mode t)
@@ -230,6 +234,7 @@ layers configuration. You are free to put any user code."
  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
  '(tab-always-indent nil)
+ '(ycmd-global-modes t)
  '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd"))))
 
 ;; system dependent config
