@@ -216,11 +216,12 @@ layers configuration. You are free to put any user code."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(blink-cursor-mode nil)
  '(clean-aindent-mode t)
+ '(column-number-mode t)
  '(global-ycmd-mode t)
- '(indent-guide-delay 0.3 t)
+ '(indent-guide-delay 0.3)
  '(indent-tabs-mode nil)
- '(menu-bar-mode t)
  '(org-agenda-default-appointment-duration 60)
  '(org-agenda-files (quote ("~/Insync/GTD")))
  '(org-agenda-todo-list-sublevels nil)
@@ -230,9 +231,11 @@ layers configuration. You are free to put any user code."
  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
  '(tab-always-indent nil)
+ '(tool-bar-mode nil)
+ '(transient-mark-mode (quote (only . t)))
  '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd"))))
 
-;; system dependent config
+;; system dependent config settings
 (if (eq system-type 'darwin)
     (custom-set-variables
      ;; '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd")))
