@@ -219,7 +219,6 @@ layers configuration. You are free to put any user code."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(blink-cursor-mode nil)
  '(clean-aindent-mode t)
  '(column-number-mode t)
  '(global-ycmd-mode t)
@@ -235,7 +234,6 @@ layers configuration. You are free to put any user code."
  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
  '(tab-always-indent nil)
- '(tool-bar-mode nil)
  '(transient-mark-mode (quote (only . t)))
  '(ycmd-global-modes t)
  '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd"))))
