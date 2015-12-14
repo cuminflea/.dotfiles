@@ -41,9 +41,14 @@ values."
      ;; smex
      lua
      latex
-     (c-c++ :variables c-c++-enable-clang-support t)
-     ycmd
+     ;; (c-c++ :variables
+     ;;        c-c++-enable-clang-support t)
+     (c-c++-custom :variables
+            c-c++-enable-clang-support t
+            c-c++-enable-rtags-support t)
      ;; c-c++-enhance
+     ycmd
+     ;; c-c++-more-enhance
      gtags
      semantic
      (colors :variables colors-enable-nyan-cat-progress-bar t)
