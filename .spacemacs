@@ -41,7 +41,9 @@ values."
      ;; smex
      lua
      latex
-     (c-c++ :variables c-c++-enable-clang-support t)
+     (c-c++ :variables
+            c-c++-enable-clang-support t
+            company-show-numbers t)
      ycmd
      ;; c-c++-enhance
      gtags
