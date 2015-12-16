@@ -10,7 +10,7 @@
 ;;
 ;;; License: GPLv3
 
-(setq c-c++-packages
+(setq c-c++-more-enhance-packages
   '(
     cc-mode
     disaster
@@ -19,14 +19,13 @@
     company
     company-c-headers
     ;; replace ycmd
-    ;; irony
-    ;; company-irony
-    ;; flycheck-irony
+    irony
+    company-irony
+    flycheck-irony
     ws-butler
-    rtags
-    company-rtags
     ;; company-ycmd
     flycheck
+    google-c-style
     gdb-mi
     helm-cscope
     helm-gtags
@@ -38,7 +37,7 @@
     ))
 
 (unless (version< emacs-version "24.4")
-  (add-to-list 'c-c++-packages 'srefactor))
+  (add-to-list 'c-c++-more-enhance-packages 'srefactor))
 
 (defun c-c++-more-enhance/init-cc-mode ()
   (use-package cc-mode
@@ -76,10 +75,69 @@
     :mode (("CMakeLists\\.txt\\'" . cmake-mode) ("\\.cmake\\'" . cmake-mode))
     :init (push 'company-cmake company-backends-cmake-mode)))
 
+; (defun irony-mode/init-irony ()
+;   (use-package irony
+;     :defer t
+;     :init
+;     (progn
+;       (add-hook 'c++-mode-hook 'irony-mode)
+;       (add-hook 'c-mode-hook 'irony-mode)
+;       (add-hook 'objc-mode-hook 'irony-mode)
+;       (add-hook 'irony-mode-hook
+;                 (lambda ()
+;                   (define-key irony-mode-map [remap completion-at-point]
+;                     'irony-completion-at-point-async)
+;                   (define-key irony-mode-map [remap complete-symbol]
+;                     'irony-completion-at-point-async)))
+;       (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+;       (spacemacs|diminish irony-mode " Ⓘ" " I"))))
+
+; (defun irony-mode/init-company-irony ()
+;   (use-package company-irony
+;     :defer t
+;     :init
+;     (progn
+;       (eval-after-load 'company
+;         '(add-to-list 'company-backends 'company-irony))
+;       (add-hook 'irony-mode-hook 'company-irony-setup-begin-commands)
+;       (add-hook 'irony-mode-hook 'company-mode))))
+
+(defun c-c++-more-enhance/init-irony ()
+  (use-package irony
+    :diminish irony-mode
+    :defer t
+    :init
+    (progn
+      (add-hook 'c++-mode-hook 'irony-mode)
+      (add-hook 'c-mode-hook 'irony-mode)
+      ;;see https://github.com/Sarcasm/irony-mode/issues/154#issuecomment-100649914
+      ;;just use .clang_complete from now on
+      ;; cannnot support json format. it is unstable at <2015-05-11 一>
+
+
+      ;; replace the 'completion at point ' and 'complete-symbol' bindings in
+      ;; irony mode's buffers ny irony-mode's function
+      (defun my-irony-mode-hook ()
+        (define-key irony-mode-map [remap completion-at-point]
+          'irony-completion-at-point-async)
+        (define-key irony-mode-map [remap complete-symbol]
+          'irony-completion-at-point-async))
+      (add-hook 'irony-mode-hook 'my-irony-mode-hook)
+      (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+      (spacemacs|diminish irony-mode " Ⓘ" " I"))))
+
+(defun c-c++-more-enhance/init-company-irony ()
+  (use-package company-irony
+    :defer t))
+
+
+
 (defun c-c++-more-enhance/post-init-company ()
+    (push 'company-irony company-backends-c-mode-common)
     (spacemacs|add-company-hook c-mode-common)
     (spacemacs|add-company-hook cmake-mode)
-
+    (setq company-idle-delay 0.08)
+    (setq company-minimum-prefix-length 1)
     (when c-c++-enable-clang-support
       (push 'company-clang company-backends-c-mode-common)
       ;; .clang_complete file loading
@@ -132,38 +190,14 @@
       :defer t
       :init (push 'company-c-headers company-backends-c-mode-common))))
 
-;; (defun c-c++-more-enhance/init-irony ()
-;;   (use-package irony
-;;     :diminish irony-mode
-;;     :defer t
-;;     :init
-;;     (progn
-;;       (add-hook 'c++-mode-hook 'irony-mode)
-;;       (add-hook 'c-mode-hook 'irony-mode)
-;;       ;;see https://github.com/Sarcasm/irony-mode/issues/154#issuecomment-100649914
-;;       ;;just use .clang_complete from now on
-;;       ;; cannnot support json format. it is unstable at <2015-05-11 一>
 
 
-;;       ;; replace the 'completion at point ' and 'complete-symbol' bindings in
-;;       ;; irony mode's buffers ny irony-mode's function
-;;       (defun my-irony-mode-hook ()
-;;         (define-key irony-mode-map [remap completion-at-point]
-;;           'irony-completion-at-point-async)
-;;         (define-key irony-mode-map [remap complete-symbol]
-;;           'irony-completion-at-point-async))
-;;       (add-hook 'irony-mode-hook 'my-irony-mode-hook)
-;;       (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))))
-
-;; (defun c-c++-more-enhance/init-company-irony ()
-;;   (use-package company-irony
-;;     :defer t))
-;; (when (configuration-layer/layer-usedp 'syntax-checking)
-;;   (defun c-c++-more-enhance/init-flycheck-irony ()
-;;     (use-package flycheck-irony
-;;       :if (configuration-layer/package-usedp 'flycheck)
-;;       :defer t
-;;       :init (add-hook 'flycheck-mode-hook 'flycheck-irony-setup))))
+(when (configuration-layer/layer-usedp 'syntax-checking)
+  (defun c-c++-more-enhance/init-flycheck-irony ()
+    (use-package flycheck-irony
+      :if (configuration-layer/package-usedp 'flycheck)
+      :defer t
+      :init (add-hook 'flycheck-mode-hook 'flycheck-irony-setup))))
 
 (defun c-c++-more-enhance/post-init-flycheck ()
   (spacemacs/add-to-hooks 'flycheck-mode '(c-mode-hook c++-mode-hook)))

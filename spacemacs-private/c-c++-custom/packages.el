@@ -18,8 +18,8 @@
     cmake-mode
     company
     company-c-headers
-    company-ycmd
-    company-rtags
+    ; company-ycmd
+    rtags
     flycheck
     gdb-mi
     helm-cscope
@@ -27,9 +27,9 @@
     semantic
     srefactor
     stickyfunc-enhance
-    ycmd
+    ; ycmd
     xcscope
-    rtags
+    
     ; cmake-ide
     ))
 
@@ -99,9 +99,7 @@
     (spacemacs|add-company-hook c-mode-common)
     (spacemacs|add-company-hook cmake-mode)
 
-    (unless c-c++-enable-clang-support
-      (when c-c++-enable-rtags-support
-        (push 'company-rtags company-backends-c-mode-common)))
+    (push 'company-rtags company-backends-c-mode-common)
 
     (when c-c++-enable-clang-support
       (push 'company-clang company-backends-c-mode-common)
@@ -155,9 +153,33 @@
       :defer t
       :init (push 'company-c-headers company-backends-c-mode-common))))
 
-(defun c-c++-custom/init-rtags ()
+; (defun c-c++-custom/init-rtags ()
+;   (use-package rtags
+;     :if c-c++-enable-rtags-support))
+
+(defun rtags/init-rtags ()
+  "Initialize my package"
   (use-package rtags
-    :if c-c++-enable-rtags-support))
+    :init
+    ;;(evil-set-initial-state 'rtags-mode 'emacs)
+    ;;(rtags-enable-standard-keybindings c-mode-base-map)
+    :ensure company
+    :config
+    (progn
+      (require 'company-rtags)
+      (add-to-list 'company-backends 'company-rtags)
+      (setq company-rtags-begin-after-member-access t)
+      (setq rtags-completions-enabled t)
+      ;;(rtags-diagnostics)
+      (define-key evil-normal-state-map (kbd "RET") 'rtags-select-other-window)
+      (define-key evil-normal-state-map (kbd "M-RET") 'rtags-select)
+      (define-key evil-normal-state-map (kbd "q") 'rtags-bury-or-delete)
+
+      (rtags-evil-standard-keybindings 'c-mode)
+      (rtags-evil-standard-keybindings 'c++-mode)
+      )
+    )
+  )
 
 (defun c-c++-custom/post-init-flycheck ()
   (spacemacs/add-to-hooks 'flycheck-mode '(c-mode-hook c++-mode-hook)))
@@ -188,102 +210,102 @@
 (defun c-c++-custom/post-init-stickyfunc-enhance ()
   (spacemacs/add-to-hooks 'spacemacs/lazy-load-stickyfunc-enhance '(c-mode-hook c++-mode-hook)))
 
-(defun c-c++-custom/post-init-ycmd ()
-  (add-hook 'c++-mode-hook 'ycmd-mode)
-  (evil-leader/set-key-for-mode 'c++-mode
-    "mgg" 'ycmd-goto
-    "mgG" 'ycmd-goto-imprecise))
+; (defun c-c++-custom/post-init-ycmd ()
+;   (add-hook 'c++-mode-hook 'ycmd-mode)
+;   (evil-leader/set-key-for-mode 'c++-mode
+;     "mgg" 'ycmd-goto
+;     "mgG" 'ycmd-goto-imprecise))
 
-(defun c-c++-custom/post-init-company-ycmd ()
-  (push 'company-ycmd company-backends-c-mode-common))
+; (defun c-c++-custom/post-init-company-ycmd ()
+;   (push 'company-ycmd company-backends-c-mode-common))
 
-(defun c-c++-custom/post-init-rtags ()
-  (when c-c++-enable-rtags-support
-    (setq company-rtags-begin-after-member-access nil)
-     (setq rtags-completions-enabled t)
+; (defun c-c++-custom/post-init-rtags ()
+;   (when c-c++-enable-rtags-support
+;     (setq company-rtags-begin-after-member-access nil)
+;      (setq rtags-completions-enabled t)
 
-     (defun use-rtags (&optional useFileManager)
-       (and (rtags-executable-find "rc")
-            (cond ((not (gtags-get-rootpath)) t)
-                  ((and (not (eq major-mode 'c++-mode))
-                        (not (eq major-mode 'c-mode))) (rtags-has-filemanager))
-                  (useFileManager (rtags-has-filemanager))
-                  (t (rtags-is-indexed)))))
+;      (defun use-rtags (&optional useFileManager)
+;        (and (rtags-executable-find "rc")
+;             (cond ((not (gtags-get-rootpath)) t)
+;                   ((and (not (eq major-mode 'c++-mode))
+;                         (not (eq major-mode 'c-mode))) (rtags-has-filemanager))
+;                   (useFileManager (rtags-has-filemanager))
+;                   (t (rtags-is-indexed)))))
 
-     (defun tags-find-symbol-at-point (&optional prefix)
-       (interactive "P")
-       (if (and (not (rtags-find-symbol-at-point prefix)) rtags-last-request-not-indexed)
-           (helm-gtags-find-tag)))
+;      (defun tags-find-symbol-at-point (&optional prefix)
+;        (interactive "P")
+;        (if (and (not (rtags-find-symbol-at-point prefix)) rtags-last-request-not-indexed)
+;            (helm-gtags-find-tag)))
 
-     (defun tags-find-references-at-point (&optional prefix)
-       (interactive "P")
-       (if (and (not (rtags-find-references-at-point prefix)) rtags-last-request-not-indexed)
-           (helm-gtags-find-rtag)))
+;      (defun tags-find-references-at-point (&optional prefix)
+;        (interactive "P")
+;        (if (and (not (rtags-find-references-at-point prefix)) rtags-last-request-not-indexed)
+;            (helm-gtags-find-rtag)))
 
-     (defun tags-find-symbol ()
-       (interactive)
-       (call-interactively (if (use-rtags) 'rtags-find-symbol 'helm-gtags-find-symbol)))
+;      (defun tags-find-symbol ()
+;        (interactive)
+;        (call-interactively (if (use-rtags) 'rtags-find-symbol 'helm-gtags-find-symbol)))
 
-     (defun tags-find-references ()
-       (interactive)
-       (call-interactively (if (use-rtags) 'rtags-find-references 'helm-gtags-find-rtag)))
+;      (defun tags-find-references ()
+;        (interactive)
+;        (call-interactively (if (use-rtags) 'rtags-find-references 'helm-gtags-find-rtag)))
 
-     (defun tags-find-file ()
-       (interactive)
-       (call-interactively (if (use-rtags t) 'rtags-find-file 'helm-gtags-find-files)))
+;      (defun tags-find-file ()
+;        (interactive)
+;        (call-interactively (if (use-rtags t) 'rtags-find-file 'helm-gtags-find-files)))
 
-     (defun tags-imenu ()
-       (interactive)
-       (call-interactively (if (use-rtags t) 'rtags-imenu 'idomenu)))
+;      (defun tags-imenu ()
+;        (interactive)
+;        (call-interactively (if (use-rtags t) 'rtags-imenu 'idomenu)))
 
-     (dolist (mode '(c-mode c++-mode))
-       (evil-leader/set-key-for-mode mode
-         "m g ." 'rtags-find-symbol-at-point
-         "m g ," 'rtags-find-references-at-point
-         "m g v" 'rtags-find-virtuals-at-point
-         "m g V" 'rtags-print-enum-value-at-point
-         "m g /" 'rtags-find-all-references-at-point
-         "m g Y" 'rtags-cycle-overlays-on-screen
-         "m g >" 'rtags-find-symbol
-         "m g <" 'rtags-find-references
-         "m g [" 'rtags-location-stack-back
-         "m g ]" 'rtags-location-stack-forward
-         "m g D" 'rtags-diagnostics
-         "m g G" 'rtags-guess-function-at-point
-         "m g p" 'rtags-set-current-project
-         "m g P" 'rtags-print-dependencies
-         "m g e" 'rtags-reparse-file
-         "m g E" 'rtags-preprocess-file
-         "m g R" 'rtags-rename-symbol
-         "m g M" 'rtags-symbol-info
-         "m g S" 'rtags-display-summary
-         "m g O" 'rtags-goto-offset
-         "m g ;" 'rtags-find-file
-         "m g F" 'rtags-fixit
-         "m g L" 'rtags-copy-and-print-current-location
-         "m g X" 'rtags-fix-fixit-at-point
-         "m g B" 'rtags-show-rtags-buffer
-         "m g I" 'rtags-imenu
-         "m g T" 'rtags-taglist
-         "m g h" 'rtags-print-class-hierarchy
-         "m g a" 'rtags-print-source-arguments))
+;      (dolist (mode '(c-mode c++-mode))
+;        (evil-leader/set-key-for-mode mode
+;          "m g ." 'rtags-find-symbol-at-point
+;          "m g ," 'rtags-find-references-at-point
+;          "m g v" 'rtags-find-virtuals-at-point
+;          "m g V" 'rtags-print-enum-value-at-point
+;          "m g /" 'rtags-find-all-references-at-point
+;          "m g Y" 'rtags-cycle-overlays-on-screen
+;          "m g >" 'rtags-find-symbol
+;          "m g <" 'rtags-find-references
+;          "m g [" 'rtags-location-stack-back
+;          "m g ]" 'rtags-location-stack-forward
+;          "m g D" 'rtags-diagnostics
+;          "m g G" 'rtags-guess-function-at-point
+;          "m g p" 'rtags-set-current-project
+;          "m g P" 'rtags-print-dependencies
+;          "m g e" 'rtags-reparse-file
+;          "m g E" 'rtags-preprocess-file
+;          "m g R" 'rtags-rename-symbol
+;          "m g M" 'rtags-symbol-info
+;          "m g S" 'rtags-display-summary
+;          "m g O" 'rtags-goto-offset
+;          "m g ;" 'rtags-find-file
+;          "m g F" 'rtags-fixit
+;          "m g L" 'rtags-copy-and-print-current-location
+;          "m g X" 'rtags-fix-fixit-at-point
+;          "m g B" 'rtags-show-rtags-buffer
+;          "m g I" 'rtags-imenu
+;          "m g T" 'rtags-taglist
+;          "m g h" 'rtags-print-class-hierarchy
+;          "m g a" 'rtags-print-source-arguments))
 
-     (rtags-enable-standard-keybindings)
-     (define-key c-mode-base-map (kbd "M-.") (function tags-find-symbol-at-point))
-     (define-key c-mode-base-map (kbd "M-,") (function tags-find-references-at-point))
-     (define-key c-mode-base-map (kbd "M-;") (function tags-find-file))
-     (define-key c-mode-base-map (kbd "C-.") (function tags-find-symbol))
-     (define-key c-mode-base-map (kbd "C-,") (function tags-find-references))
-     (define-key c-mode-base-map (kbd "C-<") (function rtags-find-virtuals-at-point))
-     (define-key c-mode-base-map (kbd "M-i") (function tags-imenu))
+;      (rtags-enable-standard-keybindings)
+;      (define-key c-mode-base-map (kbd "M-.") (function tags-find-symbol-at-point))
+;      (define-key c-mode-base-map (kbd "M-,") (function tags-find-references-at-point))
+;      (define-key c-mode-base-map (kbd "M-;") (function tags-find-file))
+;      (define-key c-mode-base-map (kbd "C-.") (function tags-find-symbol))
+;      (define-key c-mode-base-map (kbd "C-,") (function tags-find-references))
+;      (define-key c-mode-base-map (kbd "C-<") (function rtags-find-virtuals-at-point))
+;      (define-key c-mode-base-map (kbd "M-i") (function tags-imenu))
 
-     (define-key global-map (kbd "M-.") (function tags-find-symbol-at-point))
-     (define-key global-map (kbd "M-,") (function tags-find-references-at-point))
-     (define-key global-map (kbd "M-;") (function tags-find-file))
-     (define-key global-map (kbd "C-.") (function tags-find-symbol))
-     (define-key global-map (kbd "C-,") (function tags-find-references))
-     (define-key global-map (kbd "C-<") (function rtags-find-virtuals-at-point))
-     (define-key global-map (kbd "M-i") (function tags-imenu))))
+;      (define-key global-map (kbd "M-.") (function tags-find-symbol-at-point))
+;      (define-key global-map (kbd "M-,") (function tags-find-references-at-point))
+;      (define-key global-map (kbd "M-;") (function tags-find-file))
+;      (define-key global-map (kbd "C-.") (function tags-find-symbol))
+;      (define-key global-map (kbd "C-,") (function tags-find-references))
+;      (define-key global-map (kbd "C-<") (function rtags-find-virtuals-at-point))
+;      (define-key global-map (kbd "M-i") (function tags-imenu))))
 
 (defun c-c++-custom/pre-init-xcscope ()
   (spacemacs|use-package-add-hook xcscope

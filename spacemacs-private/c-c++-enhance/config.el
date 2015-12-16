@@ -1,4 +1,4 @@
-;;; packages.el --- C/C++ Layer packages File for Spacemacs
+;;; packages.el --- C/C++ enhance Layer packages File for Spacemacs
 ;;
 ;; Copyright (c) 2012-2014 Sylvain Benner
 ;; Copyright (c) 2014-2015 Sylvain Benner & Contributors
@@ -12,11 +12,5 @@
 
 ;; variables
 
-(defvar c-c++-enable-clang-support nil
-  "If non nil Clang related packages and configuration are enabled.")
-
 (spacemacs|defvar-company-backends c-mode-common)
 (spacemacs|defvar-company-backends cmake-mode)
-
-(defvar c-c++-default-mode-for-headers 'c-mode
-  "Default mode to open header files. Can be `c-mode' or `c++-mode'.")
