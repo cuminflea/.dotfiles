@@ -18,7 +18,6 @@
     company
     company-c-headers
     flycheck
-    srefactor
     stickyfunc-enhance
     ;; my custom package
     irony
@@ -106,10 +105,15 @@ which require an initialization must be listed explicitly in the list.")
 (defun c-c++-enhance/post-init-flycheck ()
   (spacemacs/add-to-hooks 'flycheck-mode '(c-mode-hook c++-mode-hook)))
 
-(defun c-c++-enhance/post-init-srefactor ()
-  (evil-leader/set-key-for-mode 'c-mode "mr" 'srefactor-refactor-at-point)
-  (evil-leader/set-key-for-mode 'c++-mode "mr" 'srefactor-refactor-at-point)
-  (spacemacs/add-to-hooks 'spacemacs/lazy-load-srefactor '(c-mode-hook c++-mode-hook)))
+; (defun c-c++-enhance/init-srefactor ()
+;   (use-package srefactor
+;     :defer t
+;     :init
+;     (progn
+;       (evil-leader/set-key-for-mode 'c-mode
+;         "mr" 'srefactor-refactor-at-point)
+;       (evil-leader/set-key-for-mode 'c++-mode
+;         "mr" 'srefactor-refactor-at-point))))
 
 (defun c-c++-enhance/init-stickyfunc-enhance ()
   (use-package stickyfunc-enhance
@@ -146,7 +150,8 @@ which require an initialization must be listed explicitly in the list.")
         (define-key irony-mode-map [remap complete-symbol]
           'irony-completion-at-point-async))
       (add-hook 'irony-mode-hook 'my-irony-mode-hook)
-      (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))))
+      (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+      (spacemacs|diminish irony-mode " Ⓘ" " I"))))
 
 (defun c-c++-enhance/init-company-irony ()
   (use-package company-irony
@@ -157,53 +162,53 @@ which require an initialization must be listed explicitly in the list.")
       :if (configuration-layer/package-usedp 'flycheck)
       :defer t
       :init (add-hook 'flycheck-mode-hook 'flycheck-irony-setup))))
-(defun c-c++-enhance/post-flycheck-irony ()
-  (use-package flycheck
-    :defer t
-    :config (add-hook 'flycheck-mode-hook #'flycheck-irony-hook)))
+;; (defun c-c++-enhance/post-flycheck-irony ()
+;;   (use-package flycheck
+;;     :defer t
+;;     :config (add-hook 'flycheck-mode-hook #'flycheck-irony-hook)))
 (defun c-c++-enhance/init-ggtags ()
   (use-package ggtags
     :defer t))
 (defun c-c++-enhance/init-rtags ()
   (use-package rtags
     :init (require 'company-rtags)
-    :config))
+    :config
+    (progn
+      (setq company-rtags-begin-after-member-access t)
+      (setq rtags-completions-enabled t))))
 (defun c-c++-enhance/init-helm-make ()
   (use-package helm-make
     :defer t))
-; (defun c-c++-enhance/init-helm-gtags ()
-;   (use-package helm-gtags
-;     :diminish helm-gtags-mode
-;     :init
-;     (progn
-;            (add-hook 'c++-mode-hook 'irony-mode)
-;            (add-hook 'c-mode-hook 'irony-mode)
-;            (add-hook 'c-common-hook 'helm-gtags-mode)
-;            (setq helm-gtags-ignore-case t
-;                  helm-gtags-auto-update t
-;                  helm-gtags-use-input-at-cursor t
-;                  helm-gtags-pulse-at-cursor t))
-;     :defer t
-;     :config
-;     (progn
-;       (evil-leader/set-key-for-mode 'c++-mode
-;         "mgf" 'helm-imenu
-;         "mgg" 'helm-gtags-dwim
-;         "mgG" 'helm-gtags-find-rtag
-;         "mgs" 'helm-gtags-find-symbol
-;         "mgr" 'helm-gtags-find-files)
-;       (evil-leader/set-key-for-mode 'c-mode
-;         "mgf" 'helm-imenu
-;         "mgg" 'helm-gtags-dwim
-;         "mgG" 'helm-gtags-find-rtag
-;         "mgs" 'helm-gtags-find-symbol
-;         "mgr" 'helm-gtags-find-files)
-;       (evil-leader/set-key-for-mode 'python-mode
-;         "mgf" 'helm-imenu
-;         "mgg" 'helm-gtags-dwim
-;         "mgG" 'helm-gtags-find-rtag
-;         "mgs" 'helm-gtags-find-symbol
-;         "mgr" 'helm-gtags-find-files))))
+(defun c-c++-enhance/init-helm-gtags ()
+  (use-package helm-gtags
+    :diminish helm-gtags-mode
+    :init(progn
+           (add-hook 'c-common-hook 'helm-gtags-mode)
+           (setq helm-gtags-ignore-case t
+                 helm-gtags-auto-update t
+                 helm-gtags-use-input-at-cursor t
+                 helm-gtags-pulse-at-cursor t))
+    :defer t
+    :config
+    (progn
+      (evil-leader/set-key-for-mode 'c++-mode
+        "mgf" 'helm-imenu
+        "mgg" 'helm-gtags-dwim
+        "mgG" 'helm-gtags-find-rtag
+        "mgs" 'helm-gtags-find-symbol
+        "mgr" 'helm-gtags-find-files)
+      (evil-leader/set-key-for-mode 'c-mode
+        "mgf" 'helm-imenu
+        "mgg" 'helm-gtags-dwim
+        "mgG" 'helm-gtags-find-rtag
+        "mgs" 'helm-gtags-find-symbol
+        "mgr" 'helm-gtags-find-files)
+      (evil-leader/set-key-for-mode 'python-mode
+        "mgf" 'helm-imenu
+        "mgg" 'helm-gtags-dwim
+        "mgG" 'helm-gtags-find-rtag
+        "mgs" 'helm-gtags-find-symbol
+        "mgr" 'helm-gtags-find-files))))
 
 (defun c-c++-enhance/init-ws-butler ()
   (use-package ws-butler
@@ -217,13 +222,18 @@ which require an initialization must be listed explicitly in the list.")
 ;;     :defer t
 ;;     :init (push 'company-c-headers company-backends-c-mode-common))))
 ;; no auto-complete-mode at all
-(when (configuration-layer/layer-usedp 'auto-completion)
+(defun c-c++-more-enhance/post-init-srefactor ()
+  (evil-leader/set-key-for-mode 'c-mode "mr" 'srefactor-refactor-at-point)
+  (evil-leader/set-key-for-mode 'c++-mode "mr" 'srefactor-refactor-at-point)
+  (spacemacs/add-to-hooks 'spacemacs/lazy-load-srefactor '(c-mode-hook c++-mode-hook)))
+
+; (when (configuration-layer/layer-usedp 'auto-completion)
   (defun c-c++-enhance/post-init-company ()
     ;; push this backend by default
     ;; (push '(company-irony :with company-yasnippet)
     ;;       company-backends-c-mode-common)
-    (push 'company-irony company-backends-c-mode-common)
     (push 'company-rtags company-backends-c-mode-common)
+    (push 'company-irony company-backends-c-mode-common)
     (spacemacs|add-company-hook c-mode-common)
     (spacemacs|add-company-hook cmake-mode)
     (setq company-idle-delay 0.08)
@@ -292,9 +302,6 @@ which require an initialization must be listed explicitly in the list.")
   ;;           'irony-completion-at-point-async))
   ;;       (add-hook 'irony-mode-hook 'my-irony-mode-hook)
   ;;       (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))))
-(defun c-c++-custom/post-init-helm-gtags ()
-  (spacemacs/helm-gtags-define-keys-for-mode 'c-mode)
-  (spacemacs/helm-gtags-define-keys-for-mode 'c++-mode))
 
   (defun c-c++-enhance/init-company-c-headers ()
     (use-package company-c-headers
@@ -309,4 +316,5 @@ which require an initialization must be listed explicitly in the list.")
        ;; use gdb-many-windows by default when `M-x gdb'
        gdb-many-windows t
        ;; Non-nil means display source file containing the main routine at startup
-       gdb-show-main t))))
+       gdb-show-main t)))
+  ; )
