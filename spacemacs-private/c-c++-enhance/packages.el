@@ -176,9 +176,9 @@ which require an initialization must be listed explicitly in the list.")
 ;;   (use-package flycheck
 ;;     :defer t
 ;;     :config (add-hook 'flycheck-mode-hook #'flycheck-irony-hook)))
-(defun c-c++-enhance/init-ggtags ()
-  (use-package ggtags
-    :defer t))
+; (defun c-c++-enhance/init-ggtags ()
+;   (use-package ggtags
+;     :defer t))
 ;       ;; replace the 'completion at point ' and 'complete-symbol' bindings in
 ;       ;; irony mode's buffers ny irony-mode's function
 ;       (defun my-irony-mode-hook ()
@@ -220,39 +220,39 @@ which require an initialization must be listed explicitly in the list.")
     (progn
     (setq rtags-completions-enabled t))
     ))
-(defun c-c++-enhance/init-helm-make ()
-  (use-package helm-make
-    :defer t))
-(defun c-c++-enhance/init-helm-gtags ()
-  (use-package helm-gtags
-    :diminish helm-gtags-mode
-    :init(progn
-           (add-hook 'c-common-hook 'helm-gtags-mode)
-           (setq helm-gtags-ignore-case t
-                 helm-gtags-auto-update t
-                 helm-gtags-use-input-at-cursor t
-                 helm-gtags-pulse-at-cursor t))
-    :defer t
-    :config
-    (progn
-      (evil-leader/set-key-for-mode 'c++-mode
-        "mgf" 'helm-imenu
-        "mgg" 'helm-gtags-dwim
-        "mgG" 'helm-gtags-find-rtag
-        "mgs" 'helm-gtags-find-symbol
-        "mgr" 'helm-gtags-find-files)
-      (evil-leader/set-key-for-mode 'c-mode
-        "mgf" 'helm-imenu
-        "mgg" 'helm-gtags-dwim
-        "mgG" 'helm-gtags-find-rtag
-        "mgs" 'helm-gtags-find-symbol
-        "mgr" 'helm-gtags-find-files)
-      (evil-leader/set-key-for-mode 'python-mode
-        "mgf" 'helm-imenu
-        "mgg" 'helm-gtags-dwim
-        "mgG" 'helm-gtags-find-rtag
-        "mgs" 'helm-gtags-find-symbol
-        "mgr" 'helm-gtags-find-files))))
+; (defun c-c++-enhance/init-helm-make ()
+;   (use-package helm-make
+;     :defer t))
+; (defun c-c++-enhance/init-helm-gtags ()
+;   (use-package helm-gtags
+;     :diminish helm-gtags-mode
+;     :init(progn
+;            (add-hook 'c-common-hook 'helm-gtags-mode)
+;            (setq helm-gtags-ignore-case t
+;                  helm-gtags-auto-update t
+;                  helm-gtags-use-input-at-cursor t
+;                  helm-gtags-pulse-at-cursor t))
+;     :defer t
+;     :config
+;     (progn
+;       (evil-leader/set-key-for-mode 'c++-mode
+;         "mgf" 'helm-imenu
+;         "mgg" 'helm-gtags-dwim
+;         "mgG" 'helm-gtags-find-rtag
+;         "mgs" 'helm-gtags-find-symbol
+;         "mgr" 'helm-gtags-find-files)
+;       (evil-leader/set-key-for-mode 'c-mode
+;         "mgf" 'helm-imenu
+;         "mgg" 'helm-gtags-dwim
+;         "mgG" 'helm-gtags-find-rtag
+;         "mgs" 'helm-gtags-find-symbol
+;         "mgr" 'helm-gtags-find-files)
+;       (evil-leader/set-key-for-mode 'python-mode
+;         "mgf" 'helm-imenu
+;         "mgg" 'helm-gtags-dwim
+;         "mgG" 'helm-gtags-find-rtag
+;         "mgs" 'helm-gtags-find-symbol
+;         "mgr" 'helm-gtags-find-files))))
 
 (defun c-c++-enhance/init-ws-butler ()
   (use-package ws-butler
