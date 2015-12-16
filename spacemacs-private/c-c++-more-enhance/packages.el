@@ -19,9 +19,9 @@
     company
     company-c-headers
     ;; replace ycmd
-    irony
-    company-irony
-    flycheck-irony
+    ; irony
+    ; company-irony
+    ; flycheck-irony
     ws-butler
     ;; company-ycmd
     flycheck
@@ -32,6 +32,7 @@
     semantic
     srefactor
     stickyfunc-enhance
+    rtags
     ;; ycmd
     xcscope
     ))
@@ -102,38 +103,39 @@
 ;       (add-hook 'irony-mode-hook 'company-irony-setup-begin-commands)
 ;       (add-hook 'irony-mode-hook 'company-mode))))
 
-(defun c-c++-more-enhance/init-irony ()
-  (use-package irony
-    :diminish irony-mode
-    :defer t
-    :init
-    (progn
-      (add-hook 'c++-mode-hook 'irony-mode)
-      (add-hook 'c-mode-hook 'irony-mode)
-      ;;see https://github.com/Sarcasm/irony-mode/issues/154#issuecomment-100649914
-      ;;just use .clang_complete from now on
-      ;; cannnot support json format. it is unstable at <2015-05-11 一>
+; (defun c-c++-more-enhance/init-irony ()
+;   (use-package irony
+;     :diminish irony-mode
+;     :defer t
+;     :init
+;     (progn
+;       (add-hook 'c++-mode-hook 'irony-mode)
+;       (add-hook 'c-mode-hook 'irony-mode)
+;       ;;see https://github.com/Sarcasm/irony-mode/issues/154#issuecomment-100649914
+;       ;;just use .clang_complete from now on
+;       ;; cannnot support json format. it is unstable at <2015-05-11 一>
 
 
-      ;; replace the 'completion at point ' and 'complete-symbol' bindings in
-      ;; irony mode's buffers ny irony-mode's function
-      (defun my-irony-mode-hook ()
-        (define-key irony-mode-map [remap completion-at-point]
-          'irony-completion-at-point-async)
-        (define-key irony-mode-map [remap complete-symbol]
-          'irony-completion-at-point-async))
-      (add-hook 'irony-mode-hook 'my-irony-mode-hook)
-      (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
-      (spacemacs|diminish irony-mode " Ⓘ" " I"))))
+;       ;; replace the 'completion at point ' and 'complete-symbol' bindings in
+;       ;; irony mode's buffers ny irony-mode's function
+;       (defun my-irony-mode-hook ()
+;         (define-key irony-mode-map [remap completion-at-point]
+;           'irony-completion-at-point-async)
+;         (define-key irony-mode-map [remap complete-symbol]
+;           'irony-completion-at-point-async))
+;       (add-hook 'irony-mode-hook 'my-irony-mode-hook)
+;       (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+;       (spacemacs|diminish irony-mode " Ⓘ" " I"))))
 
-(defun c-c++-more-enhance/init-company-irony ()
-  (use-package company-irony
-    :defer t))
+; (defun c-c++-more-enhance/init-company-irony ()
+;   (use-package company-irony
+;     :defer t))
 
 
 
 (defun c-c++-more-enhance/post-init-company ()
-    (push 'company-irony company-backends-c-mode-common)
+    ; (push 'company-irony company-backends-c-mode-common)
+    (push 'company-rtags company-backends-c-mode-common)
     (spacemacs|add-company-hook c-mode-common)
     (spacemacs|add-company-hook cmake-mode)
     (setq company-idle-delay 0.08)
@@ -192,12 +194,12 @@
 
 
 
-(when (configuration-layer/layer-usedp 'syntax-checking)
-  (defun c-c++-more-enhance/init-flycheck-irony ()
-    (use-package flycheck-irony
-      :if (configuration-layer/package-usedp 'flycheck)
-      :defer t
-      :init (add-hook 'flycheck-mode-hook 'flycheck-irony-setup))))
+; (when (configuration-layer/layer-usedp 'syntax-checking)
+;   (defun c-c++-more-enhance/init-flycheck-irony ()
+;     (use-package flycheck-irony
+;       :if (configuration-layer/package-usedp 'flycheck)
+;       :defer t
+;       :init (add-hook 'flycheck-mode-hook 'flycheck-irony-setup))))
 
 (defun c-c++-more-enhance/post-init-flycheck ()
   (spacemacs/add-to-hooks 'flycheck-mode '(c-mode-hook c++-mode-hook)))
@@ -215,6 +217,11 @@
 (defun c-c++-more-enhance/post-init-helm-gtags ()
   (spacemacs/helm-gtags-define-keys-for-mode 'c-mode)
   (spacemacs/helm-gtags-define-keys-for-mode 'c++-mode))
+
+(defun c-c++-more-enhance/init-rtags ()
+  (use-package rtags
+    :init (require 'company-rtags)
+    :config))
 
 (defun c-c++-more-enhance/post-init-semantic ()
   (semantic/enable-semantic-mode 'c-mode)
