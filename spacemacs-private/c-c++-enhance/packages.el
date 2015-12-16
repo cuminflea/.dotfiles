@@ -18,11 +18,8 @@
     company
     company-c-headers
     flycheck
-<<<<<<< HEAD
-=======
     semantic
     srefactor
->>>>>>> 28b576d9ed67ce3995613160bba79c3e4f4a7436
     stickyfunc-enhance
     ;; my custom package
     ; irony
@@ -110,7 +107,6 @@ which require an initialization must be listed explicitly in the list.")
 (defun c-c++-enhance/post-init-flycheck ()
   (spacemacs/add-to-hooks 'flycheck-mode '(c-mode-hook c++-mode-hook)))
 
-<<<<<<< HEAD
 ; (defun c-c++-enhance/init-srefactor ()
 ;   (use-package srefactor
 ;     :defer t
@@ -120,7 +116,6 @@ which require an initialization must be listed explicitly in the list.")
 ;         "mr" 'srefactor-refactor-at-point)
 ;       (evil-leader/set-key-for-mode 'c++-mode
 ;         "mr" 'srefactor-refactor-at-point))))
-=======
 (defun c-c++-more-enhance/post-init-semantic ()
   (semantic/enable-semantic-mode 'c-mode)
   (semantic/enable-semantic-mode 'c++-mode))
@@ -129,7 +124,6 @@ which require an initialization must be listed explicitly in the list.")
   (evil-leader/set-key-for-mode 'c-mode "mr" 'srefactor-refactor-at-point)
   (evil-leader/set-key-for-mode 'c++-mode "mr" 'srefactor-refactor-at-point)
   (spacemacs/add-to-hooks 'spacemacs/lazy-load-srefactor '(c-mode-hook c++-mode-hook)))
->>>>>>> 28b576d9ed67ce3995613160bba79c3e4f4a7436
 
 (defun c-c++-enhance/init-stickyfunc-enhance ()
   (use-package stickyfunc-enhance
@@ -158,27 +152,26 @@ which require an initialization must be listed explicitly in the list.")
 ;       ;; cannnot support json format. it is unstable at <2015-05-11 一>
 
 
-<<<<<<< HEAD
       ;; replace the 'completion at point ' and 'complete-symbol' bindings in
       ;; irony mode's buffers ny irony-mode's function
-      (defun my-irony-mode-hook ()
-        (define-key irony-mode-map [remap completion-at-point]
-          'irony-completion-at-point-async)
-        (define-key irony-mode-map [remap complete-symbol]
-          'irony-completion-at-point-async))
-      (add-hook 'irony-mode-hook 'my-irony-mode-hook)
-      (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
-      (spacemacs|diminish irony-mode " Ⓘ" " I"))))
+;       (defun my-irony-mode-hook ()
+;         (define-key irony-mode-map [remap completion-at-point]
+;           'irony-completion-at-point-async)
+;         (define-key irony-mode-map [remap complete-symbol]
+;           'irony-completion-at-point-async))
+;       (add-hook 'irony-mode-hook 'my-irony-mode-hook)
+;       (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+;       (spacemacs|diminish irony-mode " Ⓘ" " I"))))
 
-(defun c-c++-enhance/init-company-irony ()
-  (use-package company-irony
-    :defer t))
-(when (configuration-layer/layer-usedp 'syntax-checking)
-  (defun c-c++-enhance/init-flycheck-irony ()
-    (use-package flycheck-irony
-      :if (configuration-layer/package-usedp 'flycheck)
-      :defer t
-      :init (add-hook 'flycheck-mode-hook 'flycheck-irony-setup))))
+; (defun c-c++-enhance/init-company-irony ()
+;   (use-package company-irony
+;     :defer t))
+; (when (configuration-layer/layer-usedp 'syntax-checking)
+;   (defun c-c++-enhance/init-flycheck-irony ()
+;     (use-package flycheck-irony
+;       :if (configuration-layer/package-usedp 'flycheck)
+;       :defer t
+;       :init (add-hook 'flycheck-mode-hook 'flycheck-irony-setup))))
 ;; (defun c-c++-enhance/post-flycheck-irony ()
 ;;   (use-package flycheck
 ;;     :defer t
@@ -186,7 +179,6 @@ which require an initialization must be listed explicitly in the list.")
 (defun c-c++-enhance/init-ggtags ()
   (use-package ggtags
     :defer t))
-=======
 ;       ;; replace the 'completion at point ' and 'complete-symbol' bindings in
 ;       ;; irony mode's buffers ny irony-mode's function
 ;       (defun my-irony-mode-hook ()
@@ -221,19 +213,13 @@ which require an initialization must be listed explicitly in the list.")
 ; (defun c-c++-enhance/init-ggtags ()
 ;   (use-package ggtags
 ;     :defer t))
->>>>>>> 28b576d9ed67ce3995613160bba79c3e4f4a7436
 (defun c-c++-enhance/init-rtags ()
   (use-package rtags
     :init (require 'company-rtags)
     :config
     (progn
-<<<<<<< HEAD
-      (setq company-rtags-begin-after-member-access t)
-      (setq rtags-completions-enabled t))))
-=======
     (setq rtags-completions-enabled t))
     ))
->>>>>>> 28b576d9ed67ce3995613160bba79c3e4f4a7436
 (defun c-c++-enhance/init-helm-make ()
   (use-package helm-make
     :defer t))
@@ -290,15 +276,10 @@ which require an initialization must be listed explicitly in the list.")
     ;; push this backend by default
     ;; (push '(company-irony :with company-yasnippet)
     ;;       company-backends-c-mode-common)
-<<<<<<< HEAD
-    (push 'company-rtags company-backends-c-mode-common)
-    (push 'company-irony company-backends-c-mode-common)
-=======
     ; (push 'company-irony company-backends-c-mode-common)
     ; (push '(company-clang) company-backends-c-mode-common)
     ; (push '(company-semantic) company-backends-c-mode-common)
     (push '(company-rtags) company-backends-c-mode-common)
->>>>>>> 28b576d9ed67ce3995613160bba79c3e4f4a7436
     (spacemacs|add-company-hook c-mode-common)
     (spacemacs|add-company-hook cmake-mode)
     (setq company-idle-delay 0.08)
@@ -367,10 +348,6 @@ which require an initialization must be listed explicitly in the list.")
   ;;           'irony-completion-at-point-async))
   ;;       (add-hook 'irony-mode-hook 'my-irony-mode-hook)
   ;;       (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))))
-<<<<<<< HEAD
-=======
-
->>>>>>> 28b576d9ed67ce3995613160bba79c3e4f4a7436
 
   (defun c-c++-enhance/init-company-c-headers ()
     (use-package company-c-headers
