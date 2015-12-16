@@ -50,6 +50,9 @@ values."
      ;; ycmd
      (c-c++-enhance :variables
          company-show-numbers t)
+     ;; (c-c++-more-enhance :variables
+     ;;      c-c++-enable-clang-support t
+     ;;     company-show-numbers t)
      gtags
      semantic
      (colors :variables colors-enable-nyan-cat-progress-bar t)
