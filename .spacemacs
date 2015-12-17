@@ -42,7 +42,7 @@ values."
      lua
      latex
      ;; (c-c++ :variables
-     ;;      c-c++-enable-clang-support t
+     ;;      ;; c-c++-enable-clang-support t
      ;;     company-show-numbers t)
      ;; (c-c++-custom :variables
      ;;        c-c++-enable-clang-support t
