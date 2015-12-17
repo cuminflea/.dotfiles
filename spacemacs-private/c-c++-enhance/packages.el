@@ -130,7 +130,7 @@ which require an initialization must be listed explicitly in the list.")
   (use-package google-c-style
     :init (add-hook 'c-mode-common-hook 'google-set-c-style)))
 (defun c-c++-enhance/init-irony ()
-  (use-package irony
+  (use-package irony 
     :diminish irony-mode
     :defer t
     :init
@@ -228,7 +228,7 @@ which require an initialization must be listed explicitly in the list.")
     ; (push 'company-irony company-backends-c-mode-common)
     (spacemacs|add-company-hook c-mode-common)
     (spacemacs|add-company-hook cmake-mode)
-    (setq company-idle-delay 0.08)
+    (setq company-idle-delay 0)
     (setq company-minimum-prefix-length 1)
     (push '(company-irony :with company-yasnippet)
           company-backends-c-mode-common)
