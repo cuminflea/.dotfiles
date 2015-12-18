@@ -35,7 +35,8 @@
 which require an initialization must be listed explicitly in the list.")
 
 (unless (version< emacs-version "24.4")
-  (add-to-list 'c-c++-enhance-packages 'srefactor))
+  (add-to-list 'c-c++-enhance-packages 'srefactor)
+  (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode)))
 
 (defun c-c++-enhance/init-cc-mode ()
   (use-package cc-mode
@@ -162,10 +163,10 @@ which require an initialization must be listed explicitly in the list.")
       :if (configuration-layer/package-usedp 'flycheck)
       :defer t
       :init (add-hook 'flycheck-mode-hook 'flycheck-irony-setup))))
-;; (defun c-c++-enhance/post-flycheck-irony ()
-;;   (use-package flycheck
-;;     :defer t
-;;     :config (add-hook 'flycheck-mode-hook #'flycheck-irony-hook)))
+(defun c-c++-enhance/post-flycheck-irony ()
+  (use-package flycheck
+    :defer t
+    :config (add-hook 'flycheck-mode-hook 'flycheck-irony-hook)))
 (defun c-c++-enhance/init-ggtags ()
   (use-package ggtags
     :defer t))
@@ -178,36 +179,6 @@ which require an initialization must be listed explicitly in the list.")
 (defun c-c++-enhance/init-helm-make ()
   (use-package helm-make
     :defer t))
-; (defun c-c++-enhance/init-helm-gtags ()
-;   (use-package helm-gtags
-;     :diminish helm-gtags-mode
-;     :init(progn
-;            (add-hook 'c-common-hook 'helm-gtags-mode)
-;            (setq helm-gtags-ignore-case t
-;                  helm-gtags-auto-update t
-;                  helm-gtags-use-input-at-cursor t
-;                  helm-gtags-pulse-at-cursor t))
-;     :defer t
-;     :config
-;     (progn
-;       (evil-leader/set-key-for-mode 'c++-mode
-;         "mgf" 'helm-imenu
-;         "mgg" 'helm-gtags-dwim
-;         "mgG" 'helm-gtags-find-rtag
-;         "mgs" 'helm-gtags-find-symbol
-;         "mgr" 'helm-gtags-find-files)
-;       (evil-leader/set-key-for-mode 'c-mode
-;         "mgf" 'helm-imenu
-;         "mgg" 'helm-gtags-dwim
-;         "mgG" 'helm-gtags-find-rtag
-;         "mgs" 'helm-gtags-find-symbol
-;         "mgr" 'helm-gtags-find-files)
-;       (evil-leader/set-key-for-mode 'python-mode
-;         "mgf" 'helm-imenu
-;         "mgg" 'helm-gtags-dwim
-;         "mgG" 'helm-gtags-find-rtag
-;         "mgs" 'helm-gtags-find-symbol
-;         "mgr" 'helm-gtags-find-files))))
 
 (defun c-c++-enhance/init-ws-butler ()
   (use-package ws-butler
@@ -215,11 +186,7 @@ which require an initialization must be listed explicitly in the list.")
     :init(progn
            (add-hook 'c-mode-common-hook 'ws-butler-mode)
            (add-hook 'cython-mode-hook 'ws-butler-mode))))
-;; (defun c-c++-enhance/init-company-c-headers ()
-;;   (use-package company-c-headers
-;;     :if (configuration-layer/package-usedp 'company)
-;;     :defer t
-;;     :init (push 'company-c-headers company-backends-c-mode-common))))
+
 ;; no auto-complete-mode at all
 (when (configuration-layer/layer-usedp 'auto-completion)
   (defun c-c++-enhance/post-init-company ()
@@ -232,70 +199,9 @@ which require an initialization must be listed explicitly in the list.")
     (setq company-minimum-prefix-length 1)
     (push '(company-irony :with company-yasnippet)
           company-backends-c-mode-common)
-    ;; .clang_complete file loading
-    ;; Sets the arguments for company-clang based on a project-specific text file.
 
-    ;; START Based on the Sarcasm/irony-mode compilation database code.
-    ; (defun company-mode/find-clang-complete-file ()
-    ;   (when buffer-file-name
-    ;     (let ((dir (locate-dominating-file buffer-file-name ".clang_complete")))
-    ;       (when dir
-    ;         (concat (file-name-as-directory dir) ".clang_complete")))))
-
-    ; (defun company-mode/load-clang-complete-file (cc-file)
-    ;   "Load the flags from CC-FILE, one flag per line."
-    ;   (let ((invocation-dir (expand-file-name (file-name-directory cc-file)))
-    ;         (case-fold-search nil)
-    ;         compile-flags)
-    ;     (with-temp-buffer
-    ;       (insert-file-contents cc-file)
-    ;       ;; Replace relative paths with absolute paths (by @trishume)
-    ;       ;; (goto-char (point-min))
-    ;       (while (re-search-forward "\\(-I\\|-isystem\n\\)\\(\\S-\\)" nil t)
-    ;         (replace-match (format "%s%s" (match-string 1)
-    ;                                (expand-file-name (match-string 2) invocation-dir))))
-    ;       ;; Trn lines into a list
-    ;       (setq compile-flags
-    ;             ;; remove whitespaces at the end of each line, if any
-    ;             (mapcar #'(lambda (line)
-    ;                         (if (string-match "[ \t]+$" line)
-    ;                             (replace-match "" t t line)
-    ;                           line))
-    ;                     (split-string (buffer-string) "\n" t))))
-    ;     compile-flags))
-    ;; END Back to things written by @trishume
-
-    ; (defun company-mode/more-than-prefix-guesser ()
-    ;   (unless company-clang-arguments
-    ;     (let* ((cc-file (company-mode/find-clang-complete-file))
-    ;            (flags (if cc-file (company-mode/load-clang-complete-file cc-file) '())))
-    ;       (setq-local company-clang-arguments flags)
-    ;       (setq flycheck-clang-args flags)))
-    ;   (company-clang-guess-prefix))
 
     (setq company-clang-prefix-guesser 'company-mode/more-than-prefix-guesser))
-  ;; (defun c-c++-enhance/init-irony ()
-  ;;   (use-package irony
-  ;;     :diminish irony-mode
-  ;;     :defar t
-  ;;     :init
-  ;;     (progn
-  ;;       (add-hook 'c++-mode-hook 'irony-mode)
-  ;;       (add-hook 'c-mode-hook 'irony-mode)
-  ;;       ;;see https://github.com/Sarcasm/irony-mode/issues/154#issuecomment-100649914
-  ;;       ;;just use .clang_complete from now on
-  ;;       ;; cannnot support json format. it is unstable at <2015-05-11 一>
-
-
-  ;;       ;; replace the 'completion at point ' and 'complete-symbol' bindings in
-  ;;       ;; irony mode's buffers ny irony-mode's function
-  ;;       (defun my-irony-mode-hook ()
-  ;;         (define-key irony-mode-map [remap completion-at-point]
-  ;;           'irony-completion-at-point-async)
-  ;;         (define-key irony-mode-map [remap complete-symbol]
-  ;;           'irony-completion-at-point-async))
-  ;;       (add-hook 'irony-mode-hook 'my-irony-mode-hook)
-  ;;       (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))))
 
   (defun c-c++-enhance/init-company-c-headers ()
     (use-package company-c-headers
