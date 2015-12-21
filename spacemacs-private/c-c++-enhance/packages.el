@@ -38,6 +38,7 @@ which require an initialization must be listed explicitly in the list.")
   (add-to-list 'c-c++-enhance-packages 'srefactor)
   (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode)))
 
+
 (defun c-c++-enhance/init-cc-mode ()
   (use-package cc-mode
     :defer
@@ -52,10 +53,14 @@ which require an initialization must be listed explicitly in the list.")
       (setq semanticdb-default-save-directory (concat spacemacs-cache-directory "semanticdb/"))
       (evil-leader/set-key-for-mode 'c-mode
         "mga" 'projectile-find-other-file
-        "mgA" 'projectile-find-other-file-other-window)
+        "mgA" 'projectile-find-other-file-other-window
+        "mc" 'projectile-compile-project
+        "mp" 'projectile-run-project)
       (evil-leader/set-key-for-mode 'c++-mode
         "mga" 'projectile-find-other-file
-        "mgA" 'projectile-find-other-file-other-window)
+        "mgA" 'projectile-find-other-file-other-window
+        "mc" 'projectile-compile-project
+        "mp" 'projectile-run-project)
 
       ;; http://emacswiki.org/emacs/CompileCommand
       ;; auto generate configuration 
@@ -175,6 +180,8 @@ which require an initialization must be listed explicitly in the list.")
     :init (require 'company-rtags)
     :config
     (progn
+      (evil-leader/set-key-for-mode 'c-mode "mi" 'rtags-imenu)
+      (evil-leader/set-key-for-mode 'c++-mode "mi" 'rtags-imenu)
       (define-key evil-normal-state-map (kbd "<C-return>") 'rtags-show-target-in-other-window)
       (define-key evil-normal-state-map (kbd "M-.") 'rtags-find-symbol-at-point))))
 (defun c-c++-enhance/init-helm-make ()
