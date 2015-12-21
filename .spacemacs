@@ -219,9 +219,10 @@ user code."
   )
 
 (defun dotspacemacs/user-config ()
-  (define-key evil-normal-state-map (kbd "M-.") 'helm-gtags-dwim)
-  (define-key evil-normal-state-map "M-." nil)
-  (define-key evil-normal-state-map "M." nil)
+  (evil-leader/set-key "DEL" 'delete-window)
+  ;; (define-key evil-normal-state-map (kbd "M-.") 'helm-gtags-dwim)
+  ;; (define-key evil-normal-state-map "M-." nil)
+  ;; (define-key evil-normal-state-map "M." nil)
   "Configuration function for user code.
  This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
