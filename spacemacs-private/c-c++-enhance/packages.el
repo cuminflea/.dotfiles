@@ -51,16 +51,16 @@ which require an initialization must be listed explicitly in the list.")
       (c-toggle-auto-newline 1)
       (setq srecode-map-save-file (concat spacemacs-cache-directory "srecode-map.el"))
       (setq semanticdb-default-save-directory (concat spacemacs-cache-directory "semanticdb/"))
-      (evil-leader/set-key-for-mode 'c-mode
-        "mga" 'projectile-find-other-file
-        "mgA" 'projectile-find-other-file-other-window
-        "mc" 'projectile-compile-project
-        "mp" 'projectile-run-project)
-      (evil-leader/set-key-for-mode 'c++-mode
-        "mga" 'projectile-find-other-file
-        "mgA" 'projectile-find-other-file-other-window
-        "mc" 'projectile-compile-project
-        "mp" 'projectile-run-project)
+      (spacemacs/set-leader-keys-for-major-mode 'c-mode
+        "ga" 'projectile-find-other-file
+        "gA" 'projectile-find-other-file-other-window
+        "c" 'projectile-compile-project
+        "p" 'projectile-run-project)
+      (spacemacs/set-leader-keys-for-major-mode 'c++-mode
+        "ga" 'projectile-find-other-file
+        "gA" 'projectile-find-other-file-other-window
+        "c" 'projectile-compile-project
+        "p" 'projectile-run-project)
 
       ;; http://emacswiki.org/emacs/CompileCommand
       ;; auto generate configuration 
@@ -180,8 +180,8 @@ which require an initialization must be listed explicitly in the list.")
     :init (require 'company-rtags)
     :config
     (progn
-      (evil-leader/set-key-for-mode 'c-mode "mi" 'rtags-imenu)
-      (evil-leader/set-key-for-mode 'c++-mode "mi" 'rtags-imenu)
+      (spacemacs/set-leader-keys-for-major-mode 'c-mode "i" 'rtags-imenu)
+      (spacemacs/set-leader-keys-for-major-mode 'c++-mode "i" 'rtags-imenu)
       (define-key evil-normal-state-map (kbd "<C-return>") 'rtags-show-target-in-other-window)
       (define-key evil-normal-state-map (kbd "M-.") 'rtags-find-symbol-at-point))))
 (defun c-c++-enhance/init-helm-make ()
@@ -227,8 +227,8 @@ which require an initialization must be listed explicitly in the list.")
        ;; Non-nil means display source file containing the main routine at startup
        gdb-show-main t))))
 (defun c-c++-enhance/post-init-srefactor ()
-  (evil-leader/set-key-for-mode 'c-mode "mr" 'srefactor-refactor-at-point)
-  (evil-leader/set-key-for-mode 'c++-mode "mr" 'srefactor-refactor-at-point)
+  (spacemacs/set-leader-keys-for-major-mode 'c-mode "r" 'srefactor-refactor-at-point)
+  (spacemacs/set-leader-keys-for-major-mode 'c++-mode "r" 'srefactor-refactor-at-point)
   (spacemacs/add-to-hooks 'spacemacs/lazy-load-srefactor '(c-mode-hook c++-mode-hook)))
 
 (defun c-c++-enhance/post-init-helm-gtags ()
