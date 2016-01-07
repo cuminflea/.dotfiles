@@ -38,12 +38,15 @@ values."
      lua
      latex
      gtags
-     (c-c++-enhance :variables
-                    company-show-numbers t)
+     (c-c++ :variables
+                   company-show-numbers t)
+      ;; (c-c++-enhance :variables
+      ;;                company-show-numbers t)
      semantic
      (colors :variables
              colors-enable-nyan-cat-progress-bar t
              )
+     ycmd
      ;; eyebrowse
      ;; spacemacs-layouts
      )
@@ -266,8 +269,6 @@ layers configuration. You are free to put any user code."
  ;; If there is more than one, they won't work right.
  '(clean-aindent-mode t)
  '(column-number-mode t)
- ;; '(global-ycmd-mode t)
- ;; '(helm-gtags-suggested-key-mapping t)
  '(indent-guide-delay 0.3 t)
  '(indent-tabs-mode nil)
  '(org-agenda-default-appointment-duration 60)
@@ -280,9 +281,7 @@ layers configuration. You are free to put any user code."
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
  '(tab-always-indent nil)
  '(transient-mark-mode (quote (only . t)))
- ;; '(ycmd-global-modes t)
- ;; '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd")))
- )
+ '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd/"))))
 
 ;; system dependent config settings
 (if (eq system-type 'darwin)

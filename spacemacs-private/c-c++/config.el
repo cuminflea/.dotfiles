@@ -1,4 +1,4 @@
-;;; packages.el --- C/C++ Layer packages File for Spacemacs
+;;; config.el --- C/C++ Layer config File for Spacemacs
 ;;
 ;; Copyright (c) 2012-2014 Sylvain Benner
 ;; Copyright (c) 2014-2015 Sylvain Benner & Contributors
@@ -14,8 +14,7 @@
 
 (defvar c-c++-enable-clang-support nil
   "If non nil Clang related packages and configuration are enabled.")
-(defvar c-c++-enable-rtags-support nil
-  "If non nil Rtags related packages and configuration are enabled.")
+
 (spacemacs|defvar-company-backends c-mode-common)
 (spacemacs|defvar-company-backends cmake-mode)
 
