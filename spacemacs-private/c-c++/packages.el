@@ -23,6 +23,7 @@
     gdb-mi
     helm-cscope
     helm-gtags
+    rtags
     semantic
     srefactor
     stickyfunc-enhance
@@ -44,10 +45,14 @@
       (c-toggle-auto-newline 1)
       (spacemacs/set-leader-keys-for-major-mode 'c-mode
         "ga" 'projectile-find-other-file
-        "gA" 'projectile-find-other-file-other-window)
+        "gA" 'projectile-find-other-file-other-window
+        "c" 'projectile-compile-project
+        "p" 'projectile-run-project)
       (spacemacs/set-leader-keys-for-major-mode 'c++-mode
         "ga" 'projectile-find-other-file
-        "gA" 'projectile-find-other-file-other-window))))
+        "gA" 'projectile-find-other-file-other-window
+        "c" 'projectile-compile-project
+        "p" 'projectile-run-project))))
 
 (defun c-c++/init-rtags ()
   (use-package rtags
@@ -119,7 +124,8 @@
 
 (defun c-c++/post-init-helm-gtags ()
   (spacemacs/helm-gtags-define-keys-for-mode 'c-mode)
-  (spacemacs/helm-gtags-define-keys-for-mode 'c++-mode))
+  (spacemacs/helm-gtags-define-keys-for-mode 'c++-mode)
+  (define-key evil-normal-state-map (kbd "M-,") 'helm-gtags-dwim))
 
 (defun c-c++/post-init-semantic ()
   (semantic/enable-semantic-mode 'c-mode)
@@ -140,7 +146,7 @@
     "gG" 'ycmd-goto-imprecise))
 
 (defun c-c++/post-init-company-ycmd ()
-  (push '(company-ycmd company-yasnippet) company-backends-c-mode-common))
+  (push '(company-ycmd company-dabbrev-code:company-yasnippet) company-backends-c-mode-common))
 
 (defun c-c++/pre-init-xcscope ()
   (spacemacs|use-package-add-hook xcscope
