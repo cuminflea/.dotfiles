@@ -39,7 +39,7 @@ values."
      latex
      gtags
      (c-c++ :variables
-                   company-show-numbers t)
+            company-show-numbers t)
       ;; (c-c++-enhance :variables
       ;;                company-show-numbers t)
      semantic
