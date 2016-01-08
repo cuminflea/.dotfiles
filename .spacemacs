@@ -39,6 +39,8 @@ values."
      latex
      gtags
      (c-c++ :variables
+            c-c++-enable-clang-support t
+            c-c++-default-mode-for-headers 'c++-mode
             company-show-numbers t)
       ;; (c-c++-enhance :variables
       ;;                company-show-numbers t)
