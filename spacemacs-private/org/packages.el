@@ -398,5 +398,5 @@ Will work on both org-mode and any mode that accepts plain html."
 	(use-package ox-reveal
 		:init
 		(progn
-			(setq org-reveal-root "file:///home/origamidance/dotfiles/spacemacs-private/org/submodules/reveal.js"))
+			)
 		))

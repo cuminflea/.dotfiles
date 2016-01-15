@@ -281,6 +281,8 @@ layers configuration. You are free to put any user code."
  '(org-icalendar-store-UID nil)
  '(org-icalendar-timezone "")
  '(org-icalendar-use-scheduled (quote (event-if-todo todo-start)))
+ '(org-reveal-root
+   "file:///Users/rzhang/dotfiles/spacemacs-private/org/submodules/reveal.js")
  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
  '(tab-always-indent nil)
