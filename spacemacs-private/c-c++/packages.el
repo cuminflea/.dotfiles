@@ -146,7 +146,7 @@
     "gG" 'ycmd-goto-imprecise))
 
 (defun c-c++/post-init-company-ycmd ()
-  (push '(company-ycmd company-dabbrev-code:company-yasnippet) company-backends-c-mode-common))
+  (push '(company-ycmd company-dabbrev-code company-yasnippet) company-backends-c-mode-common))
 
 (defun c-c++/pre-init-xcscope ()
   (spacemacs|use-package-add-hook xcscope
