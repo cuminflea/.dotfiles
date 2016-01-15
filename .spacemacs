@@ -286,6 +286,7 @@ layers configuration. You are free to put any user code."
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
  '(tab-always-indent nil)
  '(transient-mark-mode (quote (only . t)))
+ '(ycmd-extra-conf-whitelist (quote ("/Users/rzhang/research/mech_transfer")))
  '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd/"))))
 
 ;; system dependent config settings

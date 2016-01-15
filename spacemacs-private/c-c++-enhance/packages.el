@@ -200,14 +200,14 @@ which require an initialization must be listed explicitly in the list.")
   (defun c-c++-enhance/post-init-company ()
     ;; push this backend by default
 
-    ; (push 'company-irony company-backends-c-mode-common)
+    (push 'company-rtags company-backends-c-mode-common)
     (spacemacs|add-company-hook c-mode-common)
     (spacemacs|add-company-hook cmake-mode)
     (setq company-idle-delay 0)
     (setq company-minimum-prefix-length 1)
     ; (push '(company-irony :with company-yasnippet)
-    (push '(company-yasnippet company-keywords company-gtags company-etags company-dabbrev-code)
-          company-backends-c-mode-common)
+    ; (push '(company-yasnippet company-keywords company-gtags company-etags company-dabbrev-code)
+    ;       company-backends-c-mode-common)
 
 
     (setq company-clang-prefix-guesser 'company-mode/more-than-prefix-guesser))
