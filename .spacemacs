@@ -13,7 +13,8 @@ values."
    dotspacemacs-distribution 'spacemacs
    ;; List of additional paths where to look for configuration layers.
    ;; Paths must have a trailing slash (i.e. `~/.mycontribs/')
-   dotspacemacs-configuration-layer-path '("~/dotfiles/spacemacs-private/")
+   ;; dotspacemacs-configuration-layer-path '("~/dotfiles/spacemacs-private/")
+   dotspacemacs-configuration-layer-path '()
    ;; List of configuration layers to load. If it is the symbol `all' instead
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers
@@ -282,8 +283,7 @@ layers configuration. You are free to put any user code."
  '(org-icalendar-store-UID nil)
  '(org-icalendar-timezone "")
  '(org-icalendar-use-scheduled (quote (event-if-todo todo-start)))
- '(org-reveal-root
-   "file:///Users/rzhang/dotfiles/spacemacs-private/org/submodules/reveal.js")
+
  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
  '(tab-always-indent nil)
@@ -294,11 +294,15 @@ layers configuration. You are free to put any user code."
 ;; system dependent config settings
 (if (eq system-type 'darwin)
     (custom-set-variables
+       '(org-reveal-root
+   "file:///Users/rzhang/dotfiles/spacemacs-private/org/submodules/reveal.js")
      ;; '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd")))
      )
 )
 (if (eq system-type 'gnu/linux)
     (custom-set-variables
+       '(org-reveal-root
+   "file:///home/origamidance/dotfiles/spacemacs-private/org/submodules/reveal.js")
      ;; '(ycmd-server-command (quote ("python2.7" "/usr/local/ycmd/ycmd")))
      )
   )
