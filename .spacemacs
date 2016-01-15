@@ -27,7 +27,7 @@ values."
      better-defaults
      emacs-lisp
      git
-     markdown
+     ;; markdown
      org
      (shell :variables
             shell-default-height 30
@@ -278,6 +278,7 @@ layers configuration. You are free to put any user code."
  '(org-agenda-default-appointment-duration 60)
  '(org-agenda-files (quote ("~/Insync/GTD")))
  '(org-agenda-todo-list-sublevels nil)
+ '(org-completion-use-ido t)
  '(org-icalendar-store-UID nil)
  '(org-icalendar-timezone "")
  '(org-icalendar-use-scheduled (quote (event-if-todo todo-start)))
