@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<history>
+<session>
+<command time_stamp="151e93ee517">%-- 12/28/2015 04:39:52 PM --%</command>
+<command execution_time="1002">uiopen('/data/Insync/research/projects/subscattering/Measurement/MFP/photos_1201/IMG_0028.JPG',1)</command>
+<command execution_time="658">uiopen('/data/Insync/research/projects/subscattering/Measurement/MFP/photos_1201/IMG_0029.JPG',1)</command>
+<command execution_time="3397">imshow(IMG_0028)</command>
+<command execution_time="3737" repeat="5">improfile</command>
+<command execution_time="2711">O=rgb2gray(IMG_0028)</command>
+<command execution_time="45">O=rgb2gray(IMG_0028);</command>
+<command execution_time="44">W=rgb2gray(IMG_0029);</command>
+<command execution_time="1219">imtool(O);</command>
+<command execution_time="11">OP=O(:,2000);</command>
+<command execution_time="12">WP=O(:,2000);</command>
+<command execution_time="517">imtool(O);</command>
+<command error="true" execution_time="11">OP=O(2000,:2542-400:2542+400);</command>
+<command execution_time="10">OP=O(2000,2542-400:2542+400);</command>
+<command execution_time="511">imtool(W);</command>
+<command execution_time="10">WP=W(2000,2542-400:2542+400);</command>
+<command execution_time="42">plot(OP)</command>
+<command execution_time="11">hold on</command>
+<command execution_time="10">plot(WP,'r');</command>
+<command execution_time="38">plot(OP)</command>
+<command execution_time="5">hold on</command>
+<command execution_time="7">plot(WP,'r');</command>
+</session>
+<session>
+<command time_stamp="1523b9298c7">%-- 01/13/2016 04:20:09 PM --%</command>
+</session>
+<session>
+<command time_stamp="1523b942bf9">%-- 01/13/2016 04:21:52 PM --%</command>
+</session>
+<session>
+<command time_stamp="1523b94ce68">%-- 01/13/2016 04:22:34 PM --%</command>
+</session>
+<session>
+<command time_stamp="1523b973e65">%-- 01/13/2016 04:25:14 PM --%</command>
+</session>
+</history>

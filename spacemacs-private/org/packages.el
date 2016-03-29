@@ -37,7 +37,7 @@
 (when (configuration-layer/layer-usedp 'auto-completion)
   (defun org/post-init-company ()
     (spacemacs|add-company-hook org-mode)
-    (push '(company-dabbrev company-yasnippet) company-backends-org-mode))
+    (push '(company-dabbrev company-files company-yasnippet) company-backends-org-mode))
   (defun org/post-init-company-emoji ()
     (push 'company-emoji company-backends-org-mode)))
 

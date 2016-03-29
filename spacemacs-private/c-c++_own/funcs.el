@@ -1,6 +1,7 @@
 ;;; funcs.el --- C/C++ Layer functions File for Spacemacs
 ;;
-;; Copyright (c) 2012-2016 Sylvain Benner & Contributors
+;; Copyright (c) 2012-2014 Sylvain Benner
+;; Copyright (c) 2014-2015 Sylvain Benner & Contributors
 ;;
 ;; Author: Sylvain Benner <sylvain.benner@gmail.com>
 ;; URL: https://github.com/syl20bnr/spacemacs
@@ -40,13 +41,9 @@
     compile-flags))
 
 (defun c-c++/load-clang-args ()
-  "Sets the arguments for company-clang, the system paths for company-c-headers
-and the arguments for flyckeck-clang based on a project-specific text file."
+  "Sets the arguments for company-clang based on a project-specific text file."
   (unless company-clang-arguments
     (let* ((cc-file (company-mode/find-clang-complete-file))
-           (flags (if cc-file (company-mode/load-clang-complete-file cc-file) '()))
-           (dirs (mapcar (lambda (f) (substring f 2))
-                         (remove-if-not (lambda (f) (string-prefix-p "-I" f)) flags))))
+           (flags (if cc-file (company-mode/load-clang-complete-file cc-file) '())))
       (setq-local company-clang-arguments flags)
-      (setq-local company-c-headers-path-system (append '("/usr/include" "/usr/local/include") dirs))
-      (setq-local flycheck-clang-args flags))))
+      (setq flycheck-clang-args flags))))
