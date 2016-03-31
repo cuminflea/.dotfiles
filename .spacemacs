@@ -30,8 +30,8 @@ values."
      html
      git
      markdown
-     pandoc
-     org
+     ;; pandoc
+     ;; org
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
@@ -129,7 +129,7 @@ values."
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
    ;; size to make separators look not too crappy.
    dotspacemacs-default-font '("Source Code Pro"
-                               :size 13
+                               :size 15
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
@@ -277,6 +277,7 @@ layers configuration. You are free to put any user code."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(blink-cursor-mode nil)
  '(clean-aindent-mode t)
  '(column-number-mode t)
  '(indent-guide-delay 0.3 t)
@@ -296,7 +297,7 @@ layers configuration. You are free to put any user code."
    (quote
     ((:name "BigDict-01" :file "/home/origamidance/.emacs.d/.cache/pyim-bigdict.pyim" :coding utf-8-unix :dict-type pinyin-dict))))
  '(tab-always-indent nil)
- '(transient-mark-mode (quote (only . t)))
+ '(tool-bar-mode nil)
  '(ycmd-extra-conf-whitelist (quote ("/Users/rzhang/research/mech_transfer")))
  '(ycmd-server-command (quote ("python2" "/usr/local/ycmd/ycmd/"))))
 
@@ -321,5 +322,6 @@ layers configuration. You are free to put any user code."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:family "Hack" :foundry "simp" :slant normal :weight normal :height 121 :width normal))))
  '(company-tooltip-common ((t (:inherit company-tooltip :weight bold :underline nil))))
  '(company-tooltip-common-selection ((t (:inherit company-tooltip-selection :weight bold :underline nil)))))
