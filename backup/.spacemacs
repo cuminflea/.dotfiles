@@ -24,6 +24,7 @@ values."
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     extra-langs
      auto-completion
      better-defaults
      emacs-lisp
@@ -31,7 +32,7 @@ values."
      git
      markdown
      pandoc
-     org
+     ;; org
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
@@ -55,8 +56,8 @@ values."
      ycmd
      ;; eyebrowse
      ;; spacemacs-layouts
-     (chinese :variables
-              chinese-enable-fcitx t)
+     ;; (chinese :variables
+     ;;          chinese-enable-fcitx t)
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -277,8 +278,23 @@ layers configuration. You are free to put any user code."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(TeX-view-program-selection
+   (quote
+    (((output-dvi has-no-display-manager)
+      "dvi2tty")
+     ((output-dvi style-pstricks)
+      "dvips and gv")
+     (output-dvi "xdvi")
+     (output-pdf "Zathura")
+     (output-html "xdg-open"))))
  '(clean-aindent-mode t)
  '(column-number-mode t)
+ '(company-idle-delay 0.2)
+ '(company-require-match t)
+ '(company-transformers
+   (quote
+    (spacemacs//company-transformer-cancel company-sort-by-occurrence company-sort-by-backend-importance)))
+ '(company-ycmd-enable-fuzzy-matching nil)
  '(indent-guide-delay 0.3 t)
  '(indent-tabs-mode nil)
  '(org-agenda-default-appointment-duration 60)
@@ -292,13 +308,17 @@ layers configuration. You are free to put any user code."
    "file:///home/origamidance/dotfiles/spacemacs-private/org/submodules/reveal.js")
  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
+ '(preview-TeX-style-dir "/home/origamidance/.emacs.d/elpa/auctex-11.89.3/latex" t)
  '(pyim-dicts
    (quote
     ((:name "BigDict-01" :file "/home/origamidance/.emacs.d/.cache/pyim-bigdict.pyim" :coding utf-8-unix :dict-type pinyin-dict))))
  '(tab-always-indent nil)
  '(transient-mark-mode (quote (only . t)))
  '(ycmd-extra-conf-whitelist (quote ("/Users/rzhang/research/mech_transfer")))
- '(ycmd-server-command (quote ("python2" "/usr/local/ycmd/ycmd/"))))
+ '(ycmd-force-semantic-completion nil)
+ '(ycmd-server-command
+   (quote
+    ("python2" "/usr/share/vim/vimfiles/third_party/ycmd/ycmd"))))
 
 ;; system dependent config settings
 (if (eq system-type 'darwin)

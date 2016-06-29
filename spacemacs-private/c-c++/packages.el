@@ -138,7 +138,7 @@
 
 (defun c-c++/post-init-company-ycmd ()
   ;; (push '(company-dabbrev-code company-keywords company-yasnippet company-ycmd company-clang) company-backends-c-mode-common))
-  (push '(company-keywords company-yasnippet company-ycmd) company-backends-c-mode-common))
+  (push '(company-gtags company-keywords company-yasnippet company-ycmd) company-backends-c-mode-common))
 
 (defun c-c++/pre-init-xcscope ()
   (spacemacs|use-package-add-hook xcscope
