@@ -24,6 +24,7 @@ mackup restore
 - ycmd
 - YCM_Generator
 - silver searcher
+
 ## Manually set profile ##
   * .zprezto/module/editor/init.zsh
   keybinding of prepend sudo to double Escape
