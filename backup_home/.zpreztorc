@@ -36,12 +36,8 @@ zstyle ':prezto:load' pmodule \
   'prompt'  \
   'fasd'  \
   'git' \
-  # 'gpg' \
   'ssh' \
   'syntax-highlighting'
-  # 'autosuggestions'
-
-
 #
 # Autosuggestions
 #
