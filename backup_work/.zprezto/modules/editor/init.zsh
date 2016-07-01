@@ -306,7 +306,7 @@ for keymap in 'emacs' 'viins'; do
     expand-or-complete-with-indicator
 
   # Insert 'sudo ' at the beginning of the line.
-  bindkey -M "$keymap" "$key_info[Escape]$key_info[Escape]$key_info[Escape]$key_info[Escape]" prepend-sudo
+  bindkey -M "$keymap" "$key_info[Escape]$key_info[Escape]" prepend-sudo
 done
 
 # Do not expand .... to ../.. during incremental search.

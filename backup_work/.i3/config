@@ -215,6 +215,7 @@ for_window [class="Transparent_window.py"] floating enable
 #application assignment
 assign [class="Skype"] 10 : $WS10
 assign [class="Emacs"] 2 : $WS2
+assign [class="pamac-manager"] 9 : $WS9
 assign [instance="crx_jndlecohfigjmhidboiabnpjfmjgmacp"] 9 : $WS9
 assign [instance="crx_jijnmpkkfkjaihbhffejemnpbbglahim"] 9 : $WS9
 

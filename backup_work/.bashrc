@@ -9,5 +9,5 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 # >>>>BEGIN ADDED BY CNCHI INSTALLER<<<< #
 BROWSER=/usr/bin/chromium
-EDITOR=/usr/bin/nano
+EDITOR=/usr/bin/vi
 # >>>>>END ADDED BY CNCHI INSTALLER<<<<< #

@@ -1,4 +1,4 @@
-;; -*- mode: emacs-lisp -*-
+ ;; -*- mode: emacs-lisp -*-
 ;; This file is loaded by Spacemacs at startup.
 ;; It must be stored in your home directory.
 
@@ -308,14 +308,16 @@ layers configuration. You are free to put any user code."
    "file:///home/origamidance/dotfiles/spacemacs-private/org/submodules/reveal.js")
  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
- '(preview-TeX-style-dir "/home/ran/.emacs.d/elpa/auctex-11.89.2/latex")
+ '(preview-TeX-style-dir "/home/ran/.emacs.d/elpa/auctex-11.89.2/latex" t)
  '(pyim-dicts
    (quote
     ((:name "BigDict-01" :file "/home/origamidance/.emacs.d/.cache/pyim-bigdict.pyim" :coding utf-8-unix :dict-type pinyin-dict))))
  '(tab-always-indent nil)
  '(tool-bar-mode nil)
  '(ycmd-extra-conf-whitelist (quote ("/Users/rzhang/research/mech_transfer")))
- '(ycmd-server-command (quote ("python2" "/usr/local/ycmd/ycmd/"))))
+ '(ycmd-server-command
+   (quote
+    ("python2.7" "/usr/share/vim/vimfiles/third_party/ycmd/ycmd"))))
 
 ;; system dependent config settings
 (if (eq system-type 'darwin)
