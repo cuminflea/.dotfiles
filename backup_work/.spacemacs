@@ -50,12 +50,13 @@ values."
             c-c++-default-mode-for-headers 'c++-mode
             company-show-numbers t)
      ;; (c-c++-enhance :variables
+     ;;                c-c++-enable-rtags-support t
      ;;                company-show-numbers t)
      semantic
      (colors :variables
              colors-enable-nyan-cat-progress-bar t
              )
-     ycmd
+     ;; ycmd
      ;; eyebrowse
      ;; spacemacs-layouts
      (chinese :variables
@@ -295,8 +296,15 @@ layers configuration. You are free to put any user code."
  '(blink-cursor-mode nil)
  '(clean-aindent-mode t)
  '(column-number-mode t)
+ '(company-idle-delay 0.1)
+ '(company-irony-ignore-case t)
+ '(company-minimum-prefix-length 1)
  '(indent-guide-delay 0.3 t)
  '(indent-tabs-mode nil)
+ '(irony-cdb-compilation-databases
+   (quote
+    (irony-cdb-clang-complete irony-cdb-libclang irony-cdb-json)))
+ '(irony-cdb-search-directory-list (quote ("." "build")))
  '(org-agenda-default-appointment-duration 60)
  '(org-agenda-files (quote ("~/Insync/GTD")))
  '(org-agenda-todo-list-sublevels nil)
@@ -315,9 +323,10 @@ layers configuration. You are free to put any user code."
  '(tab-always-indent nil)
  '(tool-bar-mode nil)
  '(ycmd-extra-conf-whitelist (quote ("/Users/rzhang/research/mech_transfer")))
+ '(ycmd-force-semantic-completion nil)
  '(ycmd-server-command
    (quote
-    ("python2.7" "/usr/share/vim/vimfiles/third_party/ycmd/ycmd"))))
+    ("python" "/home/origamidance/dependencies/ycmd/ycmd"))))
 
 ;; system dependent config settings
 (if (eq system-type 'darwin)

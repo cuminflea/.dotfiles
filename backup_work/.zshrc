@@ -7,7 +7,9 @@
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+    echo "found prezto"
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
+echo "zsh done"
 
 # Customize to your needs...

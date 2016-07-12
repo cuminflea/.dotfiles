@@ -20,11 +20,11 @@
     flycheck
     stickyfunc-enhance
     ;; my custom package
-    ; irony
-    ; company-irony
+    ;; irony
+    ;; company-irony
     ; flycheck-irony
     google-c-style
-    helm-make
+    ;; helm-make
     helm-gtags
     ggtags
     rtags
@@ -135,55 +135,138 @@ which require an initialization must be listed explicitly in the list.")
 (defun c-c++-enhance/post-init-google-c-style ()
   (use-package google-c-style
     :init (add-hook 'c-mode-common-hook 'google-set-c-style)))
-; (defun c-c++-enhance/init-irony ()
-;   (use-package irony 
-;     :diminish irony-mode
-;     :defer t
-;     :init
-;     (progn
-;       (add-hook 'c++-mode-hook 'irony-mode)
-;       (add-hook 'c-mode-hook 'irony-mode)
-;       ;;see https://github.com/Sarcasm/irony-mode/issues/154#issuecomment-100649914
-;       ;;just use .clang_complete from now on
-;       ;; cannnot support json format. it is unstable at <2015-05-11 一>
+;; (defun c-c++-enhance/init-rtags ()
+;;   (use-package rtags
+;;     :ensure company
+;;     :if c-c++-enable-rtags-support))
+(defun c-c++-enhance/init-irony ()
+  (use-package irony 
+    :diminish irony-mode
+    :defer t
+    :init
+    (progn
+      (add-hook 'c++-mode-hook 'irony-mode)
+      (add-hook 'c-mode-hook 'irony-mode)
+      ;;see https://github.com/Sarcasm/irony-mode/issues/154#issuecomment-100649914
+      ;;just use .clang_complete from now on
+      ;; cannnot support json format. it is unstable at <2015-05-11 一>
 
 
-;       ;; replace the 'completion at point ' and 'complete-symbol' bindings in
-;       ;; irony mode's buffers ny irony-mode's function
-;       (defun my-irony-mode-hook ()
-;         (define-key irony-mode-map [remap completion-at-point]
-;           'irony-completion-at-point-async)
-;         (define-key irony-mode-map [remap complete-symbol]
-;           'irony-completion-at-point-async))
-;       (add-hook 'irony-mode-hook 'my-irony-mode-hook)
-;       (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
-;       (spacemacs|diminish irony-mode " Ⓘ" " I"))))
+      ;; replace the 'completion at point ' and 'complete-symbol' bindings in
+      ;; irony mode's buffers ny irony-mode's function
+      (defun my-irony-mode-hook ()
+        (define-key irony-mode-map [remap completion-at-point]
+          'irony-completion-at-point-async)
+        (define-key irony-mode-map [remap complete-symbol]
+          'irony-completion-at-point-async))
+      (add-hook 'irony-mode-hook 'my-irony-mode-hook)
+      (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+      (spacemacs|diminish irony-mode " Ⓘ" " I"))))
 
-; (defun c-c++-enhance/init-company-irony ()
-;   (use-package company-irony
-;     :defer t))
-; (when (configuration-layer/layer-usedp 'syntax-checking)
-;   (defun c-c++-enhance/init-flycheck-irony ()
-;     (use-package flycheck-irony
-;       :if (configuration-layer/package-usedp 'flycheck)
-;       :defer t
-;       :init (add-hook 'flycheck-mode-hook 'flycheck-irony-setup))))
-; (defun c-c++-enhance/post-flycheck-irony ()
-;   (use-package flycheck
-;     :defer t
-;     :config (add-hook 'flycheck-mode-hook 'flycheck-irony-hook)))
+;; (defun c-c++-enhance/init-company-irony ()
+;;   (use-package company-irony
+;;     :defer t))
+;; (when (configuration-layer/layer-usedp 'syntax-checking)
+;;   (defun c-c++-enhance/init-flycheck-irony ()
+;;     (use-package flycheck-irony
+;;       :if (configuration-layer/package-usedp 'flycheck)
+;;       :defer t
+;;       :init (add-hook 'flycheck-mode-hook 'flycheck-irony-setup))))
+;; (defun c-c++-enhance/post-flycheck-irony ()
+;;   (use-package flycheck
+;;     :defer t
+;;     :config (add-hook 'flycheck-mode-hook 'flycheck-irony-hook)))
 (defun c-c++-enhance/init-ggtags ()
   (use-package ggtags
     :defer t))
-(defun c-c++-enhance/init-rtags ()
-  (use-package rtags
-    :init (require 'company-rtags)
-    :config
-    (progn
-      (spacemacs/set-leader-keys-for-major-mode 'c-mode "i" 'rtags-imenu)
-      (spacemacs/set-leader-keys-for-major-mode 'c++-mode "i" 'rtags-imenu)
-      (define-key evil-normal-state-map (kbd "<C-return>") 'rtags-show-target-in-other-window)
-      (define-key evil-normal-state-map (kbd "M-.") 'rtags-find-symbol-at-point))))
+;; (defun c-c++-enhance/post-init-rtags ()
+;;   (when c-c++-enable-rtags-support
+;;     (setq company-rtags-begin-after-member-access nil)
+;;      (setq rtags-completions-enabled t)
+
+;;      (defun use-rtags (&optional useFileManager)
+;;        (and (rtags-executable-find "rc")
+;;             (cond ((not (gtags-get-rootpath)) t)
+;;                   ((and (not (eq major-mode 'c++-mode))
+;;                         (not (eq major-mode 'c-mode))) (rtags-has-filemanager))
+;;                   (useFileManager (rtags-has-filemanager))
+;;                   (t (rtags-is-indexed)))))
+
+;;      (defun tags-find-symbol-at-point (&optional prefix)
+;;        (interactive "P")
+;;        (if (and (not (rtags-find-symbol-at-point prefix)) rtags-last-request-not-indexed)
+;;            (helm-gtags-find-tag)))
+
+;;      (defun tags-find-references-at-point (&optional prefix)
+;;        (interactive "P")
+;;        (if (and (not (rtags-find-references-at-point prefix)) rtags-last-request-not-indexed)
+;;            (helm-gtags-find-rtag)))
+
+;;      (defun tags-find-symbol ()
+;;        (interactive)
+;;        (call-interactively (if (use-rtags) 'rtags-find-symbol 'helm-gtags-find-symbol)))
+
+;;      (defun tags-find-references ()
+;;        (interactive)
+;;        (call-interactively (if (use-rtags) 'rtags-find-references 'helm-gtags-find-rtag)))
+
+;;      (defun tags-find-file ()
+;;        (interactive)
+;;        (call-interactively (if (use-rtags t) 'rtags-find-file 'helm-gtags-find-files)))
+
+;;      (defun tags-imenu ()
+;;        (interactive)
+;;        (call-interactively (if (use-rtags t) 'rtags-imenu 'idomenu)))
+
+;;      (dolist (mode '(c-mode c++-mode))
+;;        (evil-leader/set-key-for-mode mode
+;;          "m g ." 'rtags-find-symbol-at-point
+;;          "m g ," 'rtags-find-references-at-point
+;;          "m g v" 'rtags-find-virtuals-at-point
+;;          "m g V" 'rtags-print-enum-value-at-point
+;;          "m g /" 'rtags-find-all-references-at-point
+;;          "m g Y" 'rtags-cycle-overlays-on-screen
+;;          "m g >" 'rtags-find-symbol
+;;          "m g <" 'rtags-find-references
+;;          "m g [" 'rtags-location-stack-back
+;;          "m g ]" 'rtags-location-stack-forward
+;;          "m g D" 'rtags-diagnostics
+;;          "m g G" 'rtags-guess-function-at-point
+;;          "m g p" 'rtags-set-current-project
+;;          "m g P" 'rtags-print-dependencies
+;;          "m g e" 'rtags-reparse-file
+;;          "m g E" 'rtags-preprocess-file
+;;          "m g R" 'rtags-rename-symbol
+;;          "m g M" 'rtags-symbol-info
+;;          "m g S" 'rtags-display-summary
+;;          "m g O" 'rtags-goto-offset
+;;          "m g ;" 'rtags-find-file
+;;          "m g F" 'rtags-fixit
+;;          "m g L" 'rtags-copy-and-print-current-location
+;;          "m g X" 'rtags-fix-fixit-at-point
+;;          "m g B" 'rtags-show-rtags-buffer
+;;          "m g I" 'rtags-imenu
+;;          "m g T" 'rtags-taglist
+;;          "m g h" 'rtags-print-class-hierarchy
+;;          "m g a" 'rtags-print-source-arguments))
+
+;;      (rtags-enable-standard-keybindings)
+;;      (define-key c-mode-base-map (kbd "M-.") (function tags-find-symbol-at-point))
+;;      (define-key c-mode-base-map (kbd "M-,") (function tags-find-references-at-point))
+;;      (define-key c-mode-base-map (kbd "M-;") (function tags-find-file))
+;;      (define-key c-mode-base-map (kbd "C-.") (function tags-find-symbol))
+;;      (define-key c-mode-base-map (kbd "C-,") (function tags-find-references))
+;;      (define-key c-mode-base-map (kbd "C-<") (function rtags-find-virtuals-at-point))
+;;      (define-key c-mode-base-map (kbd "M-i") (function tags-imenu))
+
+;;      (define-key global-map (kbd "M-.") (function tags-find-symbol-at-point))
+;;      (define-key global-map (kbd "M-,") (function tags-find-references-at-point))
+;;      (define-key global-map (kbd "M-;") (function tags-find-file))
+;;      (define-key global-map (kbd "C-.") (function tags-find-symbol))
+;;      (define-key global-map (kbd "C-,") (function tags-find-references))
+;;      (define-key global-map (kbd "C-<") (function rtags-find-virtuals-at-point))
+;;      (define-key global-map (kbd "M-i") (function tags-imenu))))
+
 (defun c-c++-enhance/init-helm-make ()
   (use-package helm-make
     :defer t))
@@ -200,16 +283,15 @@ which require an initialization must be listed explicitly in the list.")
   (defun c-c++-enhance/post-init-company ()
     ;; push this backend by default
 
+    ;; (push '(company-yasnippet company-keywords company-gtags company-etags company-dabbrev-code)
+    ;;       company-backends-c-mode-common)
+    ;; (push '(company-yasnippet company-keywords company-gtags company-irony) company-backends-c-mode-common)
     (push 'company-rtags company-backends-c-mode-common)
     (spacemacs|add-company-hook c-mode-common)
     (spacemacs|add-company-hook cmake-mode)
-    (setq company-idle-delay 0)
+    (setq company-idle-delay nil)
     (setq company-minimum-prefix-length 1)
-    ; (push '(company-irony :with company-yasnippet)
-    ; (push '(company-yasnippet company-keywords company-gtags company-etags company-dabbrev-code)
-    ;       company-backends-c-mode-common)
-
-
+    ; (push '(company-irony :with company-yasnippet company-backends-c-mode-common)
     (setq company-clang-prefix-guesser 'company-mode/more-than-prefix-guesser))
 
   (defun c-c++-enhance/init-company-c-headers ()
@@ -226,6 +308,18 @@ which require an initialization must be listed explicitly in the list.")
        gdb-many-windows t
        ;; Non-nil means display source file containing the main routine at startup
        gdb-show-main t))))
+;; (defun c-c++-enhance/init-rtags ()
+;;   (use-package rtags
+;;     :init (require 'company)
+;;     :config
+;;     (progn
+;;       (setq rtags-autostart-diagnostics t)
+;;       (rtags-diagnostics)
+;;       (setq rtags-completions-enabled t)
+;;       (spacemacs/set-leader-keys-for-major-mode 'c-mode "i" 'rtags-imenu)
+;;       (spacemacs/set-leader-keys-for-major-mode 'c++-mode "i" 'rtags-imenu)
+;;       (define-key evil-normal-state-map (kbd "<C-return>") 'rtags-show-target-in-other-window)
+;;       (define-key evil-normal-state-map (kbd "M-.") 'rtags-find-symbol-at-point))))
 (defun c-c++-enhance/post-init-srefactor ()
   (spacemacs/set-leader-keys-for-major-mode 'c-mode "r" 'srefactor-refactor-at-point)
   (spacemacs/set-leader-keys-for-major-mode 'c++-mode "r" 'srefactor-refactor-at-point)
