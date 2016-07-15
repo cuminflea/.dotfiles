@@ -17,14 +17,14 @@
     cmake-mode
     company
     company-c-headers
-    company-ycmd
+    irony
+    company-irony
     flycheck
     gdb-mi
     helm-cscope
     helm-gtags
     semantic
     stickyfunc-enhance
-    ycmd
     xcscope
     ))
 
@@ -43,11 +43,13 @@
       (spacemacs/set-leader-keys-for-major-mode 'c-mode
         "ga" 'projectile-find-other-file
         "gA" 'projectile-find-other-file-other-window
+        "gh" 'ff-find-other-file
         "c" 'projectile-compile-project
         "p" 'projectile-run-project)
       (spacemacs/set-leader-keys-for-major-mode 'c++-mode
         "ga" 'projectile-find-other-file
         "gA" 'projectile-find-other-file-other-window
+        "gh" 'ff-find-other-file
         "c" 'projectile-compile-project
         "p" 'projectile-run-project))))
 
@@ -71,6 +73,36 @@
     :mode (("CMakeLists\\.txt\\'" . cmake-mode) ("\\.cmake\\'" . cmake-mode))
     :init (push 'company-cmake company-backends-cmake-mode)))
 
+(defun c-c++/init-irony ()
+  (use-package irony 
+    :diminish irony-mode
+    :defer t
+    :init
+    (progn
+      (add-hook 'c++-mode-hook 'irony-mode)
+      (add-hook 'c-mode-hook 'irony-mode)
+      ;;see https://github.com/Sarcasm/irony-mode/issues/154#issuecomment-100649914
+      ;;just use .clang_complete from now on
+      ;; cannnot support json format. it is unstable at <2015-05-11 一>
+
+
+      ;; replace the 'completion at point ' and 'complete-symbol' bindings in
+      ;; irony mode's buffers ny irony-mode's function
+      (defun my-irony-mode-hook ()
+        (define-key irony-mode-map [remap completion-at-point]
+          'irony-completion-at-point-async)
+        (define-key irony-mode-map [remap complete-symbol]
+          'irony-completion-at-point-async))
+      (add-hook 'irony-mode-hook 'my-irony-mode-hook)
+      (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+      (spacemacs|diminish irony-mode " Ⓘ" " I"))))
+
+(defun c-c++/init-company-irony ()
+  (use-package company-irony
+    :defer t)
+  (push '(company-irony company-yasnippet company-keywords company-gtags) company-backends-c-mode-common)
+)
+
 (defun c-c++/post-init-company ()
   (spacemacs|add-company-hook c-mode-common)
   (spacemacs|add-company-hook cmake-mode)
@@ -83,7 +115,8 @@
       (company-clang-guess-prefix))
 
     (setq company-clang-prefix-guesser 'company-mode/more-than-prefix-guesser)
-    (spacemacs/add-to-hooks 'c-c++/load-clang-args '(c-mode-hook c++-mode-hook))))
+    (spacemacs/add-to-hooks 'c-c++/load-clang-args '(c-mode-hook c++-mode-hook)))
+  )
 
 (when (configuration-layer/layer-usedp 'auto-completion)
   (defun c-c++/init-company-c-headers ()
@@ -128,18 +161,18 @@
 (defun c-c++/post-init-stickyfunc-enhance ()
   (spacemacs/add-to-hooks 'spacemacs/lazy-load-stickyfunc-enhance '(c-mode-hook c++-mode-hook)))
 
-(defun c-c++/post-init-ycmd ()
-  (add-hook 'c++-mode-hook 'ycmd-mode)
-  (spacemacs/set-leader-keys-for-major-mode 'c++-mode
-    "gg" 'ycmd-goto
-    "gG" 'ycmd-goto-imprecise)
-  (define-key evil-normal-state-map (kbd "M-.") 'ycmd-goto)
-  )
+;; (defun c-c++/post-init-ycmd ()
+;;   (add-hook 'c++-mode-hook 'ycmd-mode)
+;;   (spacemacs/set-leader-keys-for-major-mode 'c++-mode
+;;     "gg" 'ycmd-goto
+;;     "gG" 'ycmd-goto-imprecise)
+;;   (define-key evil-normal-state-map (kbd "M-.") 'ycmd-goto)
+;;   )
 
-(defun c-c++/post-init-company-ycmd ()
-  ;; (push '(company-dabbrev-code company-keywords company-yasnippet company-ycmd company-clang) company-backends-c-mode-common))
-  (push 'company-ycmd company-backends-c-mode-common))
-  ;; (push '(company-gtags company-keywords company-yasnippet company-ycmd) company-backends-c-mode-common))
+;; (defun c-c++/post-init-company-ycmd ()
+;;   ;; (push '(company-dabbrev-code company-keywords company-yasnippet company-ycmd company-clang) company-backends-c-mode-common))
+;;   (push 'company-ycmd company-backends-c-mode-common))
+;;   ;; (push '(company-gtags company-keywords company-yasnippet company-ycmd) company-backends-c-mode-common))
 
 (defun c-c++/pre-init-xcscope ()
   (spacemacs|use-package-add-hook xcscope

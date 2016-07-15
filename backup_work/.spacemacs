@@ -56,7 +56,7 @@ values."
      (colors :variables
              colors-enable-nyan-cat-progress-bar t
              )
-     ;; ycmd
+     ycmd
      ;; eyebrowse
      ;; spacemacs-layouts
      (chinese :variables
@@ -301,9 +301,7 @@ layers configuration. You are free to put any user code."
  '(company-minimum-prefix-length 1)
  '(indent-guide-delay 0.3 t)
  '(indent-tabs-mode nil)
- '(irony-cdb-compilation-databases
-   (quote
-    (irony-cdb-clang-complete irony-cdb-libclang irony-cdb-json)))
+ '(irony-cdb-compilation-databases (quote (irony-cdb-libclang)))
  '(irony-cdb-search-directory-list (quote ("." "build")))
  '(org-agenda-default-appointment-duration 60)
  '(org-agenda-files (quote ("~/Insync/GTD")))

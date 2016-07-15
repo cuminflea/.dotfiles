@@ -238,10 +238,10 @@ bindsym Control + space exec rofi -show drun -modi drun
 bindsym Mod1 + Tab exec rofi -show window
 
 #key bindings
+#package manager
 bindsym $mod+u exec pamac-manager
 #double function keys
 exec --no-startup-id xcape -e 'Control_L=Escape'
 exec --no-startup-id xcape -e 'Super_L=space'
-
 ## chrome
 exec --no-startup-id i3-msg 'workspace 1 : $WS1; exec google-chrome-stable'
