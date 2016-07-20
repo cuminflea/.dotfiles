@@ -1,0 +1,72 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="Git">
+      <project id="ofLiveApp" values="config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,data.local.branches.count.1,config.save.policy.STASH,data.remote.branches.count.1" collectionTime="1469021950448" />
+      <project id="ofxGeoFramework" values="config.push.autoupdate.disabled,data.remote.branches.count.1,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,data.remotes.in.project.1,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.force.push.enabled,data.local.branches.count.1,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH" collectionTime="1469034963215" />
+    </group>
+    <group name="vcs">
+      <project id="ofLiveApp" values="Git" collectionTime="1469021950405" />
+      <project id="ofxGeoFramework" values="Git" collectionTime="1469034963188" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="ofLiveApp" values="ECMAScript 5.1" collectionTime="1469021950448" />
+      <project id="ofxGeoFramework" values="ECMAScript 5.1" collectionTime="1469034963216" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="ofLiveApp" values="CMakeRunConfiguration" collectionTime="1469021950405" />
+      <project id="ofxGeoFramework" values="CMakeRunConfiguration" collectionTime="1469034963190" />
+    </group>
+    <group name="images.ide.background">
+      <project id="ofxGeoFramework" values="frame 0,editor 0" collectionTime="1469034963213" />
+    </group>
+    <group name="VCS Log 2">
+      <project id="ofxGeoFramework" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1469034963213" />
+    </group>
+    <group name="file-type">
+      <project id="ofLiveApp" values="PLAIN_TEXT,ObjectiveC,Images,Markdown,CSS,Native,Bash,XML,UNKNOWN,CMakeLists.txt,Python" collectionTime="1469021950447" />
+      <project id="ofxGeoFramework" values="PLAIN_TEXT,CSS,CMakeLists.txt,Native,ObjectiveC,Images,Markdown,UNKNOWN,Python,XML,Bash" collectionTime="1469034963212" />
+    </group>
+    <group name="module type">
+      <project id="ofLiveApp" values="CPP_MODULE" collectionTime="1469021950405" />
+      <project id="ofxGeoFramework" values="CPP_MODULE" collectionTime="1469034963189" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="ofLiveApp" values="Project,Project" collectionTime="1469021950448" />
+      <project id="ofxGeoFramework" values="Project,Project" collectionTime="1469034963216" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="cidr.completion.qualified" count="12" />
+      <entry feature="execute.CMakeRunConfiguration.Run" count="53" />
+      <entry feature="ide.help.preferences.keymap" count="1" />
+      <entry feature="ide.settings.Appearance" count="5" />
+      <entry feature="ide.settings.C/C++" count="5" />
+      <entry feature="ide.settings.CMake" count="5" />
+      <entry feature="ide.settings.Code_Completion" count="1" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="17" />
+      <entry feature="ide.settings.Console_Font" count="1" />
+      <entry feature="ide.settings.Editor_Tabs" count="2" />
+      <entry feature="ide.settings.External_Tools" count="1" />
+      <entry feature="ide.settings.File_Status" count="2" />
+      <entry feature="ide.settings.Font" count="24" />
+      <entry feature="ide.settings.General" count="5" />
+      <entry feature="ide.settings.GitHub" count="1" />
+      <entry feature="ide.settings.Keymap" count="37" />
+      <entry feature="ide.settings.Language_Defaults" count="2" />
+      <entry feature="ide.settings.Live_Templates" count="3" />
+      <entry feature="ide.settings.Menus_and_Toolbars" count="5" />
+      <entry feature="ide.settings.Plugins" count="6" />
+      <entry feature="ide.settings.Toolchains" count="2" />
+      <entry feature="ide.settings.Vim_Emulation" count="2" />
+      <entry feature="idea.caches.invalidated" count="1" />
+      <entry feature="ideaapp.started" count="34" />
+      <entry feature="terminal.linux" count="5" />
+      <entry feature="tips.of.the.day.next" count="2" />
+      <entry feature="welcome.screen.OpenCPPProject" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Documentation" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Settings" count="1" />
+    </counts>
+  </component>
+</application>

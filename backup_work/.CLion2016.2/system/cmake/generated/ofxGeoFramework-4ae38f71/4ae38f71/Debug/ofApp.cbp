@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ofApp" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\of\;CMake Files\..\of\dev\;CMake Files\..\of\dev\cmake\;CMake Files\RuntimeCompiledCPlusPlus\;CMake Files\RuntimeCompiledCPlusPlus\Aurora\;CMake Files\RuntimeCompiledCPlusPlus\Aurora\cmake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clean_cotire">
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean_cotire" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="all_pch">
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 all_pch" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ofApp_pch">
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 ofApp_pch" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ofApp">
+         <Option output="/home/origamidance/Research/ofxGeoFramework/bin/ofApp" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DOF_USING_MPG123" />
+            <Add option="-DOF_SOUND_PLAYER_OPENAL" />
+            <Add option="-DOF_SOUNDSTREAM_RTAUDIO" />
+            <Add option="-DOF_VIDEO_PLAYER_GSTREAMER" />
+            <Add option="-DOF_VIDEO_CAPTURE_GSTREAMER" />
+            <Add option="-DOF_USING_GTK" />
+            <Add option="-DFREEIMAGE_LIB" />
+            <Add option="-DPOCO_STATIC" />
+            <Add option="-DGCC_HAS_REGEX" />
+            <Add option="-DRCCPP" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Half" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Iex" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmImf" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmThread" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Imath" />
+            <Add directory="/home/origamidance/Research/of/src/glew" />
+            <Add directory="/home/origamidance/Research/of/src/glew/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include/GLFW" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft/tools" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Include" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Source" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/3d" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/app" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/communication" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/events" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/gl" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/graphics" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/math" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/sound" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/types" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/utils" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/video" />
+            <Add directory="/home/origamidance/Research/of/src/poco" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Crypto/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Foundation/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Net/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/NetSSL_OpenSSL/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Util/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/XML/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Zip/include" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio/include" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp/include" />
+            <Add directory="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora" />
+            <Add directory="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/libs" />
+            <Add directory="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/libs/imgui/src" />
+            <Add directory="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src" />
+            <Add directory="/usr/bin/../lib/clang/3.8.0/include" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/backward" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/AL" />
+            <Add directory="/usr/include/at-spi-2.0" />
+            <Add directory="/usr/include/at-spi2-atk/2.0" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/dbus-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/gstreamer-1.0" />
+            <Add directory="/usr/include/gtk-3.0" />
+            <Add directory="/usr/include/harfbuzz" />
+            <Add directory="/usr/include/libdrm" />
+            <Add directory="/usr/include/libpng16" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/lib/dbus-1.0/include" />
+            <Add directory="/usr/lib/glib-2.0/include" />
+            <Add directory="/usr/lib/gstreamer-1.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 ofApp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ofApp/fast">
+         <Option output="/home/origamidance/Research/ofxGeoFramework/bin/ofApp" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DOF_USING_MPG123" />
+            <Add option="-DOF_SOUND_PLAYER_OPENAL" />
+            <Add option="-DOF_SOUNDSTREAM_RTAUDIO" />
+            <Add option="-DOF_VIDEO_PLAYER_GSTREAMER" />
+            <Add option="-DOF_VIDEO_CAPTURE_GSTREAMER" />
+            <Add option="-DOF_USING_GTK" />
+            <Add option="-DFREEIMAGE_LIB" />
+            <Add option="-DPOCO_STATIC" />
+            <Add option="-DGCC_HAS_REGEX" />
+            <Add option="-DRCCPP" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Half" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Iex" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmImf" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmThread" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Imath" />
+            <Add directory="/home/origamidance/Research/of/src/glew" />
+            <Add directory="/home/origamidance/Research/of/src/glew/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include/GLFW" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft/tools" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Include" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Source" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/3d" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/app" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/communication" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/events" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/gl" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/graphics" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/math" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/sound" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/types" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/utils" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/video" />
+            <Add directory="/home/origamidance/Research/of/src/poco" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Crypto/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Foundation/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Net/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/NetSSL_OpenSSL/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Util/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/XML/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Zip/include" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio/include" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp/include" />
+            <Add directory="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora" />
+            <Add directory="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/libs" />
+            <Add directory="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/libs/imgui/src" />
+            <Add directory="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src" />
+            <Add directory="/usr/bin/../lib/clang/3.8.0/include" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/backward" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/AL" />
+            <Add directory="/usr/include/at-spi-2.0" />
+            <Add directory="/usr/include/at-spi2-atk/2.0" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/dbus-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/gstreamer-1.0" />
+            <Add directory="/usr/include/gtk-3.0" />
+            <Add directory="/usr/include/harfbuzz" />
+            <Add directory="/usr/include/libdrm" />
+            <Add directory="/usr/include/libpng16" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/lib/dbus-1.0/include" />
+            <Add directory="/usr/lib/glib-2.0/include" />
+            <Add directory="/usr/lib/gstreamer-1.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 ofApp/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="RuntimeObjectSystem">
+         <Option output="/home/origamidance/Research/ofxGeoFramework/bin/libRuntimeObjectSystem.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DOF_USING_MPG123" />
+            <Add option="-DOF_SOUND_PLAYER_OPENAL" />
+            <Add option="-DOF_SOUNDSTREAM_RTAUDIO" />
+            <Add option="-DOF_VIDEO_PLAYER_GSTREAMER" />
+            <Add option="-DOF_VIDEO_CAPTURE_GSTREAMER" />
+            <Add option="-DOF_USING_GTK" />
+            <Add option="-DFREEIMAGE_LIB" />
+            <Add option="-DPOCO_STATIC" />
+            <Add option="-DGCC_HAS_REGEX" />
+            <Add option="-DRCCPP" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Half" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Iex" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmImf" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmThread" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Imath" />
+            <Add directory="/home/origamidance/Research/of/src/glew" />
+            <Add directory="/home/origamidance/Research/of/src/glew/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include/GLFW" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft/tools" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Include" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Source" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/3d" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/app" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/communication" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/events" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/gl" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/graphics" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/math" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/sound" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/types" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/utils" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/video" />
+            <Add directory="/home/origamidance/Research/of/src/poco" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Crypto/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Foundation/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Net/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/NetSSL_OpenSSL/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Util/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/XML/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Zip/include" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio/include" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp/include" />
+            <Add directory="/usr/bin/../lib/clang/3.8.0/include" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/backward" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/AL" />
+            <Add directory="/usr/include/at-spi-2.0" />
+            <Add directory="/usr/include/at-spi2-atk/2.0" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/dbus-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/gstreamer-1.0" />
+            <Add directory="/usr/include/gtk-3.0" />
+            <Add directory="/usr/include/harfbuzz" />
+            <Add directory="/usr/include/libdrm" />
+            <Add directory="/usr/include/libpng16" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/lib/dbus-1.0/include" />
+            <Add directory="/usr/lib/glib-2.0/include" />
+            <Add directory="/usr/lib/gstreamer-1.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 RuntimeObjectSystem" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="RuntimeObjectSystem/fast">
+         <Option output="/home/origamidance/Research/ofxGeoFramework/bin/libRuntimeObjectSystem.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DOF_USING_MPG123" />
+            <Add option="-DOF_SOUND_PLAYER_OPENAL" />
+            <Add option="-DOF_SOUNDSTREAM_RTAUDIO" />
+            <Add option="-DOF_VIDEO_PLAYER_GSTREAMER" />
+            <Add option="-DOF_VIDEO_CAPTURE_GSTREAMER" />
+            <Add option="-DOF_USING_GTK" />
+            <Add option="-DFREEIMAGE_LIB" />
+            <Add option="-DPOCO_STATIC" />
+            <Add option="-DGCC_HAS_REGEX" />
+            <Add option="-DRCCPP" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Half" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Iex" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmImf" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmThread" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Imath" />
+            <Add directory="/home/origamidance/Research/of/src/glew" />
+            <Add directory="/home/origamidance/Research/of/src/glew/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include/GLFW" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft/tools" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Include" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Source" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/3d" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/app" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/communication" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/events" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/gl" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/graphics" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/math" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/sound" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/types" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/utils" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/video" />
+            <Add directory="/home/origamidance/Research/of/src/poco" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Crypto/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Foundation/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Net/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/NetSSL_OpenSSL/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Util/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/XML/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Zip/include" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio/include" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp/include" />
+            <Add directory="/usr/bin/../lib/clang/3.8.0/include" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/backward" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/AL" />
+            <Add directory="/usr/include/at-spi-2.0" />
+            <Add directory="/usr/include/at-spi2-atk/2.0" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/dbus-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/gstreamer-1.0" />
+            <Add directory="/usr/include/gtk-3.0" />
+            <Add directory="/usr/include/harfbuzz" />
+            <Add directory="/usr/include/libdrm" />
+            <Add directory="/usr/include/libpng16" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/lib/dbus-1.0/include" />
+            <Add directory="/usr/lib/glib-2.0/include" />
+            <Add directory="/usr/lib/gstreamer-1.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 RuntimeObjectSystem/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="RuntimeCompiler">
+         <Option output="/home/origamidance/Research/ofxGeoFramework/bin/libRuntimeCompiler.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DOF_USING_MPG123" />
+            <Add option="-DOF_SOUND_PLAYER_OPENAL" />
+            <Add option="-DOF_SOUNDSTREAM_RTAUDIO" />
+            <Add option="-DOF_VIDEO_PLAYER_GSTREAMER" />
+            <Add option="-DOF_VIDEO_CAPTURE_GSTREAMER" />
+            <Add option="-DOF_USING_GTK" />
+            <Add option="-DFREEIMAGE_LIB" />
+            <Add option="-DPOCO_STATIC" />
+            <Add option="-DGCC_HAS_REGEX" />
+            <Add option="-DRCCPP" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Half" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Iex" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmImf" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmThread" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Imath" />
+            <Add directory="/home/origamidance/Research/of/src/glew" />
+            <Add directory="/home/origamidance/Research/of/src/glew/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include/GLFW" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft/tools" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Include" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Source" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/3d" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/app" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/communication" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/events" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/gl" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/graphics" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/math" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/sound" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/types" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/utils" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/video" />
+            <Add directory="/home/origamidance/Research/of/src/poco" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Crypto/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Foundation/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Net/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/NetSSL_OpenSSL/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Util/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/XML/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Zip/include" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio/include" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp/include" />
+            <Add directory="/usr/bin/../lib/clang/3.8.0/include" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/backward" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/AL" />
+            <Add directory="/usr/include/at-spi-2.0" />
+            <Add directory="/usr/include/at-spi2-atk/2.0" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/dbus-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/gstreamer-1.0" />
+            <Add directory="/usr/include/gtk-3.0" />
+            <Add directory="/usr/include/harfbuzz" />
+            <Add directory="/usr/include/libdrm" />
+            <Add directory="/usr/include/libpng16" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/lib/dbus-1.0/include" />
+            <Add directory="/usr/lib/glib-2.0/include" />
+            <Add directory="/usr/lib/gstreamer-1.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 RuntimeCompiler" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="RuntimeCompiler/fast">
+         <Option output="/home/origamidance/Research/ofxGeoFramework/bin/libRuntimeCompiler.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DOF_USING_MPG123" />
+            <Add option="-DOF_SOUND_PLAYER_OPENAL" />
+            <Add option="-DOF_SOUNDSTREAM_RTAUDIO" />
+            <Add option="-DOF_VIDEO_PLAYER_GSTREAMER" />
+            <Add option="-DOF_VIDEO_CAPTURE_GSTREAMER" />
+            <Add option="-DOF_USING_GTK" />
+            <Add option="-DFREEIMAGE_LIB" />
+            <Add option="-DPOCO_STATIC" />
+            <Add option="-DGCC_HAS_REGEX" />
+            <Add option="-DRCCPP" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Half" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Iex" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmImf" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/IlmThread" />
+            <Add directory="/home/origamidance/Research/of/src/freeimage/OpenEXR/Imath" />
+            <Add directory="/home/origamidance/Research/of/src/glew" />
+            <Add directory="/home/origamidance/Research/of/src/glew/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include" />
+            <Add directory="/home/origamidance/Research/of/src/glfw/include/GLFW" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft" />
+            <Add directory="/home/origamidance/Research/of/src/kissfft/tools" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Include" />
+            <Add directory="/home/origamidance/Research/of/src/libtess2/Source" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/3d" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/app" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/communication" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/events" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/gl" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/graphics" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/math" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/sound" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/types" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/utils" />
+            <Add directory="/home/origamidance/Research/of/src/openframeworks/video" />
+            <Add directory="/home/origamidance/Research/of/src/poco" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Crypto/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Foundation/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Net/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/NetSSL_OpenSSL/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Util/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/XML/include" />
+            <Add directory="/home/origamidance/Research/of/src/poco/Zip/include" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio" />
+            <Add directory="/home/origamidance/Research/of/src/rtaudio/include" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp" />
+            <Add directory="/home/origamidance/Research/of/src/utf8cpp/include" />
+            <Add directory="/usr/bin/../lib/clang/3.8.0/include" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/backward" />
+            <Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/AL" />
+            <Add directory="/usr/include/at-spi-2.0" />
+            <Add directory="/usr/include/at-spi2-atk/2.0" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/dbus-1.0" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/gio-unix-2.0" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/gstreamer-1.0" />
+            <Add directory="/usr/include/gtk-3.0" />
+            <Add directory="/usr/include/harfbuzz" />
+            <Add directory="/usr/include/libdrm" />
+            <Add directory="/usr/include/libpng16" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/pixman-1" />
+            <Add directory="/usr/lib/dbus-1.0/include" />
+            <Add directory="/usr/lib/glib-2.0/include" />
+            <Add directory="/usr/lib/gstreamer-1.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 RuntimeCompiler/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/RuntimeCompiledCPlusPlus/Aurora/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/BuildTool.cpp">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/BuildTool.h">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/Compiler_PlatformPosix.cpp">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/FileChangeNotifier.cpp">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/FileChangeNotifier.h">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/FileMonitor.cpp">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/FileMonitor.h">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/SimpleFileWatcher/FileWatcher.cpp">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/SimpleFileWatcher/FileWatcher.h">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/SimpleFileWatcher/FileWatcherLinux.cpp">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/SimpleFileWatcher/FileWatcherLinux.h">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/ObjectFactorySystem/ObjectFactorySystem.cpp">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/ObjectFactorySystem/ObjectFactorySystem.h">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/ObjectInterfacePerModuleSource.cpp">
+         <Option target="RuntimeObjectSystem"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/RuntimeObjectSystem.cpp">
+         <Option target="RuntimeObjectSystem"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/RuntimeObjectSystem.h">
+         <Option target="RuntimeObjectSystem"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/RuntimeObjectSystem_PlatformPosix.cpp">
+         <Option target="RuntimeObjectSystem"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/SimpleSerializer/SimpleSerializer.cpp">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/SimpleSerializer/SimpleSerializer.h">
+         <Option target="RuntimeCompiler"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/libs/imgui/src/imgui.cpp">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/libs/imgui/src/imgui.h">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/libs/imgui/src/imgui_demo.cpp">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/libs/imgui/src/imgui_draw.cpp">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src/BaseEngine.cpp">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src/BaseEngine.h">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src/BaseTheme.cpp">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src/BaseTheme.h">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src/EngineGLFW.cpp">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src/EngineGLFW.h">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src/EngineOpenGLES.cpp">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src/EngineOpenGLES.h">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src/ofxImGui.cpp">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/addons/ofxImGui/src/ofxImGui.h">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/src/main.cpp">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/src/ofApp.cpp">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/src/ofApp.h">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/src/ofLive.cpp">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/src/ofLive.h">
+         <Option target="ofApp"/>
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/../of/openFrameworks.cmake">
+          <Option virtualFolder="CMake Files\..\of\" />
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/../of/dev/cmake/FindMPG123.cmake">
+          <Option virtualFolder="CMake Files\..\of\dev\cmake\" />
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/../of/dev/cmake/FindSndfile.cmake">
+          <Option virtualFolder="CMake Files\..\of\dev\cmake\" />
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/../of/dev/cmake/FindUDev.cmake">
+          <Option virtualFolder="CMake Files\..\of\dev\cmake\" />
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/../of/dev/cmake/FindGlib.cmake">
+          <Option virtualFolder="CMake Files\..\of\dev\cmake\" />
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/../of/dev/cmake/FindGStreamer.cmake">
+          <Option virtualFolder="CMake Files\..\of\dev\cmake\" />
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/../of/dev/cmake/cotire.cmake">
+          <Option virtualFolder="CMake Files\..\of\dev\cmake\" />
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\RuntimeCompiledCPlusPlus\Aurora\" />
+      </Unit>
+      <Unit filename="/home/origamidance/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/cmake/ProjectFiles.cmake">
+          <Option virtualFolder="CMake Files\RuntimeCompiledCPlusPlus\Aurora\cmake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

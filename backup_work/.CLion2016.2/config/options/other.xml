@@ -1,0 +1,6 @@
+<application>
+  <component name="CPPToolchains">
+    <option name="detectedVersion" value="4" />
+    <option name="specifiedCMakeExecutablePath" value="$USER_HOME$/.customized_scripts/cmake_ninja_wrapper.py" />
+  </component>
+</application>

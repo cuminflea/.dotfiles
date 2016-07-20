@@ -1,0 +1,7 @@
+Subversion
+com.chrisrm.idea.MaterialThemeUI
+hg4idea
+CVS
+PerforceDirectPlugin
+com.widerwille.afterglow
+TFS

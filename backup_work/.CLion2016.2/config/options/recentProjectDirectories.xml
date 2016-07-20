@@ -1,0 +1,42 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Research/ofxGeoFramework" />
+        <option value="$USER_HOME$/Research/ofLiveApp" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Research/ofxGeoFramework" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Research/ofxGeoFramework" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Research/ofLiveApp">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-145.1617" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1469019733787" />
+              <option name="buildTimestamp" value="1465250400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Research/ofxGeoFramework">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1236.16" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1469034974348" />
+              <option name="buildTimestamp" value="1468792800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

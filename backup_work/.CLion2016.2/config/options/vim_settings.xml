@@ -1,0 +1,270 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="/start_script.py" timestamp="1468511258355">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1469036378248">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/ObjectInterfacePerModule.h" timestamp="1469036257395">
+        <mark key="[" line="389" column="28" />
+        <mark key="]" line="389" column="58" />
+      </file>
+      <file name="$USER_HOME$/Research/ofLiveApp/CMakeLists.txt" timestamp="1469021688833">
+        <mark key="[" line="0" column="35" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+        <mark key="^" line="1" column="0" />
+      </file>
+      <file name="/a.dummy" timestamp="1468506277966">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Research/of/openFrameworks.cmake" timestamp="1469029461769">
+        <mark key="'" line="1137" column="31" />
+        <mark key="[" line="9" column="15" />
+        <mark key="]" line="9" column="15" />
+        <mark key="." line="9" column="15" />
+      </file>
+      <file name="$USER_HOME$/Research/ofxGeoFramework/CMakeLists.txt" timestamp="1468929283413">
+        <mark key="[" line="14" column="37" />
+        <mark key="]" line="15" column="26" />
+        <mark key="^" line="15" column="26" />
+        <mark key="." line="15" column="26" />
+      </file>
+      <file name="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" timestamp="1468929180412">
+        <mark key="'" line="280" column="4" />
+        <mark key="[" line="234" column="36" />
+        <mark key="]" line="234" column="55" />
+        <mark key="." line="234" column="55" />
+        <mark key="^" line="234" column="55" />
+      </file>
+      <file name="$USER_HOME$/Research/ofxGeoFramework/addons/ofxImGui/src/BaseEngine.cpp" timestamp="1469029584737">
+        <mark key="[" line="44" column="0" />
+        <mark key="]" line="44" column="0" />
+        <mark key="." line="44" column="0" />
+      </file>
+      <file name="$USER_HOME$/Research/ofxGeoFramework/src/main.cpp" timestamp="1468941268146">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="^" line="10" column="7" />
+        <mark key="." line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/Research/ofxGeoFramework/build.sh" timestamp="1468513479238">
+        <mark key="'" line="46" column="0" />
+        <mark key="[" line="41" column="18" />
+        <mark key="]" line="41" column="65" />
+      </file>
+      <file name="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.cpp" timestamp="1469036349898">
+        <mark key="[" line="2" column="20" />
+        <mark key="]" line="2" column="19" />
+        <mark key="." line="2" column="19" />
+        <mark key="^" line="2" column="19" />
+      </file>
+      <file name="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.h" timestamp="1469035575936">
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="0" />
+        <mark key="." line="52" column="0" />
+      </file>
+      <file name="$USER_HOME$/Research/ofLiveApp/src/ofApp.cpp" timestamp="1469021720258">
+        <mark key="[" line="14" column="23" />
+        <mark key="]" line="14" column="24" />
+        <mark key="." line="14" column="24" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="71" column="48" filename="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.cpp" />
+      <jump line="6" column="0" filename="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.cpp" />
+      <jump line="121" column="0" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="124" column="13" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="126" column="16" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="150" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="151" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="152" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="153" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="154" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="155" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="156" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="157" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="158" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="159" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="243" column="39" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="245" column="62" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="296" column="49" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="41" column="18" filename="$USER_HOME$/Research/ofxGeoFramework/build.sh" />
+      <jump line="46" column="0" filename="$USER_HOME$/Research/ofxGeoFramework/build.sh" />
+      <jump line="280" column="4" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
+      <jump line="41" column="8" filename="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.h" />
+      <jump line="43" column="42" filename="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.cpp" />
+      <jump line="0" column="65" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="9" column="4" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="250" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="262" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="278" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="300" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="394" column="10" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="531" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="634" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="651" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="736" column="11" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="1137" column="31" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
+      <jump line="14" column="17" filename="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.cpp" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text>#</text>
+      </register>
+      <register name="-" type="4">
+        <text>#</text>
+      </register>
+      <register name="/" type="4">
+        <text>OF_STATIC</text>
+      </register>
+      <register name="0" type="4">
+        <text>REGISTERBASE( T, false, false )</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">UkVHSVNURVJCQVNFKCBvZkFwcCwgZmFsc2UsIGZhbHNlICkK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICBvZnhJbUd1aSB0ZXN0Owo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGlvLk1vdXNlV2hlZWwgPSBldmVudC5zY3JvbGxZOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">cHJvamVjdChvZkFwcCkKc2V0KEFQUCBvZkFwcCkK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">b2ZkcmF3cmVjdGFuCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIG9mZHJhd3JlY3Rhbgo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIG9mZHJhd2NpCg==</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+    <search>
+      <last-search>OF_STATIC</last-search>
+      <last-offset />
+      <last-pattern>OF_STATIC</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>openframeworks</entry>
+        <entry>open</entry>
+        <entry>not_found</entry>
+        <entry>found</entry>
+        <entry>of_static</entry>
+        <entry>OF_STATIC</entry>
+      </history-search>
+      <history-cmd>
+        <entry>e main.cpp</entry>
+        <entry>e main.</entry>
+        <entry encoding="base64">JzwsJz53</entry>
+        <entry>+p</entry>
+        <entry>+P</entry>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed U</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>shift ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed P</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed E</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed OPEN_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Q</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed G</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed H</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed CLOSE_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>shift ctrl pressed 6</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed I</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>

@@ -1,0 +1,18 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="Tool_External Tools_cmake_ninja" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_ninja" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="Tool_External Tools_ninja" icon="$APPLICATION_CONFIG_DIR$/ninja-16.png" />
+    <action id="Tool_External Tools_cmake_ninja" icon="$APPLICATION_CONFIG_DIR$/cmake-16.png" />
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<templateSet group="C/C++">
+  <template name="cout" value="std::cout&lt;&lt; $STRING$ &lt;&lt;&quot;\n&quot;;" description="std::cout" toReformat="true" toShortenFQNames="true">
+    <variable name="STRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_STATEMENT_C" value="true" />
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
+</templateSet>

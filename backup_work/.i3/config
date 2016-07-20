@@ -223,6 +223,7 @@ assign [instance="crx_jijnmpkkfkjaihbhffejemnpbbglahim"] 9 : $WS9
 
 #auto start
 #exec --no-startup-id volumeicon 
+exec_always --no-startup-id xset -b
 exec_always --no-startup-id fcitx
 exec_always --no-startup-id fcitx-qimpanel
 exec_always --no-startup-id compton -b
