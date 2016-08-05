@@ -48,6 +48,7 @@ values."
      (c-c++ :variables
             c-c++-enable-clang-support t
             c-c++-default-mode-for-headers 'c++-mode
+            c-c++-enable-rtags-support t
             company-show-numbers t)
      ;; (c-c++-enhance :variables
      ;;                c-c++-enable-rtags-support t
@@ -296,9 +297,16 @@ layers configuration. You are free to put any user code."
  '(blink-cursor-mode nil)
  '(clean-aindent-mode t)
  '(column-number-mode t)
+ '(company-auto-complete-chars (quote (32 41 46)))
  '(company-idle-delay 0.1)
  '(company-irony-ignore-case t)
  '(company-minimum-prefix-length 1)
+ '(company-occurrence-weight-function (quote company-occurrence-prefer-closest-above))
+ '(company-require-match (quote (quote company-explicit-action-p)))
+ '(company-transformers
+   (quote
+    (company-sort-prefer-same-case-prefix company-sort-by-backend-importance company-sort-by-occurrence spacemacs//company-transformer-cancel)))
+ '(company-ycmd-request-sync-timeout 0.5)
  '(indent-guide-delay 0.3 t)
  '(indent-tabs-mode nil)
  '(irony-cdb-compilation-databases (quote (irony-cdb-libclang)))
@@ -318,6 +326,10 @@ layers configuration. You are free to put any user code."
  '(pyim-dicts
    (quote
     ((:name "BigDict-01" :file "/home/origamidance/.emacs.d/.cache/pyim-bigdict.pyim" :coding utf-8-unix :dict-type pinyin-dict))))
+ '(rtags-completions-enabled nil)
+ '(rtags-rc-log-enabled t)
+ '(rtags-symbolnames-case-insensitive t)
+ '(rtags-use-helm t)
  '(tab-always-indent nil)
  '(tool-bar-mode nil)
  '(ycmd-extra-conf-whitelist (quote ("/Users/rzhang/research/mech_transfer")))
