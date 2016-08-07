@@ -26,6 +26,8 @@
     semantic
     stickyfunc-enhance
     xcscope
+    rtags
+    google-c-style
     ))
 
 (unless (version< emacs-version "24.4")
@@ -185,3 +187,19 @@
     :post-init
     (dolist (mode '(c-mode c++-mode))
       (spacemacs/setup-helm-cscope mode))))
+
+(defun c-c++/init-rtags ()
+  (use-package rtags
+    :init
+    :config
+    ))
+
+(defun c-c++/post-init-rtags ()
+  (add-hook 'c-mode-hook 'rtags-start-process-unless-running)
+  (add-hook 'c++-mode-hook 'rtags-start-process-unless-running)
+  (setq rtags-use-helm t)
+  (spacemacs/set-leader-keys-for-major-mode 'c++-mode
+    "gG" 'rtags-find-references-at-point
+    "gg" 'rtags-find-symbol-at-point)
+  (define-key evil-normal-state-map (kbd "M-.") 'rtags-find-symbol-at-point)
+  )

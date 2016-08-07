@@ -123,7 +123,7 @@
         (unless (member company-prefix company-mode-completion-cancel-keywords)
           candidates))
       (setq company-transformers '(spacemacs//company-transformer-cancel
-                                   company-sort-prefer-same-case-prefix
+                                   ;; company-sort-prefer-same-case-prefix
                                    company-sort-by-occurrence
                                    company-sort-by-backend-importance)))))
 

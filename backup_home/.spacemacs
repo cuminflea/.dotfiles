@@ -295,6 +295,7 @@ layers configuration. You are free to put any user code."
  '(blink-cursor-mode nil)
  '(clean-aindent-mode t)
  '(column-number-mode t)
+ '(company-irony-ignore-case t)
  '(indent-guide-delay 0.3 t)
  '(indent-tabs-mode nil)
  '(org-agenda-default-appointment-duration 60)
@@ -308,7 +309,7 @@ layers configuration. You are free to put any user code."
    "file:///home/origamidance/dotfiles/spacemacs-private/org/submodules/reveal.js")
  '(org-todo-keyword-faces (quote (("NEXT" . "royalblue") ("CANCELED" . "gray"))))
  '(org-todo-keywords (quote ((sequence "TODO" "NEXT" "|" "DONE" "CANCELED"))))
- '(preview-TeX-style-dir "/home/ran/.emacs.d/elpa/auctex-11.89.2/latex")
+ '(preview-TeX-style-dir "/home/ran/.emacs.d/elpa/auctex-11.89.2/latex" t)
  '(pyim-dicts
    (quote
     ((:name "BigDict-01" :file "/home/origamidance/.emacs.d/.cache/pyim-bigdict.pyim" :coding utf-8-unix :dict-type pinyin-dict))))
