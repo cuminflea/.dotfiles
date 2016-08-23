@@ -1,0 +1,5 @@
+source ~/.vimrc
+set hls
+set ic
+set is
+set mps
