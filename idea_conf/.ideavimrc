@@ -1,0 +1,6 @@
+source ~/.vimrc
+set gdefault
+set ignorecase
+set hlsearch
+set incsearch
+set matchpairs
