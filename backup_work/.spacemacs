@@ -44,7 +44,7 @@ values."
      ;; (latex :variables
      ;;        latex-enable-auto-fill t)
             ;; latex-build-command "-pvc")
-
+     dash
      gtags
      (c-c++ :variables
             c-c++-enable-clang-support t
