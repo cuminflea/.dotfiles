@@ -64,6 +64,10 @@ values."
      (chinese :variables
               chinese-enable-fcitx t)
      extra-langs
+     (wakatime :variables
+               wakatime-api-key  "1dc9220a-aa34-454d-b232-25c0ac8814db"
+               ;; use the actual wakatime path
+               wakatime-cli-path "/usr/bin/wakatime")
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
