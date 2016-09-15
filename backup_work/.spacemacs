@@ -139,7 +139,7 @@ values."
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
    ;; size to make separators look not too crappy.
-   dotspacemacs-default-font '("Source Code Pro"
+   dotspacemacs-default-font '("Hack Regular"
                                :size 15
                                :weight normal
                                :width normal
@@ -335,6 +335,7 @@ layers configuration. You are free to put any user code."
  '(rtags-rc-log-enabled t)
  '(rtags-symbolnames-case-insensitive t)
  '(rtags-use-helm t)
+ '(show-paren-mode t)
  '(tab-always-indent nil)
  '(tool-bar-mode nil)
  '(ycmd-extra-conf-whitelist (quote ("/Users/rzhang/research/mech_transfer")))
