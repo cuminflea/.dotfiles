@@ -6,11 +6,12 @@
     <converter id="js-predefined-libraries-merged" />
   </applied-converters>
   <project-files>
-    <file path="/home/origamidance/Research/ofxGeoFramework/.idea/misc.xml" timestamp="1469029294000" />
-    <file path="/home/origamidance/Research/ofxGeoFramework/.idea/modules.xml" timestamp="1469029253000" />
-    <file path="/home/origamidance/Research/ofxGeoFramework/.idea/ofxGeoFramework.iml" timestamp="1469034833000" />
-    <file path="/home/origamidance/Research/ofxGeoFramework/.idea/vcs.xml" timestamp="1469029294000" />
-    <file path="/home/origamidance/Research/ofxGeoFramework/.idea/workspace.xml" timestamp="1469034963000" />
+    <file path="/home/origamidance/Research/ofxGeoFramework/.idea/codeStyleSettings.xml" timestamp="1470059603000" />
+    <file path="/home/origamidance/Research/ofxGeoFramework/.idea/misc.xml" timestamp="1469703741000" />
+    <file path="/home/origamidance/Research/ofxGeoFramework/.idea/modules.xml" timestamp="1469703741000" />
+    <file path="/home/origamidance/Research/ofxGeoFramework/.idea/ofxGeoFramework.iml" timestamp="1472569589000" />
+    <file path="/home/origamidance/Research/ofxGeoFramework/.idea/vcs.xml" timestamp="1469703741000" />
+    <file path="/home/origamidance/Research/ofxGeoFramework/.idea/workspace.xml" timestamp="1472570612000" />
   </project-files>
 </conversion>
 

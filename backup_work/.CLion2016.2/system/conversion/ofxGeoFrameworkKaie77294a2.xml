@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/origamidance/Research/ofxGeoFrameworkKai/.idea/codeStyleSettings.xml" timestamp="1472482080000" />
+    <file path="/home/origamidance/Research/ofxGeoFrameworkKai/.idea/misc.xml" timestamp="1472482080000" />
+    <file path="/home/origamidance/Research/ofxGeoFrameworkKai/.idea/modules.xml" timestamp="1472482080000" />
+    <file path="/home/origamidance/Research/ofxGeoFrameworkKai/.idea/ofxGeoFramework.iml" timestamp="1472483460000" />
+    <file path="/home/origamidance/Research/ofxGeoFrameworkKai/.idea/vcs.xml" timestamp="1472482080000" />
+    <file path="/home/origamidance/Research/ofxGeoFrameworkKai/.idea/workspace.xml" timestamp="1472484251000" />
+  </project-files>
+</conversion>
+

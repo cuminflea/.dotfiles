@@ -1,0 +1,3 @@
+/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/CMakeFiles/edit_cache.dir
+/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/CMakeFiles/rebuild_cache.dir
+/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/CMakeFiles/Geometry.dir

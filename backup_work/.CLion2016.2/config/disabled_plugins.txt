@@ -1,7 +1,5 @@
-Subversion
-com.chrisrm.idea.MaterialThemeUI
-hg4idea
 CVS
 PerforceDirectPlugin
-com.widerwille.afterglow
+Subversion
 TFS
+hg4idea

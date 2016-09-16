@@ -311,6 +311,7 @@ layers configuration. You are free to put any user code."
  '(company-transformers
    (quote
     (company-sort-prefer-same-case-prefix company-sort-by-backend-importance company-sort-by-occurrence spacemacs//company-transformer-cancel)))
+ '(company-ycmd-enable-fuzzy-matching t)
  '(company-ycmd-request-sync-timeout 0.5)
  '(indent-guide-delay 0.3 t)
  '(indent-tabs-mode nil)
@@ -340,6 +341,7 @@ layers configuration. You are free to put any user code."
  '(tool-bar-mode nil)
  '(ycmd-extra-conf-whitelist (quote ("/Users/rzhang/research/mech_transfer")))
  '(ycmd-force-semantic-completion nil)
+ '(ycmd-seed-identifiers-with-keywords t)
  '(ycmd-server-command
    (quote
     ("python" "/home/origamidance/dependencies/ycmd/ycmd"))))

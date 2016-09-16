@@ -70,3 +70,5 @@ bash.includers
 bash.scriptCommandReference
 bash.vardef
 bash.var
+FlexmarkFileIndex
+markdown.flexmark.example.option.index

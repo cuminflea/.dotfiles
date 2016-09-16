@@ -1,8 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="GRTAGS" type="PLAIN_TEXT" />
-      <mapping pattern="GPATH" type="PLAIN_TEXT" />
+      <mapping pattern="Geometry-ImGui" type="Native" />
     </extensionMap>
   </component>
 </application>

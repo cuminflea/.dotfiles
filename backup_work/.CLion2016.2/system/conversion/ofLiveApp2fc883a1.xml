@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/origamidance/Research/ofLiveApp/.idea/misc.xml" timestamp="1469111790000" />
+    <file path="/home/origamidance/Research/ofLiveApp/.idea/modules.xml" timestamp="1469111664000" />
+    <file path="/home/origamidance/Research/ofLiveApp/.idea/ofLiveApp.iml" timestamp="1469117643000" />
+    <file path="/home/origamidance/Research/ofLiveApp/.idea/vcs.xml" timestamp="1469111790000" />
+    <file path="/home/origamidance/Research/ofLiveApp/.idea/workspace.xml" timestamp="1469118943000" />
+  </project-files>
+</conversion>
+

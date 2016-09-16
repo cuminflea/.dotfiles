@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Geometry"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\proj\;CMake Files\..\..\..\..\proj\cmake\;CMake Files\..\..\..\..\proj\cmake\modules\;CMake Files\..\..\..\..\lib\;CMake Files\..\..\..\..\lib\linux\;CMake Files\..\..\..\..\lib\linux\x86_64\;CMake Files\..\..\..\..\lib\linux\x86_64\ogl\;CMake Files\..\..\..\..\lib\linux\x86_64\ogl\Debug\;CMake Files\..\..\..\..\build\;CMake Files\..\..\..\..\build\lib\;CMake Files\..\..\..\..\build\lib\linux\;CMake Files\..\..\..\..\build\lib\linux\x86_64\;CMake Files\..\..\..\..\build\lib\linux\x86_64\ogl\;CMake Files\..\..\..\..\build\lib\linux\x86_64\ogl\Debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Geometry">
+				<Option output="/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake/build/RelWithDebInfo/Geometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY -DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-D_UNIX"/>
+					<Add option="-D_GLFW_X11 -D_GLFW_GLX -D_GLFW_USE_OPENGL"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/origamidance/Repos/Cinder/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 Geometry"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Geometry/fast">
+				<Option output="/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake/build/RelWithDebInfo/Geometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY -DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-D_UNIX"/>
+					<Add option="-D_GLFW_X11 -D_GLFW_GLX -D_GLFW_USE_OPENGL"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/origamidance/Repos/Cinder/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 Geometry/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-84fe6135/84fe6135/RelWithDebInfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Geometry/src/GeometryApp.cpp">
+			<Option target="Geometry"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake/../../../../proj/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake/../../../../proj/cmake/modules/cinderMakeApp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\proj\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake/../../../../lib/linux/x86_64/ogl/Debug/cinderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\lib\linux\x86_64\ogl\Debug\"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake/../../../../build/lib/linux/x86_64/ogl/Debug/cinderTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\build\lib\linux\x86_64\ogl\Debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -3,181 +3,388 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/start_script.py" timestamp="1468511258355">
+      <file name="/start_script.py" timestamp="1474029146923">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1469036378248">
+      <file name="$USER_HOME$/Research/mech_trans/src/Primitives/BasicPrimitive.h" timestamp="1472132387673">
+        <mark key="'" line="10" column="31" />
+        <mark key="[" line="51" column="23" />
+        <mark key="]" line="52" column="29" />
+        <mark key="^" line="52" column="29" />
+        <mark key="." line="52" column="29" />
+      </file>
+      <file name="$USER_HOME$/dependencies/libigl/include/igl/dihedral_angles.cpp" timestamp="1472135430449">
+        <mark key="[" line="46" column="2" />
+        <mark key="]" line="65" column="23" />
+        <mark key="^" line="65" column="23" />
+        <mark key="." line="65" column="23" />
+      </file>
+      <file name="$USER_HOME$/Research/mech_trans/src/GeometryUtilities/OriMesh.cpp" timestamp="1472132865594">
+        <mark key="[" line="43" column="6" />
+        <mark key="]" line="43" column="40" />
+        <mark key="." line="43" column="40" />
+        <mark key="^" line="43" column="40" />
+      </file>
+      <file name="/a.dummy" timestamp="1472135204139">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Research/ofxGeoFramework/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/ObjectInterfacePerModule.h" timestamp="1469036257395">
-        <mark key="[" line="389" column="28" />
-        <mark key="]" line="389" column="58" />
+      <file name="$USER_HOME$/dependencies/libigl/include/igl/biharmonic_coordinates.cpp" timestamp="1472137148315">
+        <mark key="[" line="50" column="4" />
+        <mark key="]" line="50" column="10" />
+        <mark key="^" line="50" column="10" />
+        <mark key="." line="50" column="10" />
       </file>
-      <file name="$USER_HOME$/Research/ofLiveApp/CMakeLists.txt" timestamp="1469021688833">
-        <mark key="[" line="0" column="35" />
-        <mark key="]" line="1" column="0" />
-        <mark key="." line="1" column="0" />
-        <mark key="^" line="1" column="0" />
+      <file name="$USER_HOME$/Research/mech_trans/src/Primitives/BasicPrimitive.cpp" timestamp="1472132351478">
+        <mark key="[" line="39" column="2" />
+        <mark key="]" line="39" column="1" />
+        <mark key="^" line="39" column="1" />
+        <mark key="." line="39" column="1" />
       </file>
-      <file name="/a.dummy" timestamp="1468506277966">
+      <file name="$USER_HOME$/dependencies/libigl/include/igl/cotmatrix_entries.cpp" timestamp="1472135481367">
+        <mark key="[" line="73" column="6" />
+        <mark key="]" line="73" column="12" />
+        <mark key="^" line="73" column="12" />
+        <mark key="." line="73" column="12" />
+      </file>
+      <file name="$USER_HOME$/Research/ofxGeoFramework/src/main.cpp" timestamp="1469110765111">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Research/of/openFrameworks.cmake" timestamp="1469029461769">
-        <mark key="'" line="1137" column="31" />
-        <mark key="[" line="9" column="15" />
-        <mark key="]" line="9" column="15" />
-        <mark key="." line="9" column="15" />
+      <file name="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/src/Geometry-ImGuiApp.cpp" timestamp="1474041469215">
+        <mark key="'" line="177" column="2" />
+        <mark key="[" line="305" column="0" />
+        <mark key="]" line="305" column="47" />
+        <mark key="." line="14" column="21" />
+        <mark key="^" line="14" column="21" />
       </file>
-      <file name="$USER_HOME$/Research/ofxGeoFramework/CMakeLists.txt" timestamp="1468929283413">
-        <mark key="[" line="14" column="37" />
-        <mark key="]" line="15" column="26" />
-        <mark key="^" line="15" column="26" />
-        <mark key="." line="15" column="26" />
+      <file name="$USER_HOME$/Research/mech_trans/src/Scene.cpp" timestamp="1472126340784">
+        <mark key="'" line="61" column="12" />
+        <mark key="[" line="71" column="0" />
+        <mark key="]" line="71" column="0" />
+        <mark key="^" line="70" column="16" />
+        <mark key="." line="71" column="0" />
       </file>
-      <file name="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" timestamp="1468929180412">
-        <mark key="'" line="280" column="4" />
-        <mark key="[" line="234" column="36" />
-        <mark key="]" line="234" column="55" />
-        <mark key="." line="234" column="55" />
-        <mark key="^" line="234" column="55" />
+      <file name="$USER_HOME$/dependencies/libigl/include/igl/min_quad_with_fixed.cpp" timestamp="1472135634724">
+        <mark key="[" line="388" column="10" />
+        <mark key="]" line="388" column="16" />
+        <mark key="^" line="388" column="16" />
+        <mark key="." line="388" column="16" />
       </file>
-      <file name="$USER_HOME$/Research/ofxGeoFramework/addons/ofxImGui/src/BaseEngine.cpp" timestamp="1469029584737">
-        <mark key="[" line="44" column="0" />
-        <mark key="]" line="44" column="0" />
-        <mark key="." line="44" column="0" />
+      <file name="$USER_HOME$/Research/ofxGeoFramework/cmake_ninja.sh" timestamp="1469198869790">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="11" />
+        <mark key="^" line="9" column="11" />
+        <mark key="." line="9" column="11" />
       </file>
-      <file name="$USER_HOME$/Research/ofxGeoFramework/src/main.cpp" timestamp="1468941268146">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="^" line="10" column="7" />
-        <mark key="." line="4" column="0" />
+      <file name="$USER_HOME$/dependencies/libigl/tutorial/405_AsRigidAsPossible/main.cpp" timestamp="1471535663940">
+        <mark key="[" line="105" column="7" />
+        <mark key="]" line="105" column="7" />
+        <mark key="." line="105" column="7" />
+        <mark key="^" line="105" column="7" />
       </file>
-      <file name="$USER_HOME$/Research/ofxGeoFramework/build.sh" timestamp="1468513479238">
-        <mark key="'" line="46" column="0" />
+      <file name="$USER_HOME$/Research/mech_trans/src/GeometryUtilities/OriMesh.h" timestamp="1472132710397">
+        <mark key="'" line="0" column="0" />
         <mark key="[" line="41" column="18" />
-        <mark key="]" line="41" column="65" />
+        <mark key="]" line="41" column="19" />
+        <mark key="^" line="41" column="1" />
+        <mark key="." line="41" column="19" />
       </file>
-      <file name="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.cpp" timestamp="1469036349898">
-        <mark key="[" line="2" column="20" />
-        <mark key="]" line="2" column="19" />
-        <mark key="." line="2" column="19" />
-        <mark key="^" line="2" column="19" />
+      <file name="$USER_HOME$/Research/mech_trans/src/Assembly.h" timestamp="1472138508802">
+        <mark key="'" line="271" column="39" />
+        <mark key="[" line="62" column="0" />
+        <mark key="]" line="62" column="18" />
+        <mark key="." line="62" column="0" />
+        <mark key="^" line="126" column="8" />
       </file>
-      <file name="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.h" timestamp="1469035575936">
-        <mark key="[" line="52" column="0" />
-        <mark key="]" line="52" column="0" />
-        <mark key="." line="52" column="0" />
+      <file name="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.cpp" timestamp="1472566880092">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="14" />
+        <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/Research/ofLiveApp/src/ofApp.cpp" timestamp="1469021720258">
-        <mark key="[" line="14" column="23" />
-        <mark key="]" line="14" column="24" />
-        <mark key="." line="14" column="24" />
+      <file name="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.h" timestamp="1472566604984">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="4" column="6" />
+        <mark key="." line="2" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1471966304825">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Research/ofLiveApp/src/ofApp.h" timestamp="1469118938041">
+        <mark key="[" line="32" column="38" />
+        <mark key="]" line="34" column="0" />
+        <mark key="." line="34" column="0" />
+        <mark key="^" line="8" column="8" />
+      </file>
+      <file name="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" timestamp="1474031046306">
+        <mark key="'" line="3151" column="91" />
+        <mark key="[" line="777" column="0" />
+        <mark key="]" line="777" column="27" />
+        <mark key="." line="777" column="0" />
+        <mark key="^" line="1310" column="3" />
+      </file>
+      <file name="$USER_HOME$/Research/ofLiveApp/CMakeLists.txt" timestamp="1469117631584">
+        <mark key="[" line="16" column="26" />
+        <mark key="]" line="16" column="27" />
+        <mark key="." line="16" column="27" />
+        <mark key="^" line="16" column="27" />
+      </file>
+      <file name="$USER_HOME$/dependencies/libigl/include/igl/face_areas.cpp" timestamp="1472135343586">
+        <mark key="[" line="34" column="2" />
+        <mark key="]" line="34" column="8" />
+        <mark key="^" line="34" column="8" />
+        <mark key="." line="34" column="8" />
+      </file>
+      <file name="$USER_HOME$/Research/ofxGeoFramework/src/ofLive.cpp" timestamp="1469203192628">
+        <mark key="[" line="86" column="65" />
+        <mark key="]" line="86" column="78" />
+        <mark key="." line="86" column="78" />
+        <mark key="^" line="86" column="78" />
+      </file>
+      <file name="$USER_HOME$/dependencies/libigl/include/igl/is_symmetric.cpp" timestamp="1472135615991">
+        <mark key="[" line="60" column="2" />
+        <mark key="]" line="60" column="8" />
+        <mark key="^" line="60" column="8" />
+        <mark key="." line="60" column="8" />
+      </file>
+      <file name="$USER_HOME$/dependencies/libigl/include/igl/massmatrix.cpp" timestamp="1472135600588">
+        <mark key="[" line="93" column="10" />
+        <mark key="]" line="93" column="16" />
+        <mark key="^" line="93" column="16" />
+        <mark key="." line="93" column="16" />
+      </file>
+      <file name="$USER_HOME$/Research/mech_trans/CMakeLists.txt" timestamp="1474038044504">
+        <mark key="'" line="145" column="0" />
+        <mark key="[" line="4" column="19" />
+        <mark key="]" line="4" column="19" />
+        <mark key="." line="4" column="19" />
+        <mark key="^" line="4" column="19" />
+      </file>
+      <file name="$USER_HOME$/Repos/Cinder/samples/Imgui/src/BasicApp.cpp" timestamp="1473955993711">
+        <mark key="[" line="162" column="0" />
+        <mark key="]" line="162" column="0" />
+        <mark key="." line="162" column="0" />
+      </file>
+      <file name="$USER_HOME$/Repos/Cinder/samples/Geometry/src/GeometryApp.cpp" timestamp="1473953204948">
+        <mark key="[" line="356" column="0" />
+        <mark key="]" line="599" column="1" />
+        <mark key="." line="599" column="1" />
+        <mark key="^" line="599" column="1" />
+      </file>
+      <file name="$USER_HOME$/dependencies/libigl/tutorial/102_DrawMesh/main.cpp" timestamp="1473944513185">
+        <mark key="]" line="10" column="55" />
+        <mark key="^" line="10" column="55" />
+        <mark key="." line="10" column="55" />
+      </file>
+      <file name="$USER_HOME$/dependencies/libigl/include/igl/cotmatrix.cpp" timestamp="1472135516589">
+        <mark key="[" line="58" column="2" />
+        <mark key="]" line="58" column="8" />
+        <mark key="^" line="58" column="8" />
+        <mark key="." line="58" column="8" />
+      </file>
+      <file name="$USER_HOME$/dependencies/libigl/include/igl/normal_derivative.cpp" timestamp="1472135705387">
+        <mark key="[" line="93" column="6" />
+        <mark key="]" line="93" column="12" />
+        <mark key="^" line="93" column="12" />
+        <mark key="." line="93" column="12" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="71" column="48" filename="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.cpp" />
-      <jump line="6" column="0" filename="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.cpp" />
-      <jump line="121" column="0" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="124" column="13" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="126" column="16" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="150" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="151" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="152" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="153" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="154" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="155" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="156" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="157" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="158" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="159" column="25" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="243" column="39" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="245" column="62" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="296" column="49" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="41" column="18" filename="$USER_HOME$/Research/ofxGeoFramework/build.sh" />
-      <jump line="46" column="0" filename="$USER_HOME$/Research/ofxGeoFramework/build.sh" />
-      <jump line="280" column="4" filename="$USER_HOME$/Research/ofxGeoFramework/ofxCmake/openFrameworks.cmake" />
-      <jump line="41" column="8" filename="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.h" />
-      <jump line="43" column="42" filename="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.cpp" />
-      <jump line="0" column="65" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="9" column="4" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="250" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="262" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="278" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="300" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="394" column="10" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="531" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="634" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="651" column="7" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="736" column="11" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="1137" column="31" filename="$USER_HOME$/Research/of/openFrameworks.cmake" />
-      <jump line="14" column="17" filename="$USER_HOME$/Research/ofxGeoFramework/src/ofApp.cpp" />
+      <jump line="94" column="0" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="117" column="0" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="131" column="0" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="0" column="0" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="2" column="1" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="7" column="6" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="8" column="6" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="12" column="6" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="17" column="0" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="18" column="0" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="19" column="0" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="20" column="0" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="22" column="0" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="28" column="2" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="30" column="81" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="35" column="6" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="36" column="6" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="38" column="5" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="39" column="4" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="40" column="4" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="46" column="0" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="47" column="14" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="142" column="0" filename="$USER_HOME$/Research/mech_trans/CMakeLists.txt" />
+      <jump line="489" column="19" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3068" column="20" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3061" column="6" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3053" column="6" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="348" column="52" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="1553" column="30" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="2748" column="29" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="31" column="14" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="2526" column="39" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="2484" column="36" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="2446" column="36" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="774" column="29" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="769" column="31" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3078" column="19" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3086" column="0" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="61" column="12" filename="$USER_HOME$/Research/mech_trans/src/Scene.cpp" />
+      <jump line="1577" column="23" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3085" column="0" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="1575" column="13" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="1289" column="52" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="124" column="7" filename="$USER_HOME$/Research/mech_trans/src/Assembly.h" />
+      <jump line="260" column="39" filename="$USER_HOME$/Research/mech_trans/src/Assembly.h" />
+      <jump line="130" column="15" filename="$USER_HOME$/Research/mech_trans/src/Primitives/BasicPrimitive.h" />
+      <jump line="10" column="31" filename="$USER_HOME$/Research/mech_trans/src/Primitives/BasicPrimitive.h" />
+      <jump line="0" column="0" filename="$USER_HOME$/Research/mech_trans/src/GeometryUtilities/OriMesh.h" />
+      <jump line="3082" column="31" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3104" column="0" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="17" column="37" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="1342" column="19" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="76" column="14" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="103" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="101" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="100" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="98" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="97" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="96" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="95" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="94" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="93" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="92" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="90" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="89" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="88" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="87" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="86" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="85" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="84" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="83" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="82" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="81" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="80" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="79" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="42" column="21" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="40" column="21" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="38" column="18" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="37" column="4" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="36" column="5" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="127" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="126" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="124" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="123" column="8" filename="$USER_HOME$/Research/ofxGeoFrameworkKai/CMakeLists.txt" />
+      <jump line="367" column="0" filename="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/src/Geometry-ImGuiApp.cpp" />
+      <jump line="3" column="23" filename="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/src/Geometry-ImGuiApp.cpp" />
+      <jump line="14" column="19" filename="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/src/Geometry-ImGuiApp.cpp" />
+      <jump line="67" column="28" filename="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/src/Geometry-ImGuiApp.cpp" />
+      <jump line="163" column="19" filename="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/src/Geometry-ImGuiApp.cpp" />
+      <jump line="241" column="0" filename="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/src/Geometry-ImGuiApp.cpp" />
+      <jump line="3062" column="13" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3110" column="41" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3111" column="8" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3112" column="41" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3113" column="46" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3121" column="40" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3146" column="23" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="3148" column="91" filename="$USER_HOME$/Research/mech_trans/src/Assembly.cpp" />
+      <jump line="39" column="0" filename="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/src/Geometry-ImGuiApp.cpp" />
+      <jump line="177" column="2" filename="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/src/Geometry-ImGuiApp.cpp" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>#</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">dm9pZCBHZW9tZXRyeUFwcDo6bW91c2VEcmFnKCBNb3VzZUV2ZW50IGV2ZW50ICkK</text>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>F</text>
       </register>
       <register name="/" type="4">
-        <text>OF_STATIC</text>
+        <text>ui::</text>
       </register>
-      <register name="0" type="4">
-        <text>REGISTERBASE( T, false, false )</text>
+      <register name="0" type="2">
+        <text encoding="base64">dm9pZCBHZW9tZXRyeUFwcDo6bW91c2VEcmFnKCBNb3VzZUV2ZW50IGV2ZW50ICkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">UkVHSVNURVJCQVNFKCBvZkFwcCwgZmFsc2UsIGZhbHNlICkK</text>
+        <text encoding="base64">I2luY2x1ZGUgIkNpbmRlckltR3VpYS5oIgo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBvZnhJbUd1aSB0ZXN0Owo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGlvLk1vdXNlV2hlZWwgPSBldmVudC5zY3JvbGxZOwo=</text>
+        <text encoding="base64">CQkK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">cHJvamVjdChvZkFwcCkKc2V0KEFQUCBvZkFwcCkK</text>
+        <text encoding="base64">ICBnbDo6Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">b2ZkcmF3cmVjdGFuCg==</text>
+        <text encoding="base64">ICBtRW5hYmxlRmFjZUZ1bGxpbmc9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIG9mZHJhd3JlY3Rhbgo=</text>
+        <text encoding="base64">I2luY2x1ZGUgIkNpbmRlckltR3VpYS5oIgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIG9mZHJhd2NpCg==</text>
+        <text encoding="base64">CWdldAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>OF_STATIC</last-search>
+      <last-search>ui::</last-search>
       <last-offset />
-      <last-pattern>OF_STATIC</last-pattern>
+      <last-pattern>ui::</last-pattern>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>openframeworks</entry>
-        <entry>open</entry>
-        <entry>not_found</entry>
-        <entry>found</entry>
-        <entry>of_static</entry>
-        <entry>OF_STATIC</entry>
+        <entry>draw</entry>
+        <entry>offBase</entry>
+        <entry>ofBase</entry>
+        <entry>scroll</entry>
+        <entry>Mouse</entry>
+        <entry>pri</entry>
+        <entry>cmake</entry>
+        <entry>set</entry>
+        <entry>cotire</entry>
+        <entry>meshQuery</entry>
+        <entry>loadmesh</entry>
+        <entry>load</entry>
+        <entry>mechconn</entry>
+        <entry encoding="base64">dmVyIA==</entry>
+        <entry>base</entry>
+        <entry>mesh</entry>
+        <entry encoding="base64">XDxPRl9ST09UX0RJUlw+</entry>
+        <entry>ui</entry>
+        <entry>handlesV</entry>
+        <entry>ui::</entry>
       </history-search>
       <history-cmd>
         <entry>e main.cpp</entry>
         <entry>e main.</entry>
-        <entry encoding="base64">JzwsJz53</entry>
         <entry>+p</entry>
         <entry>+P</entry>
+        <entry>+yp</entry>
+        <entry>yp</entry>
+        <entry encoding="base64">JzwsJz53</entry>
+        <entry>mat</entry>
+        <entry>match</entry>
+        <entry>set hls</entry>
+        <entry>set ic</entry>
+        <entry>set is</entry>
+        <entry>set visualbell</entry>
+        <entry>call WrapRelativeMotion(&quot;0&quot;)</entry>
+        <entry>call WrapRelativeMotion(&quot;$&quot;, 1)</entry>
+        <entry>call WrapRelativeMotion(&quot;$&quot;)</entry>
+        <entry>call WrapRelativeMotion(&quot;^&quot;)</entry>
+        <entry>leader</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -190,7 +397,7 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed U</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>ctrl pressed V</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
@@ -211,7 +418,7 @@
       <shortcut-conflict owner="vim">
         <text>shift ctrl pressed 2</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>ctrl pressed C</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
@@ -264,6 +471,15 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed I</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>shift pressed TAB</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed K</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/origamidance/Research/mech_trans/.idea/encodings.xml" timestamp="1459352616000" />
+    <file path="/home/origamidance/Research/mech_trans/.idea/mech_trans.iml" timestamp="1474029383000" />
+    <file path="/home/origamidance/Research/mech_trans/.idea/misc.xml" timestamp="1471965599000" />
+    <file path="/home/origamidance/Research/mech_trans/.idea/modules.xml" timestamp="1459352616000" />
+    <file path="/home/origamidance/Research/mech_trans/.idea/vcs.xml" timestamp="1459352635000" />
+    <file path="/home/origamidance/Research/mech_trans/.idea/workspace.xml" timestamp="1474033206000" />
+  </project-files>
+</conversion>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/origamidance/Repos/Urho3D/.idea/Urho3D.iml" timestamp="1470067369000" />
+    <file path="/home/origamidance/Repos/Urho3D/.idea/misc.xml" timestamp="1470067131000" />
+    <file path="/home/origamidance/Repos/Urho3D/.idea/modules.xml" timestamp="1470067113000" />
+    <file path="/home/origamidance/Repos/Urho3D/.idea/vcs.xml" timestamp="1470067131000" />
+    <file path="/home/origamidance/Repos/Urho3D/.idea/workspace.xml" timestamp="1470067380000" />
+  </project-files>
+</conversion>
+

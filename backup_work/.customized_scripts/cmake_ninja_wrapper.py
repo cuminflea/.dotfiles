@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 
 import sys
 import os
@@ -73,7 +73,7 @@ class CMakeCache(object):
     def __init__(self, path):
         super(CMakeCache, self).__init__()
         self.path = path
-    
+
     def alter(self, variable, value):
         """
         Change a variable value in CMake cache.

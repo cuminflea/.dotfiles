@@ -2,6 +2,7 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="markdown.flexmark.example.option.index" />
         <option value="bash.var" />
         <option value="bash.vardef" />
         <option value="bash.scriptCommandReference" />

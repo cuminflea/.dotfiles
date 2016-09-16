@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RuntimeCompiler.dir/RuntimeCompiler/SimpleFileWatcher/FileWatcher.cpp.o"
   "CMakeFiles/RuntimeCompiler.dir/RuntimeObjectSystem/ObjectFactorySystem/ObjectFactorySystem.cpp.o"
   "CMakeFiles/RuntimeCompiler.dir/RuntimeObjectSystem/SimpleSerializer/SimpleSerializer.cpp.o"
-  "/home/origamidance/Research/ofxGeoFramework/bin/libRuntimeCompiler.pdb"
-  "/home/origamidance/Research/ofxGeoFramework/bin/libRuntimeCompiler.so"
+  "libRuntimeCompiler.pdb"
+  "libRuntimeCompiler.so"
 )
 
 # Per-language clean rules from dependency scanning.

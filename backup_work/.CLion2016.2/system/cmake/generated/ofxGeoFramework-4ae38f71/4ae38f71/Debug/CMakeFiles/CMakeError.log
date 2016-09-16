@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6b19/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6b19.dir/build.make CMakeFiles/cmTC_c6b19.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c6b19.dir/CheckSymbolExists.c.o
-/usr/bin/clang     -o CMakeFiles/cmTC_c6b19.dir/CheckSymbolExists.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_c6b19
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6b19.dir/link.txt --verbose=1
-/usr/bin/clang       CMakeFiles/cmTC_c6b19.dir/CheckSymbolExists.c.o  -o cmTC_c6b19 -rdynamic 
-CMakeFiles/cmTC_c6b19.dir/CheckSymbolExists.c.o: In function `main':
-/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:(.text+0x19): undefined reference to `pthread_create'
-clang-3.8: error: linker command failed with exit code 1 (use -v to see invocation)
-make[1]: *** [CMakeFiles/cmTC_c6b19.dir/build.make:98: cmTC_c6b19] Error 1
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:126: cmTC_c6b19/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_2c255/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c255.dir/build.make CMakeFiles/cmTC_2c255.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c255.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2c255.dir/CheckSymbolExists.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2c255
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c255.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2c255.dir/CheckSymbolExists.c.o  -o cmTC_2c255 -rdynamic 
+CMakeFiles/cmTC_2c255.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_2c255.dir/build.make:98: cmTC_2c255] Error 1
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+make: *** [Makefile:126: cmTC_2c255/fast] Error 2
 
-File /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -32,20 +32,20 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_735df/fast"
-/usr/bin/make -f CMakeFiles/cmTC_735df.dir/build.make CMakeFiles/cmTC_735df.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_735df.dir/CheckFunctionExists.c.o
-/usr/bin/clang    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_735df.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_735df
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_735df.dir/link.txt --verbose=1
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_735df.dir/CheckFunctionExists.c.o  -o cmTC_735df -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_c43ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c43ea.dir/build.make CMakeFiles/cmTC_c43ea.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c43ea.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c43ea.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c43ea
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c43ea.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c43ea.dir/CheckFunctionExists.c.o  -o cmTC_c43ea -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
-clang-3.8: error: linker command failed with exit code 1 (use -v to see invocation)
-make[1]: *** [CMakeFiles/cmTC_735df.dir/build.make:98: cmTC_735df] Error 1
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/Debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:126: cmTC_735df/fast] Error 2
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c43ea.dir/build.make:98: cmTC_c43ea] Error 1
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+make: *** [Makefile:126: cmTC_c43ea/fast] Error 2
 
 

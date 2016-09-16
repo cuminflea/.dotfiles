@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/origamidance/Repos/fips-workspace/fips-bgfx/.idea/fips-bgfx.iml" timestamp="1470142141000" />
+    <file path="/home/origamidance/Repos/fips-workspace/fips-bgfx/.idea/misc.xml" timestamp="1470142141000" />
+    <file path="/home/origamidance/Repos/fips-workspace/fips-bgfx/.idea/modules.xml" timestamp="1470142013000" />
+    <file path="/home/origamidance/Repos/fips-workspace/fips-bgfx/.idea/vcs.xml" timestamp="1470142141000" />
+    <file path="/home/origamidance/Repos/fips-workspace/fips-bgfx/.idea/workspace.xml" timestamp="1470143941000" />
+  </project-files>
+</conversion>
+

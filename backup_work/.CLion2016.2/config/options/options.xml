@@ -1,26 +1,34 @@
 <application>
   <component name="PropertiesComponent">
     <property name="evlsprt3.CL-162.1236.1" value="14" />
-    <property name="file.chooser.recent.files" value="$APPLICATION_CONFIG_DIR$/ninja-16.png&#10;/home/origamidance/.CLion2016.2/config/cmake-16.png&#10;/home/origamidance/.customized_scripts/cmake_ninja.sh&#10;/home/origamidance/Research/ofLiveApp&#10;/home/origamidance/Downloads/Ingweland.jar&#10;/home/origamidance/Downloads/Zenburn (Based on the Emacs version).jar&#10;/home/origamidance/Downloads/Solarized Light (Alternate).jar&#10;/home/origamidance/Downloads/Ladies Night 2.jar&#10;/home/origamidance/Downloads/RecognEyes.jar&#10;/home/origamidance/Pictures/Icon-16.png&#10;/home/origamidance/Pictures/ninja_32.png&#10;/home/origamidance/Pictures/ninja.png&#10;/home/origamidance/Research/ofxGeoFramework/cmake_ninja.sh&#10;/home/origamidance/.customized_scripts/cmake_ninja_wrapper.py&#10;/home/origamidance/.dotfiles/idea_conf&#10;/home/origamidance/Research/ofxGeoFramework" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/proj/cmake&#10;/home/origamidance/Repos/Cinder/samples/Geometry-ImGui&#10;/home/origamidance/Repos/Cinder/samples/Imgui/proj/cmake&#10;/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake&#10;/home/origamidance/Repos/Cinder/samples/Imgui&#10;/home/origamidance/Repos/Cinder&#10;/home/origamidance/Repos/Cinder/samples/Picking3D/proj/cmake&#10;/home/origamidance/Repos/Cinder/samples/Picking3D&#10;/home/origamidance/Research/ofxGeoFrameworkKai&#10;/home/origamidance/dependencies/libigl/tutorial&#10;/home/origamidance/Research/mech_trans&#10;/home/origamidance/Repos/bgfx-cmake&#10;/home/origamidance/Research/ofxGeoFramework&#10;/home/origamidance/Repos/fips-workspace/oryol-samples&#10;/home/origamidance/Repos/fips-workspace/fips-bgfx/bgfx/examples/runtime&#10;/home/origamidance/Repos/fips-workspace/fips-bgfx&#10;/home/origamidance/Repos/Urho3D&#10;/home/origamidance/Research/of&#10;/home/origamidance/dependencies/libigl/tutorial/102_DrawMesh&#10;/home/origamidance/Research/ofLiveApp&#10;/home/origamidance/Research/ofxGeoFramework_old&#10;/home/origamidance/.dotfiles/backup_work/.CLion2016.2/config/cmake-16.png&#10;/home/origamidance/.dotfiles/backup_work/.CLion2016.2/config/settings.jar&#10;/home/origamidance/Research/ofxGeoFramework/build&#10;/home/origamidance/.CLion2016.2/config/ninja-16.png&#10;/home/origamidance/.CLion2016.2/config/cmake-16.png&#10;/home/origamidance/.customized_scripts/cmake_ninja.sh&#10;/home/origamidance/Downloads/Ingweland.jar&#10;/home/origamidance/Downloads/Zenburn (Based on the Emacs version).jar&#10;/home/origamidance/Downloads/Solarized Light (Alternate).jar" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
-    <property name="lastTip" value="4" />
-    <property name="ideavim.statistics.timestamp" value="1469019733882" />
-    <property name="PLUGIN_FILTER" value="color&#10;theme&#10;launch&#10;ui&#10;ace" />
+    <property name="lastTip" value="25" />
+    <property name="ideavim.statistics.timestamp" value="1474041618571" />
+    <property name="PLUGIN_FILTER" value="id&#10;gitlab&#10;cpplin&#10;color&#10;ideavim" />
     <property name="FileTemplates.SelectedTemplate" value="HTML File" />
     <property name="evlsprt3.5" value="16" />
     <property name="installation.uid" value="400a36af-3943-461f-bc92-5d5c3a389479" />
-    <property name="KEYMAP" value="paste&#10;related&#10;go to related&#10;comment&#10;decl" />
+    <property name="KEYMAP" value="tab&#10;end of&#10;motion&#10;jump&#10;dash" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
-    <property name="selected.color.option.type" value="OC.FUNCTION" />
+    <property name="selected.color.option.type" value="CONSOLE_DARKGRAY_OUTPUT" />
     <property name="LayoutCode.optimizeImports" value="false" />
     <property name="LayoutCode.rearrangeEntriesC/C++" value="false" />
     <property name="LayoutCode.processChangedText" value="false" />
     <property name="export.settings.path" value="$USER_HOME$/.dotfiles/idea_conf/settings.jar" />
     <property name="FileChooser.ShowPath" value="true" />
-    <property name="fileTypeChangedCounter" value="2" />
+    <property name="fileTypeChangedCounter" value="3" />
     <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="default" />
-    <property name="ColorChooser.RecentColors" value="45-149-116-255,,,188-110-197-255,,,206-83-122-255,,,42-161-174-255,,,0-128-128-255,,,104-151-187-255,,,238-232-213-255,,,225-219-200-255,,,205-199-180-255,,,201-122-210-255" />
-    <property name="search.everywhere.max.popup.width" value="660" />
+    <property name="ColorChooser.RecentColors" value="45-149-116-255,,,188-110-197-255,,,206-83-122-255,,,42-161-174-255,,,0-128-128-255,,,104-151-187-255,,,238-232-213-255,,,225-219-200-255,,,205-199-180-255,,,201-122-210-255,,,69-85-69-255,,,85-71-63-255,,,85-71-62-255,,,71-85-71-255" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="-1" />
+    <property name="CommittedChanges.SplitterProportions.0" value="700" />
+    <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="search.everywhere.max.popup.width" value="696" />
+    <property name="settings.code.style.selected.tab.ObjectiveC" value="Tabs and Indents" />
+    <property name="python" value="python" />
+    <property name="cpplint" value="/usr/bin" />
+    <property name="cpplintOptions" value="" />
+    <property name="MemberChooser.showClasses" value="true" />
   </component>
 </application>

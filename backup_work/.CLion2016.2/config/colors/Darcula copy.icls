@@ -36,6 +36,14 @@
         <option name="FOREGROUND" value="2d9574" />
       </value>
     </option>
+    <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="455545" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="ERROR_STRIPE_COLOR" value="36b13" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="OC.FUNCTION">
       <value>
         <option name="FOREGROUND" value="c97ad2" />
@@ -51,6 +59,14 @@
     </option>
     <option name="OC.STRUCT_FIELD">
       <value />
+    </option>
+    <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="55473f" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="ERROR_STRIPE_COLOR" value="b56277" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
     </option>
   </attributes>
 </scheme>

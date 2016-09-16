@@ -1,0 +1,4 @@
+/home/origamidance/.CLion2016.2/system/cmake/generated/mech_trans-466f6463/466f6463/Release/CMakeFiles/edit_cache.dir
+/home/origamidance/.CLion2016.2/system/cmake/generated/mech_trans-466f6463/466f6463/Release/CMakeFiles/rebuild_cache.dir
+/home/origamidance/.CLion2016.2/system/cmake/generated/mech_trans-466f6463/466f6463/Release/CMakeFiles/mech_trans.dir
+/home/origamidance/.CLion2016.2/system/cmake/generated/mech_trans-466f6463/466f6463/Release/CMakeFiles/mech_trans_automoc.dir

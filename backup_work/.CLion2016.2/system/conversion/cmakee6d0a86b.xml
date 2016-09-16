@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/origamidance/Repos/Cinder/samples/Geometry-ImGui/proj/cmake/.idea/cmake.iml" timestamp="1474027749000" />
+    <file path="/home/origamidance/Repos/Cinder/samples/Geometry-ImGui/proj/cmake/.idea/codeStyleSettings.xml" timestamp="1474041626000" />
+    <file path="/home/origamidance/Repos/Cinder/samples/Geometry-ImGui/proj/cmake/.idea/misc.xml" timestamp="1474027749000" />
+    <file path="/home/origamidance/Repos/Cinder/samples/Geometry-ImGui/proj/cmake/.idea/modules.xml" timestamp="1473941746000" />
+    <file path="/home/origamidance/Repos/Cinder/samples/Geometry-ImGui/proj/cmake/.idea/workspace.xml" timestamp="1474041471000" />
+  </project-files>
+</conversion>
+

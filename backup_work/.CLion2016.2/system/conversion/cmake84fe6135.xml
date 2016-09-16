@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake/.idea/cmake.iml" timestamp="1474027346000" />
+    <file path="/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake/.idea/misc.xml" timestamp="1474027346000" />
+    <file path="/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake/.idea/modules.xml" timestamp="1473955009000" />
+    <file path="/home/origamidance/Repos/Cinder/samples/Geometry/proj/cmake/.idea/workspace.xml" timestamp="1474027571000" />
+  </project-files>
+</conversion>
+

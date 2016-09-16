@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+919e82924104260a5473e00218203c4b CMakeFiles/mech_trans_automoc
+45791989d814e569c3235a2e9bed8986 ui_mainwindow.h

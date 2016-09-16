@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Imgui"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\proj\;CMake Files\..\..\..\..\proj\cmake\;CMake Files\..\..\..\..\proj\cmake\modules\;CMake Files\..\..\..\..\lib\;CMake Files\..\..\..\..\lib\linux\;CMake Files\..\..\..\..\lib\linux\x86_64\;CMake Files\..\..\..\..\lib\linux\x86_64\ogl\;CMake Files\..\..\..\..\lib\linux\x86_64\ogl\Debug\;CMake Files\..\..\..\..\build\;CMake Files\..\..\..\..\build\lib\;CMake Files\..\..\..\..\build\lib\linux\;CMake Files\..\..\..\..\build\lib\linux\x86_64\;CMake Files\..\..\..\..\build\lib\linux\x86_64\ogl\;CMake Files\..\..\..\..\build\lib\linux\x86_64\ogl\Debug\;CMake Files\..\..\..\..\blocks\;CMake Files\..\..\..\..\blocks\Cinder-ImGui\;CMake Files\..\..\..\..\blocks\Cinder-ImGui\proj\;CMake Files\..\..\..\..\blocks\Cinder-ImGui\proj\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Imgui">
+				<Option output="/home/origamidance/Repos/Cinder/samples/Imgui/proj/cmake/build/Release/Imgui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY -DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-D_UNIX"/>
+					<Add option="-D_GLFW_X11 -D_GLFW_GLX -D_GLFW_USE_OPENGL"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/origamidance/Repos/Cinder/blocks/Cinder-ImGui/include"/>
+					<Add directory="/home/origamidance/Repos/Cinder/blocks/Cinder-ImGui/lib/imgui"/>
+					<Add directory="/home/origamidance/Repos/Cinder/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 Imgui"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Imgui/fast">
+				<Option output="/home/origamidance/Repos/Cinder/samples/Imgui/proj/cmake/build/Release/Imgui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY -DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-D_UNIX"/>
+					<Add option="-D_GLFW_X11 -D_GLFW_GLX -D_GLFW_USE_OPENGL"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/origamidance/Repos/Cinder/blocks/Cinder-ImGui/include"/>
+					<Add directory="/home/origamidance/Repos/Cinder/blocks/Cinder-ImGui/lib/imgui"/>
+					<Add directory="/home/origamidance/Repos/Cinder/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 Imgui/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/origamidance/.CLion2016.2/system/cmake/generated/cmake-e33455de/e33455de/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/origamidance/Repos/Cinder/blocks/Cinder-ImGui/lib/imgui/imgui.cpp">
+			<Option target="Imgui"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/blocks/Cinder-ImGui/lib/imgui/imgui.h">
+			<Option target="Imgui"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/blocks/Cinder-ImGui/lib/imgui/imgui_demo.cpp">
+			<Option target="Imgui"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/blocks/Cinder-ImGui/lib/imgui/imgui_draw.cpp">
+			<Option target="Imgui"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/blocks/Cinder-ImGui/src/CinderImGui.cpp">
+			<Option target="Imgui"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Imgui/src/BasicApp.cpp">
+			<Option target="Imgui"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Imgui/proj/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Imgui/proj/cmake/../../../../proj/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Imgui/proj/cmake/../../../../proj/cmake/modules/cinderMakeApp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\proj\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Imgui/proj/cmake/../../../../lib/linux/x86_64/ogl/Debug/cinderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\lib\linux\x86_64\ogl\Debug\"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Imgui/proj/cmake/../../../../build/lib/linux/x86_64/ogl/Debug/cinderTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\build\lib\linux\x86_64\ogl\Debug\"/>
+		</Unit>
+		<Unit filename="/home/origamidance/Repos/Cinder/samples/Imgui/proj/cmake/../../../../blocks/Cinder-ImGui/proj/cmake/Cinder-ImGuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\blocks\Cinder-ImGui\proj\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

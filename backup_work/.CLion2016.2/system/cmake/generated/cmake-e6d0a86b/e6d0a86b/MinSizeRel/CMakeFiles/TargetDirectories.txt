@@ -1,0 +1,3 @@
+/home/origamidance/.dotfiles/backup_work/.CLion2016.2/system/cmake/generated/cmake-e6d0a86b/e6d0a86b/MinSizeRel/CMakeFiles/edit_cache.dir
+/home/origamidance/.dotfiles/backup_work/.CLion2016.2/system/cmake/generated/cmake-e6d0a86b/e6d0a86b/MinSizeRel/CMakeFiles/rebuild_cache.dir
+/home/origamidance/.dotfiles/backup_work/.CLion2016.2/system/cmake/generated/cmake-e6d0a86b/e6d0a86b/MinSizeRel/CMakeFiles/Geometry-ImGui.dir

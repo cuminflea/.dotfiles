@@ -1,71 +1,200 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="Git">
-      <project id="ofLiveApp" values="config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,data.local.branches.count.1,config.save.policy.STASH,data.remote.branches.count.1" collectionTime="1469021950448" />
-      <project id="ofxGeoFramework" values="config.push.autoupdate.disabled,data.remote.branches.count.1,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,data.remotes.in.project.1,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.force.push.enabled,data.local.branches.count.1,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH" collectionTime="1469034963215" />
+      <project id="Geometry-ImGui" values="config.force.push.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled" collectionTime="1474033300054" />
+      <project id="Picking3D" values="config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.force.push.enabled" collectionTime="1473353556619" />
+      <project id="ofxGeoFrameworkKai" values="config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,data.remotes.in.project.1,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.ssh.enabled,data.remote.branches.count.1,data.local.branches.count.1,config.push.update.all.roots.enabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.warn.about.detached.enabled" collectionTime="1472566297442" />
+      <project id="Cinder" values="config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,data.remotes.in.project.1,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,data.local.branches.count.2+,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.ssh.enabled,config.save.policy.STASH,data.remote.branches.count.5+" collectionTime="1473613834984" />
+      <project id="of" values="config.warn.about.detached.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,data.remote.branches.count.1,data.local.branches.count.1,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,data.remotes.in.project.1,config.ssh.enabled,config.warn.about.crlf.enabled" collectionTime="1470067099312" />
+      <project id="Imgui" values="config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.ssh.enabled,config.save.policy.STASH,config.warn.about.detached.enabled" collectionTime="1473954964136" />
+      <project id="ofxGeoFramework" values="config.ssh.enabled,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,data.remote.branches.count.1,data.local.branches.count.1,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.push.autoupdate.disabled,config.warn.about.crlf.enabled" collectionTime="1473353542889" />
+      <project id="mech_trans" values="config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.ssh.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,data.remotes.in.project.1,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,data.remote.branches.count.1,data.local.branches.count.1,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT" collectionTime="1474033206434" />
+      <project id="tutorial" values="config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.warn.about.detached.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1471879313002" />
+      <project id="bgfx-cmake" values="config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.warn.about.detached.enabled,config.save.policy.STASH,config.ssh.enabled,config.push.autoupdate.disabled,data.remote.branches.count.1,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,data.local.branches.count.1,config.warn.about.crlf.enabled,config.force.push.enabled" collectionTime="1470321181199" />
+      <project id="ofLiveApp" values="config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.ssh.enabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,data.remote.branches.count.1,config.cherry-pick.autocommit.disabled,data.local.branches.count.1,data.remotes.in.project.1" collectionTime="1472482019767" />
+      <project id="ofxGeoFramework_old" values="config.cherry-pick.autocommit.disabled,data.remotes.in.project.1,config.warn.about.crlf.enabled,data.local.branches.count.1,config.repo.sync.NOT_DECIDED,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,data.local.branches.count.1,data.local.branches.count.1,config.warn.about.detached.enabled,data.local.branches.count.1,data.remotes.in.project.1,data.remote.branches.count.2+,data.remote.branches.count.1,data.remote.branches.count.1,config.save.policy.STASH,config.push.autoupdate.disabled,config.ssh.enabled,config.push.update.all.roots.enabled,data.remotes.in.project.1,data.remote.branches.count.2+,config.force.push.enabled" collectionTime="1469118488723" />
+      <project id="Urho3D" values="config.warn.about.detached.enabled,data.local.branches.count.1,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,data.remote.branches.count.15+,data.remotes.in.project.1,config.ssh.enabled,config.save.policy.STASH,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled" collectionTime="1470240306989" />
+      <project id="cmake" values="config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.ssh.enabled" collectionTime="1474041658758" />
+      <project id="102_DrawMesh" values="config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED" collectionTime="1473944547860" />
+      <project id="fips-bgfx" values="config.repo.sync.NOT_DECIDED,config.save.policy.STASH,data.local.branches.count.1,data.remote.branches.count.1,config.push.update.all.roots.enabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1" collectionTime="1470149503182" />
+      <project id="oryol-samples" values="config.repo.sync.NOT_DECIDED,config.save.policy.STASH,data.remotes.in.project.1,data.local.branches.count.1,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.ssh.enabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,data.remote.branches.count.1,config.push.update.all.roots.enabled" collectionTime="1470314520413" />
     </group>
     <group name="vcs">
-      <project id="ofLiveApp" values="Git" collectionTime="1469021950405" />
-      <project id="ofxGeoFramework" values="Git" collectionTime="1469034963188" />
+      <project id="Cinder" values="Git" collectionTime="1473613834961" />
+      <project id="ofxGeoFramework_old" values="Git" collectionTime="1469118488653" />
+      <project id="ofxGeoFramework" values="Git" collectionTime="1473353542883" />
+      <project id="ofLiveApp" values="Git" collectionTime="1472482019740" />
+      <project id="fips-bgfx" values="Git" collectionTime="1470149503108" />
+      <project id="of" values="Git" collectionTime="1470067099297" />
+      <project id="ofxGeoFrameworkKai" values="Git" collectionTime="1472566297401" />
+      <project id="oryol-samples" values="Git" collectionTime="1470314520357" />
+      <project id="Urho3D" values="Git" collectionTime="1470240306957" />
+      <project id="bgfx-cmake" values="Git" collectionTime="1470321181161" />
+      <project id="mech_trans" values="Git" collectionTime="1474033206370" />
     </group>
     <group name="JavaScript versions">
-      <project id="ofLiveApp" values="ECMAScript 5.1" collectionTime="1469021950448" />
-      <project id="ofxGeoFramework" values="ECMAScript 5.1" collectionTime="1469034963216" />
+      <project id="Geometry-ImGui" values="ECMAScript 5.1" collectionTime="1474033300054" />
+      <project id="Picking3D" values="ECMAScript 5.1" collectionTime="1473353556619" />
+      <project id="ofxGeoFrameworkKai" values="ECMAScript 5.1" collectionTime="1472566297442" />
+      <project id="Cinder" values="ECMAScript 5.1" collectionTime="1473613834984" />
+      <project id="of" values="ECMAScript 5.1" collectionTime="1470067099312" />
+      <project id="Imgui" values="ECMAScript 5.1" collectionTime="1473954964136" />
+      <project id="ofxGeoFramework" values="ECMAScript 5.1" collectionTime="1473353542889" />
+      <project id="mech_trans" values="ECMAScript 5.1" collectionTime="1474033206434" />
+      <project id="tutorial" values="ECMAScript 5.1" collectionTime="1471879313002" />
+      <project id="bgfx-cmake" values="ECMAScript 5.1" collectionTime="1470321181199" />
+      <project id="ofLiveApp" values="ECMAScript 5.1" collectionTime="1472482019767" />
+      <project id="ofxGeoFramework_old" values="ECMAScript 5.1" collectionTime="1469118488723" />
+      <project id="Urho3D" values="ECMAScript 5.1" collectionTime="1470240306989" />
+      <project id="cmake" values="ECMAScript 5.1" collectionTime="1474041658759" />
+      <project id="102_DrawMesh" values="ECMAScript 5.1" collectionTime="1473944547860" />
+      <project id="fips-bgfx" values="ECMAScript 5.1" collectionTime="1470149503182" />
+      <project id="oryol-samples" values="ECMAScript 5.1" collectionTime="1470314520413" />
     </group>
     <group name="run-configuration-type">
-      <project id="ofLiveApp" values="CMakeRunConfiguration" collectionTime="1469021950405" />
-      <project id="ofxGeoFramework" values="CMakeRunConfiguration" collectionTime="1469034963190" />
+      <project id="ofxGeoFrameworkKai" values="CMakeRunConfiguration" collectionTime="1472566297403" />
+      <project id="fips-bgfx" values="CMakeRunConfiguration" collectionTime="1470149503108" />
+      <project id="Cinder" values="CMakeRunConfiguration" collectionTime="1473613834961" />
+      <project id="of" values="CMakeRunConfiguration" collectionTime="1470067099297" />
+      <project id="Imgui" values="CMakeRunConfiguration" collectionTime="1473954964121" />
+      <project id="ofLiveApp" values="CMakeRunConfiguration" collectionTime="1472482019742" />
+      <project id="mech_trans" values="CMakeRunConfiguration" collectionTime="1474033206370" />
+      <project id="tutorial" values="CMakeRunConfiguration" collectionTime="1471879312976" />
+      <project id="bgfx-cmake" values="CMakeRunConfiguration" collectionTime="1470321181161" />
+      <project id="ofxGeoFramework" values="CMakeRunConfiguration" collectionTime="1473353542883" />
+      <project id="ofxGeoFramework_old" values="CMakeRunConfiguration" collectionTime="1469118488654" />
+      <project id="Urho3D" values="CMakeRunConfiguration" collectionTime="1470240306957" />
+      <project id="cmake" values="CMakeRunConfiguration" collectionTime="1474041658691" />
+      <project id="102_DrawMesh" values="CMakeRunConfiguration" collectionTime="1473944547832" />
+      <project id="oryol-samples" values="CMakeRunConfiguration" collectionTime="1470314520357" />
     </group>
     <group name="images.ide.background">
-      <project id="ofxGeoFramework" values="frame 0,editor 0" collectionTime="1469034963213" />
+      <project id="Geometry-ImGui" values="frame 0,editor 0" collectionTime="1474033300054" />
+      <project id="Picking3D" values="editor 0,frame 0" collectionTime="1473353556619" />
+      <project id="ofxGeoFrameworkKai" values="frame 0,editor 0" collectionTime="1472566297441" />
+      <project id="Cinder" values="frame 0,editor 0" collectionTime="1473613834984" />
+      <project id="of" values="editor 0,frame 0" collectionTime="1470067099311" />
+      <project id="Imgui" values="frame 0,editor 0" collectionTime="1473954964136" />
+      <project id="ofxGeoFramework" values="frame 0,editor 0" collectionTime="1473353542889" />
+      <project id="mech_trans" values="editor 0,frame 0" collectionTime="1474033206434" />
+      <project id="tutorial" values="editor 0,frame 0" collectionTime="1471879313002" />
+      <project id="bgfx-cmake" values="frame 0,editor 0" collectionTime="1470321181199" />
+      <project id="ofLiveApp" values="frame 0,editor 0" collectionTime="1472482019765" />
+      <project id="ofxGeoFramework_old" values="editor 0,frame 0" collectionTime="1469118488722" />
+      <project id="Urho3D" values="frame 0,editor 0" collectionTime="1470240306988" />
+      <project id="cmake" values="frame 0,editor 0" collectionTime="1474041658757" />
+      <project id="102_DrawMesh" values="editor 0,frame 0" collectionTime="1473944547860" />
+      <project id="fips-bgfx" values="frame 0,editor 0" collectionTime="1470149503181" />
+      <project id="oryol-samples" values="editor 0,frame 0" collectionTime="1470314520413" />
     </group>
     <group name="VCS Log 2">
-      <project id="ofxGeoFramework" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1469034963213" />
+      <project id="Cinder" values="data.git.root.count.1,data.commit.count.1K+" collectionTime="1473613834984" />
+      <project id="ofxGeoFramework_old" values="data.commit.count.100+,data.git.root.count.2+" collectionTime="1469118488722" />
+      <project id="ofxGeoFramework" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1473353542889" />
+      <project id="ofLiveApp" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1472482019765" />
+      <project id="fips-bgfx" values="data.git.root.count.1,data.commit.count.1+" collectionTime="1470149503181" />
+      <project id="of" values="data.git.root.count.1,data.commit.count.100+" collectionTime="1470067099311" />
+      <project id="ofxGeoFrameworkKai" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1472566297440" />
+      <project id="oryol-samples" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1470314520413" />
+      <project id="Urho3D" values="data.commit.count.1K+,data.git.root.count.1" collectionTime="1470240306988" />
+      <project id="bgfx-cmake" values="data.commit.count.1+,data.git.root.count.1" collectionTime="1470321181198" />
+      <project id="mech_trans" values="data.git.root.count.1,data.commit.count.100+" collectionTime="1474033206434" />
     </group>
     <group name="file-type">
-      <project id="ofLiveApp" values="PLAIN_TEXT,ObjectiveC,Images,Markdown,CSS,Native,Bash,XML,UNKNOWN,CMakeLists.txt,Python" collectionTime="1469021950447" />
-      <project id="ofxGeoFramework" values="PLAIN_TEXT,CSS,CMakeLists.txt,Native,ObjectiveC,Images,Markdown,UNKNOWN,Python,XML,Bash" collectionTime="1469034963212" />
+      <project id="Geometry-ImGui" values="IDEA_MODULE,Images,CMakeLists.txt,ARCHIVE,XML,Python,UNKNOWN,PLAIN_TEXT,ObjectiveC,Bash" collectionTime="1474033300054" />
+      <project id="Picking3D" values="PLAIN_TEXT,CMakeLists.txt,UNKNOWN,ObjectiveC" collectionTime="1473353556619" />
+      <project id="ofxGeoFrameworkKai" values="JSON Schema,Git file,Native,Python,Images,CSS,Markdown,PLAIN_TEXT,Bash,XML,UNKNOWN,ObjectiveC,CMakeLists.txt" collectionTime="1472566297439" />
+      <project id="Cinder" values="XML,PLAIN_TEXT,CMakeLists.txt,SourceMap,HTML,JSON Schema,Python,JavaScript,Images,Git file,Stylus,ObjectiveC,Markdown,Native,UNKNOWN,IDEA_MODULE,ARCHIVE,CSS,Bash" collectionTime="1473613834979" />
+      <project id="of" values="CSS,Native,Bash,UNKNOWN,PATCH,XML,YAML,Less,PLAIN_TEXT,JSON Schema,ObjectiveC,CMakeLists.txt,HTML,Images,Python,JavaScript,Markdown" collectionTime="1470067099308" />
+      <project id="Imgui" values="Images,PLAIN_TEXT,ObjectiveC,Bash,Python,UNKNOWN,CMakeLists.txt" collectionTime="1473954964136" />
+      <project id="ofxGeoFramework" values="UNKNOWN,Markdown,ObjectiveC,Native,PLAIN_TEXT,JSON Schema,CMakeLists.txt,Python,CSS,Bash,Images,XML,Git file" collectionTime="1473353542889" />
+      <project id="mech_trans" values="JavaScript,Images,XML,Bash,CMakeLists.txt,ObjectiveC,CSS,Python,Git file,JSON Schema,HTML,Qt UI file,YAML,PLAIN_TEXT,ARCHIVE,Native,UNKNOWN,Markdown" collectionTime="1474033206430" />
+      <project id="tutorial" values="Native,Python,Markdown,HTML,UNKNOWN,Bash,IDEA_MODULE,Less,Qt UI file,XML,ObjectiveC,PLAIN_TEXT,Images,CSS,CMakeLists.txt" collectionTime="1471879313002" />
+      <project id="bgfx-cmake" values="HTML,YAML,ObjectiveC,UNKNOWN,CSS,JSON Schema,Doxygen file,Markdown,Python,CMakeLists.txt,JavaScript,Bash,Images,PLAIN_TEXT" collectionTime="1470321181198" />
+      <project id="ofLiveApp" values="Native,Git file,Bash,XML,UNKNOWN,CSS,Markdown,Images,PLAIN_TEXT,ObjectiveC,Python,CMakeLists.txt" collectionTime="1472482019764" />
+      <project id="ofxGeoFramework_old" values="ObjectiveC,JSON Schema,Markdown,CSS,Python,Images,CMakeLists.txt,Native,Bash,XML,UNKNOWN,PLAIN_TEXT" collectionTime="1469118488716" />
+      <project id="Urho3D" values="Markdown,PLAIN_TEXT,Bash,HTML,Python,JSON Schema,Images,CMakeLists.txt,UNKNOWN,ActionScript,ObjectiveC,XML,YAML" collectionTime="1470240306983" />
+      <project id="cmake" values="CMakeLists.txt,Python,UNKNOWN,Images,IDEA_MODULE,ObjectiveC,XML,ARCHIVE,Bash,PLAIN_TEXT" collectionTime="1474041658757" />
+      <project id="102_DrawMesh" values="CMakeLists.txt,PLAIN_TEXT,ObjectiveC" collectionTime="1473944547860" />
+      <project id="fips-bgfx" values="Images,YAML,Markdown,CMakeLists.txt,Doxygen file,ObjectiveC,PATCH,Bash,CSS,HTML,Python,UNKNOWN,JavaScript,PLAIN_TEXT,JSON Schema" collectionTime="1470149503179" />
+      <project id="oryol-samples" values="Bash,CSS,Markdown,Python,ObjectiveC,Native,UNKNOWN,JavaScript,JSON Schema,HTML,YAML,Images,CMakeLists.txt,XML,Less,PLAIN_TEXT,ARCHIVE" collectionTime="1470314520412" />
     </group>
     <group name="module type">
-      <project id="ofLiveApp" values="CPP_MODULE" collectionTime="1469021950405" />
-      <project id="ofxGeoFramework" values="CPP_MODULE" collectionTime="1469034963189" />
+      <project id="Geometry-ImGui" values="CPP_MODULE" collectionTime="1474033300049" />
+      <project id="Picking3D" values="CPP_MODULE" collectionTime="1473353556606" />
+      <project id="ofxGeoFrameworkKai" values="CPP_MODULE" collectionTime="1472566297402" />
+      <project id="Cinder" values="CPP_MODULE" collectionTime="1473613834961" />
+      <project id="of" values="CPP_MODULE" collectionTime="1470067099297" />
+      <project id="Imgui" values="CPP_MODULE" collectionTime="1473954964121" />
+      <project id="ofxGeoFramework" values="CPP_MODULE" collectionTime="1473353542883" />
+      <project id="mech_trans" values="CPP_MODULE" collectionTime="1474033206370" />
+      <project id="tutorial" values="CPP_MODULE" collectionTime="1471879312976" />
+      <project id="bgfx-cmake" values="CPP_MODULE" collectionTime="1470321181161" />
+      <project id="ofLiveApp" values="CPP_MODULE" collectionTime="1472482019741" />
+      <project id="ofxGeoFramework_old" values="CPP_MODULE" collectionTime="1469118488654" />
+      <project id="Urho3D" values="CPP_MODULE" collectionTime="1470240306957" />
+      <project id="cmake" values="CPP_MODULE" collectionTime="1474041658691" />
+      <project id="102_DrawMesh" values="CPP_MODULE" collectionTime="1473944547832" />
+      <project id="fips-bgfx" values="CPP_MODULE" collectionTime="1470149503108" />
+      <project id="oryol-samples" values="CPP_MODULE" collectionTime="1470314520357" />
     </group>
     <group name="javaScript Scope Usages">
-      <project id="ofLiveApp" values="Project,Project" collectionTime="1469021950448" />
-      <project id="ofxGeoFramework" values="Project,Project" collectionTime="1469034963216" />
+      <project id="Geometry-ImGui" values="Project,Project" collectionTime="1474033300054" />
+      <project id="Picking3D" values="Project,Project" collectionTime="1473353556619" />
+      <project id="ofxGeoFrameworkKai" values="Project,Project" collectionTime="1472566297442" />
+      <project id="Cinder" values="Project,Project" collectionTime="1473613834984" />
+      <project id="of" values="Project,Project" collectionTime="1470067099312" />
+      <project id="Imgui" values="Project,Project" collectionTime="1473954964136" />
+      <project id="ofxGeoFramework" values="Project,Project" collectionTime="1473353542889" />
+      <project id="mech_trans" values="Project,Project" collectionTime="1474033206434" />
+      <project id="tutorial" values="Project,Project" collectionTime="1471879313002" />
+      <project id="bgfx-cmake" values="Project,Project" collectionTime="1470321181199" />
+      <project id="ofLiveApp" values="Project,Project" collectionTime="1472482019767" />
+      <project id="ofxGeoFramework_old" values="Project,Project" collectionTime="1469118488723" />
+      <project id="Urho3D" values="Project,Project" collectionTime="1470240306989" />
+      <project id="cmake" values="Project,Project" collectionTime="1474041658759" />
+      <project id="102_DrawMesh" values="Project,Project" collectionTime="1473944547860" />
+      <project id="fips-bgfx" values="Project,Project" collectionTime="1470149503182" />
+      <project id="oryol-samples" values="Project,Project" collectionTime="1470314520413" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="cidr.completion.qualified" count="12" />
-      <entry feature="execute.CMakeRunConfiguration.Run" count="53" />
+      <entry feature="cidr.completion.qualified" count="108" />
+      <entry feature="execute.CMakeRunConfiguration.Run" count="326" />
       <entry feature="ide.help.preferences.keymap" count="1" />
       <entry feature="ide.settings.Appearance" count="5" />
-      <entry feature="ide.settings.C/C++" count="5" />
-      <entry feature="ide.settings.CMake" count="5" />
-      <entry feature="ide.settings.Code_Completion" count="1" />
+      <entry feature="ide.settings.C/C++" count="9" />
+      <entry feature="ide.settings.CMake" count="15" />
+      <entry feature="ide.settings.Code_Completion" count="7" />
+      <entry feature="ide.settings.Code_Style" count="1" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="17" />
       <entry feature="ide.settings.Console_Font" count="1" />
       <entry feature="ide.settings.Editor_Tabs" count="2" />
-      <entry feature="ide.settings.External_Tools" count="1" />
+      <entry feature="ide.settings.External_Tools" count="2" />
       <entry feature="ide.settings.File_Status" count="2" />
-      <entry feature="ide.settings.Font" count="24" />
-      <entry feature="ide.settings.General" count="5" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="1" />
+      <entry feature="ide.settings.Font" count="40" />
+      <entry feature="ide.settings.General" count="8" />
       <entry feature="ide.settings.GitHub" count="1" />
-      <entry feature="ide.settings.Keymap" count="37" />
+      <entry feature="ide.settings.GitLab_Settings" count="1" />
+      <entry feature="ide.settings.Keymap" count="46" />
       <entry feature="ide.settings.Language_Defaults" count="2" />
-      <entry feature="ide.settings.Live_Templates" count="3" />
-      <entry feature="ide.settings.Menus_and_Toolbars" count="5" />
-      <entry feature="ide.settings.Plugins" count="6" />
-      <entry feature="ide.settings.Toolchains" count="2" />
-      <entry feature="ide.settings.Vim_Emulation" count="2" />
-      <entry feature="idea.caches.invalidated" count="1" />
-      <entry feature="ideaapp.started" count="34" />
-      <entry feature="terminal.linux" count="5" />
-      <entry feature="tips.of.the.day.next" count="2" />
-      <entry feature="welcome.screen.OpenCPPProject" count="1" />
+      <entry feature="ide.settings.Live_Templates" count="5" />
+      <entry feature="ide.settings.Menus_and_Toolbars" count="7" />
+      <entry feature="ide.settings.Plugins" count="11" />
+      <entry feature="ide.settings.Toolchains" count="4" />
+      <entry feature="ide.settings.Vim_Emulation" count="4" />
+      <entry feature="ide.settings.cpplint_option" count="1" />
+      <entry feature="idea.caches.invalidated" count="5" />
+      <entry feature="ideaapp.started" count="83" />
+      <entry feature="terminal.linux" count="9" />
+      <entry feature="tips.of.the.day.next" count="3" />
+      <entry feature="vcs.log.Refresh" count="1" />
+      <entry feature="welcome.screen.OpenCPPProject" count="5" />
       <entry feature="welcome.screen.WelcomeScreen.Configure" count="1" />
       <entry feature="welcome.screen.WelcomeScreen.Documentation" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="1" />
       <entry feature="welcome.screen.WelcomeScreen.Settings" count="1" />
     </counts>
   </component>

@@ -2,37 +2,253 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/proj/cmake" />
+        <option value="$USER_HOME$/Research/mech_trans" />
+        <option value="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui" />
+        <option value="$USER_HOME$/Repos/Cinder/samples/Geometry/proj/cmake" />
+        <option value="$USER_HOME$/Repos/Cinder/samples/Imgui/proj/cmake" />
+        <option value="$USER_HOME$/Repos/Cinder/samples/Imgui" />
+        <option value="$USER_HOME$/dependencies/libigl/tutorial/102_DrawMesh" />
+        <option value="$USER_HOME$/Repos/Cinder" />
+        <option value="$USER_HOME$/Repos/Cinder/samples/Picking3D/proj/cmake" />
+        <option value="$USER_HOME$/Repos/Cinder/samples/Picking3D" />
         <option value="$USER_HOME$/Research/ofxGeoFramework" />
+        <option value="$USER_HOME$/Research/ofxGeoFrameworkKai" />
         <option value="$USER_HOME$/Research/ofLiveApp" />
+        <option value="$USER_HOME$/dependencies/libigl/tutorial" />
+        <option value="$USER_HOME$/Repos/bgfx-cmake" />
+        <option value="$USER_HOME$/Repos/fips-workspace/oryol-samples" />
+        <option value="$USER_HOME$/Repos/Urho3D" />
+        <option value="$USER_HOME$/Repos/fips-workspace/fips-bgfx" />
+        <option value="$USER_HOME$/Research/of" />
+        <option value="$USER_HOME$/Research/ofxGeoFramework_old" />
       </list>
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/Research/ofxGeoFramework" />
+        <option value="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/proj/cmake" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Research/ofxGeoFramework" />
+    <option name="lastPath" value="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/proj/cmake" />
     <option name="additionalInfo">
       <map>
+        <entry key="$USER_HOME$/Repos/Cinder">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1967.7" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1473354678342" />
+              <option name="buildTimestamp" value="1473026400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1967.7" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1474033264828" />
+              <option name="buildTimestamp" value="1473026400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Repos/Cinder/samples/Geometry-ImGui/proj/cmake">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1967.7" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1474041666681" />
+              <option name="buildTimestamp" value="1473026400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Repos/Cinder/samples/Geometry/proj/cmake">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1967.7" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1474033230337" />
+              <option name="buildTimestamp" value="1473026400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Repos/Cinder/samples/Imgui">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1967.7" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1473954938284" />
+              <option name="buildTimestamp" value="1473026400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Repos/Cinder/samples/Imgui/proj/cmake">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1967.7" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1474033206698" />
+              <option name="buildTimestamp" value="1473026400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Repos/Cinder/samples/Picking3D">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1967.7" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1473353543073" />
+              <option name="buildTimestamp" value="1473026400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Repos/Cinder/samples/Picking3D/proj/cmake">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1967.7" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1473354637910" />
+              <option name="buildTimestamp" value="1473026400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Repos/Urho3D">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1236.16" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1470149503184" />
+              <option name="buildTimestamp" value="1468792800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Repos/bgfx-cmake">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1236.16" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1470318180882" />
+              <option name="buildTimestamp" value="1468792800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Repos/fips-workspace/fips-bgfx">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1236.16" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1470143956380" />
+              <option name="buildTimestamp" value="1468792800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Repos/fips-workspace/oryol-samples">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1236.16" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1470240306989" />
+              <option name="buildTimestamp" value="1468792800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Research/mech_trans">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1967.7" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1474037992433" />
+              <option name="buildTimestamp" value="1473026400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Research/of">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1236.16" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1470064521270" />
+              <option name="buildTimestamp" value="1468792800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Research/ofLiveApp">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="CL-145.1617" />
+              <option name="build" value="CL-162.1628.20" />
               <option name="productionCode" value="CL" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1469019733787" />
-              <option name="buildTimestamp" value="1465250400000" />
+              <option name="projectOpenTimestamp" value="1472481968249" />
+              <option name="buildTimestamp" value="1470693600000" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
         <entry key="$USER_HOME$/Research/ofxGeoFramework">
           <value>
             <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1967.7" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1473263437066" />
+              <option name="buildTimestamp" value="1473026400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Research/ofxGeoFrameworkKai">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1628.20" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1472484261282" />
+              <option name="buildTimestamp" value="1470693600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Research/ofxGeoFramework_old">
+          <value>
+            <RecentProjectMetaInfo>
               <option name="build" value="CL-162.1236.16" />
               <option name="productionCode" value="CL" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1469034974348" />
+              <option name="projectOpenTimestamp" value="1469117232494" />
               <option name="buildTimestamp" value="1468792800000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dependencies/libigl/tutorial">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1628.20" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1471533736724" />
+              <option name="buildTimestamp" value="1470693600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dependencies/libigl/tutorial/102_DrawMesh">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="CL-162.1967.7" />
+              <option name="productionCode" value="CL" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1473944041309" />
+              <option name="buildTimestamp" value="1473026400000" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

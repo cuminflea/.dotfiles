@@ -6,4 +6,12 @@
       <option name="OC_STATEMENT_CPP" value="true" />
     </context>
   </template>
+  <template name="if" value="if ($CONDITION$) {&#10;    $THEN$&#10;}" description="if condition" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_STATEMENT_C" value="true" />
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
 </templateSet>

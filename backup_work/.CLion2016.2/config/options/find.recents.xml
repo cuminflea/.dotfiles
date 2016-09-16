@@ -1,10 +1,8 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>../../of/src/openframeworks</find>
+      <find>if</find>
+      <find>Matrix</find>
     </findStrings>
-    <replaceStrings>
-      <replace>/opt/openFrameworks/libs/openFrameworks</replace>
-    </replaceStrings>
   </component>
 </application>

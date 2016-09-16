@@ -1,7 +1,0 @@
-# Hashes of file build rules.
-4fcdf7c4566238edfe41f56a02c38130 CMakeFiles/clean_cotire
-129ceaf5de3093e8088737f30adff1dc CMakeFiles/ofApp_pch
-7d9768dcfb4f7a0ccd2a3a8d3406ee7d cotire/ofApp_CXX_prefix.cxx
-9f7ce3f0cc2e5fb0816afff638061d4c cotire/ofApp_CXX_prefix.hxx
-03ab42c9e67a16a39bd1a2acf9a106d9 cotire/ofApp_CXX_prefix.hxx.pch
-cdea2e1f426da82f6c0e3376cdaf12f8 cotire/ofApp_CXX_unity.cxx

@@ -1,6 +1,6 @@
-The system is: Linux - 4.6.4-1-ARCH - x86_64
+The system is: Linux - 4.7.1-1-ARCH - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/clang 
+Compiler: /usr/bin/cc 
 Build flags: 
 Id flags: 
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is Clang, found in "/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/3.5.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/3.6.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/clang++ 
+Compiler: /usr/bin/c++ 
 Build flags: 
 Id flags: 
 
@@ -23,96 +23,100 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is Clang, found in "/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/3.5.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/3.6.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6e7ee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6e7ee.dir/build.make CMakeFiles/cmTC_6e7ee.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6e7ee.dir/testCCompiler.c.o
-/usr/bin/clang     -o CMakeFiles/cmTC_6e7ee.dir/testCCompiler.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_6e7ee
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e7ee.dir/link.txt --verbose=1
-/usr/bin/clang       CMakeFiles/cmTC_6e7ee.dir/testCCompiler.c.o  -o cmTC_6e7ee -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7198d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7198d.dir/build.make CMakeFiles/cmTC_7198d.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7198d.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7198d.dir/testCCompiler.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7198d
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7198d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7198d.dir/testCCompiler.c.o  -o cmTC_7198d -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_210f9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_210f9.dir/build.make CMakeFiles/cmTC_210f9.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_210f9.dir/CMakeCCompilerABI.c.o
-/usr/bin/clang     -o CMakeFiles/cmTC_210f9.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_210f9
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_210f9.dir/link.txt --verbose=1
-/usr/bin/clang      -v CMakeFiles/cmTC_210f9.dir/CMakeCCompilerABI.c.o  -o cmTC_210f9 -rdynamic  
-clang version 3.8.0 (tags/RELEASE_380/final)
-Target: x86_64-unknown-linux-gnu
+Run Build Command:"/usr/bin/make" "cmTC_39ddd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39ddd.dir/build.make CMakeFiles/cmTC_39ddd.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39ddd.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_39ddd.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_39ddd
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39ddd.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_39ddd.dir/CMakeCCompilerABI.c.o  -o cmTC_39ddd -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release
 Thread model: posix
-InstalledDir: /usr/bin
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/6.1.1
-Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1
-Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1
-Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/6.1.1
-Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1
-Candidate multilib: .;@m64
-Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_210f9 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64 -L/usr/bin/../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_210f9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crtn.o
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+gcc version 6.1.1 20160802 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39ddd' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3K4koP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39ddd /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. CMakeFiles/cmTC_39ddd.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39ddd' '-rdynamic' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_210f9/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_210f9.dir/build.make CMakeFiles/cmTC_210f9.dir/build]
-  ignore line: [make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_210f9.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/clang     -o CMakeFiles/cmTC_210f9.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_210f9]
-  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_210f9.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang      -v CMakeFiles/cmTC_210f9.dir/CMakeCCompilerABI.c.o  -o cmTC_210f9 -rdynamic  ]
-  ignore line: [clang version 3.8.0 (tags/RELEASE_380/final)]
-  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_39ddd/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_39ddd.dir/build.make CMakeFiles/cmTC_39ddd.dir/build]
+  ignore line: [make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_39ddd.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_39ddd.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_39ddd]
+  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39ddd.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_39ddd.dir/CMakeCCompilerABI.c.o  -o cmTC_39ddd -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/bin]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/6.1.1]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1]
-  ignore line: [Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/6.1.1]
-  ignore line: [Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1]
-  ignore line: [Candidate multilib: .]
-  ignore line: [@m64]
-  ignore line: [Selected multilib: .]
-  ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_210f9 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64 -L/usr/bin/../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_210f9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crtn.o]
-    arg [/usr/bin/ld] ==> ignore
-    arg [-export-dynamic] ==> ignore
+  ignore line: [gcc version 6.1.1 20160802 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39ddd' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3K4koP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39ddd /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. CMakeFiles/cmTC_39ddd.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3K4koP.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_210f9] ==> ignore
-    arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crt1.o] ==> ignore
-    arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crti.o] ==> ignore
-    arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o] ==> ignore
-    arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1]
-    arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64]
-    arg [-L/usr/bin/../lib64] ==> dir [/usr/bin/../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../..]
-    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
-    arg [-L/lib] ==> dir [/lib]
-    arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_210f9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [cmTC_39ddd] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..]
+    arg [CMakeFiles/cmTC_39ddd.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -122,40 +126,36 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o] ==> ignore
-    arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
-  collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/6.1.1]
-  collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/bin/../lib64] ==> [/usr/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> [/usr/lib64]
-  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
-  collapse library dir [/lib] ==> [/lib]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> [/usr/lib]
   implicit libs: [c]
-  implicit dirs: [/usr/lib64/gcc/x86_64-pc-linux-gnu/6.1.1;/usr/lib64;/lib64;/usr/lib;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1;/usr/lib;/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5885a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5885a.dir/build.make CMakeFiles/cmTC_5885a.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5885a.dir/feature_tests.c.o
-/usr/bin/clang    -std=c11 -o CMakeFiles/cmTC_5885a.dir/feature_tests.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5885a
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5885a.dir/link.txt --verbose=1
-/usr/bin/clang       CMakeFiles/cmTC_5885a.dir/feature_tests.c.o  -o cmTC_5885a -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_48d10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48d10.dir/build.make CMakeFiles/cmTC_48d10.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48d10.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_48d10.dir/feature_tests.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/feature_tests.c
+Linking C executable cmTC_48d10
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48d10.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_48d10.dir/feature_tests.c.o  -o cmTC_48d10 -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -165,17 +165,17 @@ make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generat
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c1fee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c1fee.dir/build.make CMakeFiles/cmTC_c1fee.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c1fee.dir/feature_tests.c.o
-/usr/bin/clang    -std=c99 -o CMakeFiles/cmTC_c1fee.dir/feature_tests.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c1fee
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1fee.dir/link.txt --verbose=1
-/usr/bin/clang       CMakeFiles/cmTC_c1fee.dir/feature_tests.c.o  -o cmTC_c1fee -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_eb083/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb083.dir/build.make CMakeFiles/cmTC_eb083.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb083.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_eb083.dir/feature_tests.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/feature_tests.c
+Linking C executable cmTC_eb083
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb083.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_eb083.dir/feature_tests.c.o  -o cmTC_eb083 -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -185,17 +185,17 @@ make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generat
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_de2f2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_de2f2.dir/build.make CMakeFiles/cmTC_de2f2.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_de2f2.dir/feature_tests.c.o
-/usr/bin/clang    -std=c90 -o CMakeFiles/cmTC_de2f2.dir/feature_tests.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/feature_tests.c
-Linking C executable cmTC_de2f2
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de2f2.dir/link.txt --verbose=1
-/usr/bin/clang       CMakeFiles/cmTC_de2f2.dir/feature_tests.c.o  -o cmTC_de2f2 -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7aa8e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7aa8e.dir/build.make CMakeFiles/cmTC_7aa8e.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7aa8e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_7aa8e.dir/feature_tests.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7aa8e
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aa8e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7aa8e.dir/feature_tests.c.o  -o cmTC_7aa8e -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -203,93 +203,97 @@ make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generat
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4fbeb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4fbeb.dir/build.make CMakeFiles/cmTC_4fbeb.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4fbeb.dir/testCXXCompiler.cxx.o
-/usr/bin/clang++      -o CMakeFiles/cmTC_4fbeb.dir/testCXXCompiler.cxx.o -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_4fbeb
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fbeb.dir/link.txt --verbose=1
-/usr/bin/clang++        CMakeFiles/cmTC_4fbeb.dir/testCXXCompiler.cxx.o  -o cmTC_4fbeb -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_99b33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99b33.dir/build.make CMakeFiles/cmTC_99b33.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_99b33.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_99b33.dir/testCXXCompiler.cxx.o -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_99b33
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99b33.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_99b33.dir/testCXXCompiler.cxx.o  -o cmTC_99b33 -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b746d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b746d.dir/build.make CMakeFiles/cmTC_b746d.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b746d.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/clang++      -o CMakeFiles/cmTC_b746d.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b746d
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b746d.dir/link.txt --verbose=1
-/usr/bin/clang++       -v CMakeFiles/cmTC_b746d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b746d -rdynamic  
-clang version 3.8.0 (tags/RELEASE_380/final)
-Target: x86_64-unknown-linux-gnu
+Run Build Command:"/usr/bin/make" "cmTC_262b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_262b9.dir/build.make CMakeFiles/cmTC_262b9.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_262b9.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_262b9.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_262b9
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_262b9.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_262b9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_262b9 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release
 Thread model: posix
-InstalledDir: /usr/bin
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/6.1.1
-Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1
-Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1
-Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/6.1.1
-Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1
-Candidate multilib: .;@m64
-Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b746d /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64 -L/usr/bin/../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_b746d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crtn.o
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+gcc version 6.1.1 20160802 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_262b9' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc88Jzle.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_262b9 /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. CMakeFiles/cmTC_262b9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_262b9' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b746d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b746d.dir/build.make CMakeFiles/cmTC_b746d.dir/build]
-  ignore line: [make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b746d.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/clang++      -o CMakeFiles/cmTC_b746d.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b746d]
-  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b746d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang++       -v CMakeFiles/cmTC_b746d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b746d -rdynamic  ]
-  ignore line: [clang version 3.8.0 (tags/RELEASE_380/final)]
-  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_262b9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_262b9.dir/build.make CMakeFiles/cmTC_262b9.dir/build]
+  ignore line: [make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_262b9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_262b9.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_262b9]
+  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_262b9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_262b9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_262b9 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/bin]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/6.1.1]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1]
-  ignore line: [Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/6.1.1]
-  ignore line: [Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1]
-  ignore line: [Candidate multilib: .]
-  ignore line: [@m64]
-  ignore line: [Selected multilib: .]
-  ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b746d /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64 -L/usr/bin/../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_b746d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crtn.o]
-    arg [/usr/bin/ld] ==> ignore
-    arg [-export-dynamic] ==> ignore
+  ignore line: [gcc version 6.1.1 20160802 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_262b9' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc88Jzle.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_262b9 /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. CMakeFiles/cmTC_262b9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc88Jzle.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b746d] ==> ignore
-    arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crt1.o] ==> ignore
-    arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crti.o] ==> ignore
-    arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o] ==> ignore
-    arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1]
-    arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64]
-    arg [-L/usr/bin/../lib64] ==> dir [/usr/bin/../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../..]
-    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
-    arg [-L/lib] ==> dir [/lib]
-    arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_b746d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [cmTC_262b9] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..]
+    arg [CMakeFiles/cmTC_262b9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -297,40 +301,36 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o] ==> ignore
-    arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o] ==> ignore
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/6.1.1]
-  collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/bin/../lib64] ==> [/usr/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> [/usr/lib64]
-  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
-  collapse library dir [/lib] ==> [/lib]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;c]
-  implicit dirs: [/usr/lib64/gcc/x86_64-pc-linux-gnu/6.1.1;/usr/lib64;/lib64;/usr/lib;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1;/usr/lib;/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ee196/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ee196.dir/build.make CMakeFiles/cmTC_ee196.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ee196.dir/feature_tests.cxx.o
-/usr/bin/clang++     -std=c++14 -o CMakeFiles/cmTC_ee196.dir/feature_tests.cxx.o -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ee196
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee196.dir/link.txt --verbose=1
-/usr/bin/clang++        CMakeFiles/cmTC_ee196.dir/feature_tests.cxx.o  -o cmTC_ee196 -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4c80a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c80a.dir/build.make CMakeFiles/cmTC_4c80a.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4c80a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_4c80a.dir/feature_tests.cxx.o -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4c80a
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c80a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_4c80a.dir/feature_tests.cxx.o  -o cmTC_4c80a -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -393,17 +393,17 @@ make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generat
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ef579/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ef579.dir/build.make CMakeFiles/cmTC_ef579.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ef579.dir/feature_tests.cxx.o
-/usr/bin/clang++     -std=c++11 -o CMakeFiles/cmTC_ef579.dir/feature_tests.cxx.o -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ef579
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef579.dir/link.txt --verbose=1
-/usr/bin/clang++        CMakeFiles/cmTC_ef579.dir/feature_tests.cxx.o  -o cmTC_ef579 -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0f1dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f1dc.dir/build.make CMakeFiles/cmTC_0f1dc.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0f1dc.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_0f1dc.dir/feature_tests.cxx.o -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0f1dc
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f1dc.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_0f1dc.dir/feature_tests.cxx.o  -o cmTC_0f1dc -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -466,17 +466,17 @@ make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generat
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_38a1f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_38a1f.dir/build.make CMakeFiles/cmTC_38a1f.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_38a1f.dir/feature_tests.cxx.o
-/usr/bin/clang++     -std=c++98 -o CMakeFiles/cmTC_38a1f.dir/feature_tests.cxx.o -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_38a1f
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38a1f.dir/link.txt --verbose=1
-/usr/bin/clang++        CMakeFiles/cmTC_38a1f.dir/feature_tests.cxx.o  -o cmTC_38a1f -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7c549/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c549.dir/build.make CMakeFiles/cmTC_7c549.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c549.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_7c549.dir/feature_tests.cxx.o -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7c549
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c549.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_7c549.dir/feature_tests.cxx.o  -o cmTC_7c549 -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -537,114 +537,114 @@ make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generat
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7e58c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7e58c.dir/build.make CMakeFiles/cmTC_7e58c.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7e58c.dir/CheckFunctionExists.c.o
-/usr/bin/clang    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_7e58c.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7e58c
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e58c.dir/link.txt --verbose=1
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_7e58c.dir/CheckFunctionExists.c.o  -o cmTC_7e58c -rdynamic /usr/lib64/libX11.so /usr/lib64/libXext.so 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ea183/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea183.dir/build.make CMakeFiles/cmTC_ea183.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea183.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_ea183.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ea183
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea183.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_ea183.dir/CheckFunctionExists.c.o  -o cmTC_ea183 -rdynamic /usr/lib64/libX11.so /usr/lib64/libXext.so 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_529ed/fast"
-/usr/bin/make -f CMakeFiles/cmTC_529ed.dir/build.make CMakeFiles/cmTC_529ed.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_529ed.dir/CheckFunctionExists.c.o
-/usr/bin/clang    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_529ed.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_529ed
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_529ed.dir/link.txt --verbose=1
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_529ed.dir/CheckFunctionExists.c.o  -o cmTC_529ed -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_859d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_859d3.dir/build.make CMakeFiles/cmTC_859d3.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_859d3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_859d3.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_859d3
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_859d3.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_859d3.dir/CheckFunctionExists.c.o  -o cmTC_859d3 -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7cf30/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7cf30.dir/build.make CMakeFiles/cmTC_7cf30.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7cf30.dir/CheckFunctionExists.c.o
-/usr/bin/clang    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_7cf30.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7cf30
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cf30.dir/link.txt --verbose=1
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_7cf30.dir/CheckFunctionExists.c.o  -o cmTC_7cf30 -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7d2ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d2ed.dir/build.make CMakeFiles/cmTC_7d2ed.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d2ed.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_7d2ed.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7d2ed
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d2ed.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_7d2ed.dir/CheckFunctionExists.c.o  -o cmTC_7d2ed -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6ecd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6ecd.dir/build.make CMakeFiles/cmTC_c6ecd.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c6ecd.dir/CheckFunctionExists.c.o
-/usr/bin/clang    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_c6ecd.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c6ecd
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6ecd.dir/link.txt --verbose=1
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_c6ecd.dir/CheckFunctionExists.c.o  -o cmTC_c6ecd -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e0574/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0574.dir/build.make CMakeFiles/cmTC_e0574.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0574.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_e0574.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0574
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0574.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_e0574.dir/CheckFunctionExists.c.o  -o cmTC_e0574 -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7a65a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7a65a.dir/build.make CMakeFiles/cmTC_7a65a.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7a65a.dir/CheckFunctionExists.c.o
-/usr/bin/clang    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_7a65a.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7a65a
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a65a.dir/link.txt --verbose=1
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_7a65a.dir/CheckFunctionExists.c.o  -o cmTC_7a65a -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d20bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d20bc.dir/build.make CMakeFiles/cmTC_d20bc.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d20bc.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_d20bc.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d20bc
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d20bc.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_d20bc.dir/CheckFunctionExists.c.o  -o cmTC_d20bc -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b5edb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b5edb.dir/build.make CMakeFiles/cmTC_b5edb.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b5edb.dir/CheckFunctionExists.c.o
-/usr/bin/clang    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_b5edb.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b5edb
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5edb.dir/link.txt --verbose=1
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_b5edb.dir/CheckFunctionExists.c.o  -o cmTC_b5edb -rdynamic -lICE 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f8a35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8a35.dir/build.make CMakeFiles/cmTC_f8a35.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8a35.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_f8a35.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f8a35
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8a35.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_f8a35.dir/CheckFunctionExists.c.o  -o cmTC_f8a35 -rdynamic -lICE 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e2677/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e2677.dir/build.make CMakeFiles/cmTC_e2677.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e2677.dir/CheckIncludeFile.c.o
-/usr/bin/clang     -o CMakeFiles/cmTC_e2677.dir/CheckIncludeFile.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e2677
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2677.dir/link.txt --verbose=1
-/usr/bin/clang       CMakeFiles/cmTC_e2677.dir/CheckIncludeFile.c.o  -o cmTC_e2677 -rdynamic 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2f36c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f36c.dir/build.make CMakeFiles/cmTC_2f36c.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f36c.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2f36c.dir/CheckIncludeFile.c.o   -c /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2f36c
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f36c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2f36c.dir/CheckIncludeFile.c.o  -o cmTC_2f36c -rdynamic 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp
+Change Dir: /home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8bb89/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8bb89.dir/build.make CMakeFiles/cmTC_8bb89.dir/build
-make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8bb89.dir/CheckFunctionExists.c.o
-/usr/bin/clang    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8bb89.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8bb89
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bb89.dir/link.txt --verbose=1
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8bb89.dir/CheckFunctionExists.c.o  -o cmTC_8bb89 -rdynamic -lpthread 
-make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/RelWithDebInfo/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_467b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_467b6.dir/build.make CMakeFiles/cmTC_467b6.dir/build
+make[1]: Entering directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_467b6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_467b6.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_467b6
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_467b6.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_467b6.dir/CheckFunctionExists.c.o  -o cmTC_467b6 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/origamidance/.CLion2016.2/system/cmake/generated/ofxGeoFramework-4ae38f71/4ae38f71/__default__/CMakeFiles/CMakeTmp'
 
 

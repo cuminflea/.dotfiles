@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/origamidance/Repos/Cinder/samples/Imgui/.idea/Imgui.iml" timestamp="1473864529000" />
+    <file path="/home/origamidance/Repos/Cinder/samples/Imgui/.idea/misc.xml" timestamp="1473699338000" />
+    <file path="/home/origamidance/Repos/Cinder/samples/Imgui/.idea/modules.xml" timestamp="1473699281000" />
+    <file path="/home/origamidance/Repos/Cinder/samples/Imgui/.idea/workspace.xml" timestamp="1473944041000" />
+  </project-files>
+</conversion>
+

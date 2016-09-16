@@ -1,0 +1,3 @@
+/home/origamidance/.CLion2016.2/system/cmake/generated/Imgui-c14fa930/c14fa930/MinSizeRel/CMakeFiles/edit_cache.dir
+/home/origamidance/.CLion2016.2/system/cmake/generated/Imgui-c14fa930/c14fa930/MinSizeRel/CMakeFiles/rebuild_cache.dir
+/home/origamidance/.CLion2016.2/system/cmake/generated/Imgui-c14fa930/c14fa930/MinSizeRel/CMakeFiles/Imgui.dir
