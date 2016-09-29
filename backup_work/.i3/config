@@ -244,5 +244,7 @@ bindsym $mod+u exec pamac-manager
 #double function keys
 exec --no-startup-id xcape -e 'Control_L=Escape'
 exec --no-startup-id xcape -e 'Super_L=space'
+#fan control
+exec --no-startup-id mbpfan
 ## chrome
 exec --no-startup-id i3-msg 'workspace 1 : $WS1; exec google-chrome-stable'
