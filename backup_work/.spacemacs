@@ -44,7 +44,7 @@ values."
      ;; (latex :variables
      ;;        latex-enable-auto-fill t)
             ;; latex-build-command "-pvc")
-     dash
+     ;; dash
      gtags
      (c-c++ :variables
             c-c++-enable-clang-support t
@@ -61,8 +61,13 @@ values."
      ycmd
      ;; eyebrowse
      ;; spacemacs-layouts
-     (chinese :variables
-              chinese-enable-fcitx t)
+     (Han :variables
+          han-enable-youdao-dict t
+          ;; 在 Linux 下如果希望使用 fcitx 输入法，可以加入下面一行
+          han-enable-fcitx t
+          han-org-line-spacing 0.2)
+   ;; (chinese :variables
+   ;;            chinese-enable-fcitx t)
      extra-langs
      (wakatime :variables
                wakatime-api-key  "1dc9220a-aa34-454d-b232-25c0ac8814db"

@@ -235,9 +235,8 @@ exec_always feh --bg-scale ~/.dotfiles/images/origamidance.jpg
 bindsym Mod1 + space exec xfce4-terminal --drop-down
 
 ## rofi
-bindsym Control + space exec rofi -show drun -modi drun
-bindsym Mod1 + Tab exec rofi -show window
-
+# bindsym Control + space exec rofi -run-command "zsh -c -i '{cmd}'" -combi-modi window,drun,run -show combi
+bindsym Control + space exec --no-startup-id ~/.customized_scripts/rofi.sh
 #key bindings
 #package manager
 bindsym $mod+u exec pamac-manager
