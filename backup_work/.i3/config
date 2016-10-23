@@ -17,7 +17,7 @@ set $col2 #1c574d
 set $col3 #dddddd
 set $col4 #1199aa
 set $col5 #1180aa
-
+ 
 set $WS1 
 set $WS2 
 set $WS3 
@@ -207,6 +207,7 @@ bar {
 for_window [workspace="[.]*"] floating enable border pixel 3
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="browser"] floating disable
+for_window [window_role="app"] floating disable
 for_window [class="Xfce4-terminal"] floating enable move absolute position 0 px 20 px
 for_window [class="Emacs"] floating disable
 for_window [class="Yad"] floating enable
@@ -227,12 +228,23 @@ exec_always --no-startup-id xset -b
 exec_always --no-startup-id fcitx
 exec_always --no-startup-id fcitx-qimpanel
 exec_always --no-startup-id compton -b
+exec_always --no-startup-id /home/origamidance/.screenlayout/macbook.sh
 # exec rofi -key-run ControlL+space -key-window MetaL+Tab
 exec_always feh --bg-scale ~/.dotfiles/images/origamidance.jpg
+
+# Display
+workspace "1 : $WS1"output DP2
+workspace 2 output DP2
+workspace 8 output eDP1
+workspace 9 output eDP1
+workspace 10 output eDP1
+bindsym $mod+comma move workspace to output up
+bindsym $mod+period move workspace to output down
 
 ## quick terminal
 #exec --no-startup-id xfce4-terminal --drop-down
 bindsym Mod1 + space exec xfce4-terminal --drop-down
+
 
 ## rofi
 # bindsym Control + space exec rofi -run-command "zsh -c -i '{cmd}'" -combi-modi window,drun,run -show combi
@@ -243,7 +255,5 @@ bindsym $mod+u exec pamac-manager
 #double function keys
 exec --no-startup-id xcape -e 'Control_L=Escape'
 exec --no-startup-id xcape -e 'Super_L=space'
-#fan control
-exec --no-startup-id mbpfan
 ## chrome
-exec --no-startup-id i3-msg 'workspace 1 : $WS1; exec google-chrome-stable'
+#exec --no-startup-id i3-msg 'workspace 1 : $WS1; exec google-chrome-stable'
